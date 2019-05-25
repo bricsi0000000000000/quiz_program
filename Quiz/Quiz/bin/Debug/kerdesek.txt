@@ -1693,7 +1693,8 @@ Sazggatott vonallal az elképzelt ideális megvalósulást jelöljük.
 Kérdés: Use case diagram aktorai közötti kapcsolat…
 *Öröklődési viszont jelent
 Közreműködést jelöl
-Kérdés: Aktorok közötti öröklődés jele:Telt fehér végű nyíl, mely az ős felé mutat
+Kérdés: Aktorok közötti öröklődés jele:
+Telt fehér végű nyíl, mely az ős felé mutat
 *Telt fehér végű nyíl, mely a leszármazott felé mutat
 Telt fehér végű nyíl, mely az ős felé mutat, szaggatott vonal a feltételes öröklődést jelöli.
 Telt fehér végű nyíl, mely a gyerek felé mutat, szaggatott vonal a feltételes öröklődést jelöli.
@@ -1715,7 +1716,8 @@ Francia zárójelek közé írt <<include>> sztereotípiával jelöljük.
 *A szaggatott nyíl az alap use case felé mutat.
 *Mivel a normál use case viselkedésében a feltétel csak bizonyos esetekben következik be, ezért a normál use case- t bővítő viselkedést érdemes külön use case-ben leírni.
 *A modellben lehetnek use case-ek, amelyek végrehajtási menetében bizonyos feltételek bekövetkezésekor a vezérlés egy másik use case-nek adódik át. Ilyenkor a normál use case-nek egy bővített változata játszódik le.
-Kérdés: Jelölje a use casek között értelmezett öröklődési viszonyra igaz állításokat!A leszármazott use case örökli a normál use case viselkedését, kapcsolatait.
+Kérdés: Jelölje a use casek között értelmezett öröklődési viszonyra igaz állításokat!
+A leszármazott use case örökli a normál use case viselkedését, kapcsolatait.
 *A leszármazott az eredeti/normál use case viselkedéséhez hozzáadhat újabb viselkedéseket, sőt az eredeti use case viselkedését felülbírálhatja, felülírhatja.
 A leszármazott use case egy ideális megvalósulást takar.
 *Az alkalmazott sztereotípia ilyenkor <<generalization>>
