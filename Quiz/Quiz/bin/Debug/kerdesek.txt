@@ -145,8 +145,8 @@ A folyamatok mérhetőek és ellenőrzöttek.
 A folyamatok a szervezetre szabottak és biztonságosabbak.
 A folyamatok kiszámíthatatlanok, gyengén ellenőrzöttek.
 Kérdés: Mit mond ki a Moore-törvény?
-*Az ugyanazon térfogatba integrálható tranzisztorok száma és ezzel együtt a számítási teljesítmény másfél évenként megkétszereződik.
-Az ugyanazon térfogatba integrálható tranzisztorok száma és ezzel együtt a számítási teljesítmény két évenként megkétszereződik.
+Az ugyanazon térfogatba integrálható tranzisztorok száma és ezzel együtt a számítási teljesítmény másfél évenként megkétszereződik.
+*Az ugyanazon térfogatba integrálható tranzisztorok száma és ezzel együtt a számítási teljesítmény két évenként megkétszereződik.
 Az ugyanazon térfogatba integrálható áramkörök száma és ezzel együtt a számítási teljesítmény másfél évenként megkétszereződik.
 Az ugyanazon térfogatba integrálható áramkörök száma és ezzel együtt a számítási teljesítmény két évenként megkétszereződik.
 Kérdés: Mik egy hardver rendszer részei?
