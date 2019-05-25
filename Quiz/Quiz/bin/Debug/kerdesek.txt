@@ -1799,8 +1799,7 @@ Kérdés: UML osztálydiagramon mi a kompozíció jele?
 Fekete rombusz végű vonal, rombusz a tartalmazott oldalon
 Nyílt fejű nyíl
 Telt fejű nyíl, az ős felöli olalon
-Kérdés: Melyik (osztálydiagram) kapcsolattípusra igaz az alábbi állítás:
-A tartalmazó objektum megszűntével az összes részobjektum is felszámolódik
+Kérdés: Melyik (osztálydiagram) kapcsolattípusra igaz az alábbi állítás: A tartalmazó objektum megszűntével az összes részobjektum is felszámolódik
 Öröklődés
 *Kompozíció
 Asszociáció
