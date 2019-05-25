@@ -1,4 +1,4 @@
-# Projektmunka-s-Szoftvertechnol-gia-Quiz
+# Projektmunka és Szoftvertechnológia Quiz
 Quiz program a projektmunka és szoftvertechnológia tárgyhoz
 
 A kérdések.txt-ben lehetnek hibák
