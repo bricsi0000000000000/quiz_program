@@ -1,0 +1,30 @@
+﻿<Window x:Class="Quiz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Quiz"
+        mc:Ignorable="d"
+        Title="Quiz" Height="496.8" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <TextBlock TextWrapping="WrapWithOverflow" x:Name="kerdesLbl" Margin="10,10,5,0" VerticalAlignment="Top" Height="45" FontSize="18"/>
+        <StackPanel Name="sp" Margin="10,60,59,62">
+            <StackPanel.Resources>
+                <Style TargetType="{x:Type CheckBox}">
+                    <Setter Property="Margin" Value="0,10,10,0"/>
+                </Style>
+            </StackPanel.Resources>
+        </StackPanel>
+        <Button x:Name="mehetBtn" Content="Mehet" Margin="109,0,0,20" Click="MehetBtn_Click" HorizontalAlignment="Left" Width="75" Height="37" VerticalAlignment="Bottom"/>
+        <Button x:Name="kovetkezoKerdesBtn" Content="Következő" Margin="199,0,0,20" Click="KovetkezoBtn_Click" HorizontalAlignment="Left" Width="75" Height="37" VerticalAlignment="Bottom"/>
+        <TextBox x:Name="rangeTxtB" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="295,0,0,20" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="80" Height="37" VerticalAlignment="Bottom" />
+        <Button x:Name="elozoKerdesBtn" Content="Előző" HorizontalAlignment="Left" Margin="20,0,0,20" Width="75" Click="ElozoKerdesBtn_Click" Height="37" VerticalAlignment="Bottom"/>
+        <Label x:Name="pontszamLbl" Content="" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="380,0,0,20" VerticalAlignment="Bottom" Height="37" FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" Width="84"/>
+        <CheckBox x:Name="sorbanChk" IsChecked="True" Content="Random" HorizontalAlignment="Left" Margin="562,0,0,31" VerticalAlignment="Bottom" Checked="SorbanChk_Checked" Unchecked="SorbanChk_Checked"/>
+        <Label x:Name="kerdesSorszamLbl" Content="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="469,0,0,20" VerticalAlignment="Bottom" Width="45" RenderTransformOrigin="0.461,0.551" Height="37" FontWeight="Bold"/>
+        <Label x:Name="rosszakLbl" HorizontalContentAlignment="Center" Content="" Margin="0,136,5,0" VerticalAlignment="Top" Height="268" FontWeight="Bold" HorizontalAlignment="Right" Width="49"/>
+        <CheckBox x:Name="rosszakChk" Content="Jók" Margin="653,0,0,31" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="37"/>
+
+    </Grid>
+</Window>
