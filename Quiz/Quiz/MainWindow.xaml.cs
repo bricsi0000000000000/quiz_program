@@ -115,6 +115,10 @@ namespace Quiz
             }
             sr.Close();
 
+            maxIndex = kerdesek.Count;
+
+            maxIndex = kerdesek.Count;
+
             RandomKerdes();
         }
 
@@ -284,6 +288,12 @@ namespace Quiz
                 if (!range.Contains('-'))
                 {
                     minIndex = Convert.ToInt32(range);
+                    if (minIndex > kerdesek.Count)
+                    {
+                        minIndex = kerdesek.Count-1;
+                        MessageBox.Show("Maximális kérdések száma: " + kerdesek.Count);
+                        rangeTxtB.Text = string.Format("{0}", minIndex);
+                    }
                     maxIndex = -1;
                 }
                 else
@@ -291,7 +301,14 @@ namespace Quiz
                     string[] indexes = range.Split('-');
                     minIndex = Convert.ToInt32(indexes[0]);
                     maxIndex = Convert.ToInt32(indexes[1]);
+                    if (maxIndex > kerdesek.Count)
+                    {
+                        maxIndex = kerdesek.Count-1;
+                        MessageBox.Show("Maximális kérdések száma: " + kerdesek.Count);
+                        rangeTxtB.Text = string.Format("{0}-{1}", minIndex,maxIndex);
+                    }
                 }
+               
             }
             catch (Exception)
             {

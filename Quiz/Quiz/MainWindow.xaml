@@ -24,6 +24,7 @@
         <CheckBox x:Name="sorbanChk" IsChecked="True" Content="Random" HorizontalAlignment="Left" Margin="562,0,0,31" VerticalAlignment="Bottom" Checked="SorbanChk_Checked" Unchecked="SorbanChk_Checked"/>
         <Label x:Name="kerdesSorszamLbl" Content="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="469,0,0,20" VerticalAlignment="Bottom" Width="45" RenderTransformOrigin="0.461,0.551" Height="37" FontWeight="Bold"/>
         <Label x:Name="rosszakLbl" HorizontalContentAlignment="Center" Content="" Margin="0,136,5,0" VerticalAlignment="Top" Height="268" FontWeight="Bold" HorizontalAlignment="Right" Width="49"/>
+        <CheckBox x:Name="rosszakChk" Content="Jók" Margin="653,0,0,31" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="37"/>
 
     </Grid>
 </Window>
