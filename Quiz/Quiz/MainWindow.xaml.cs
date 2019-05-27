@@ -117,8 +117,6 @@ namespace Quiz
 
             maxIndex = kerdesek.Count;
 
-            maxIndex = kerdesek.Count;
-
             RandomKerdes();
         }
 
@@ -185,7 +183,10 @@ namespace Quiz
             Random rand = new Random();
             if (rosszakChk.IsChecked == true)
             {
-                index = rand.Next(0, rosszak.Count - 1);
+                if (rosszak.Count > 1)
+                {
+                    index = rand.Next(0, rosszak.Count);
+                }
             }
             else
             {
@@ -200,9 +201,9 @@ namespace Quiz
             }
 
             rosszakLbl.Content = "";
-            foreach (var item in voltMar)
+            foreach (var item in rosszak)
             {
-                rosszakLbl.Content += item + "\n";
+                rosszakLbl.Content += item.Sorszam + "\n";
             }
         }
 
@@ -266,6 +267,10 @@ namespace Quiz
             if (rossz)
             {
                 pontszamLbl.Foreground = Brushes.Red;
+                rosszak.Add(kerdesek[index]);
+                StreamWriter sw = new StreamWriter("rosszak.txt",true);
+                sw.WriteLine(kerdesek[index].Sorszam);
+                sw.Close();
             }
             else
             {
@@ -290,7 +295,7 @@ namespace Quiz
                     minIndex = Convert.ToInt32(range);
                     if (minIndex > kerdesek.Count)
                     {
-                        minIndex = kerdesek.Count-1;
+                        minIndex = kerdesek.Count - 1;
                         MessageBox.Show("Maximális kérdések száma: " + kerdesek.Count);
                         rangeTxtB.Text = string.Format("{0}", minIndex);
                     }
@@ -303,12 +308,12 @@ namespace Quiz
                     maxIndex = Convert.ToInt32(indexes[1]);
                     if (maxIndex > kerdesek.Count)
                     {
-                        maxIndex = kerdesek.Count-1;
+                        maxIndex = kerdesek.Count - 1;
                         MessageBox.Show("Maximális kérdések száma: " + kerdesek.Count);
-                        rangeTxtB.Text = string.Format("{0}-{1}", minIndex,maxIndex);
+                        rangeTxtB.Text = string.Format("{0}-{1}", minIndex, maxIndex);
                     }
                 }
-               
+
             }
             catch (Exception)
             {
@@ -350,6 +355,26 @@ namespace Quiz
             {
                 sorbanChk.Content = "Sorban";
             }
+        }
+
+        private void RosszakChk_Checked(object sender, RoutedEventArgs e)
+        {
+            if (rosszakChk.IsChecked == true)
+            {
+                rosszakChk.Content = "Rosszak";
+            }
+            else
+            {
+                rosszakChk.Content = "Jók";
+            }
+        }
+
+        private void RosszakTorolBtn_Click(object sender, RoutedEventArgs e)
+        {
+            rosszak.Clear();
+            StreamWriter sw = new StreamWriter("rosszak.txt");
+            sw.WriteLine("");
+            sw.Close();
         }
     }
 }

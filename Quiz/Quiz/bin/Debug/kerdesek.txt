@@ -1983,7 +1983,8 @@ Szekvencia diagramon feltüntethető az objektum aktuális állapota, ellipszisb
 Kérdés: Jelölje az igaz állításokat!
 *Az interakciós áttekintés olyan tevékenységdiagram, melyen szekvencia diagramokat hivatkozhatunk.
 Az interakciós áttekintés olyan osztálydiagram, melyen szekvencia diagramokat hivatkozhatunk.
-Az interakciós áttekintés olyan szekvencia diagram, melyen kommunikációs diagramokat hivatkozhatunk.Az interakciós áttekintés olyan szekvencia diagram, melyen aktivitási diagramokat hivatkozhatunk.
+Az interakciós áttekintés olyan szekvencia diagram, melyen kommunikációs diagramokat hivatkozhatunk.
+Az interakciós áttekintés olyan szekvencia diagram, melyen aktivitási diagramokat hivatkozhatunk.
 Kérdés: Jelölje az igaz állításokat!
 *Osztálydiagramon az osztály rajzelemben feltüntethetőek objektum életciklus hivatkozások.
 *Osztálydiagramon az osztály rajzelemben feltüntethetőek use case hivatkozások.
@@ -2006,7 +2007,6 @@ Kérdés: Állapotgépekkel kapcsolatban melyik állítás(ok) igaz?
 *Egyszerű történeti állapot esetén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres.
 *Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került.
 Egyszerű történeti állapot esetén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapotba kerül a vezérlés, amennyiben a történeti állapot üres.
-Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került.
 Egyszerű történeti állapot esetén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres.
 Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került. Az állapotkonfiguráció is visszaállításra kerül.
 Kérdés: Igaz-e az alábbi állítás: Mély történeti állapot estén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres. Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került, de nem csak az állapot, hanem az állapotkonfiguráció kerül visszaállításra.
@@ -2021,7 +2021,8 @@ A dialóguslefutás az tevékenységdiagram egyik fajtája, de tevékenységekk�
 A dialóguslefutás az objektumdiagram egyik fajtája, de objektumok helyett a képernyőket kell feltüntetni.
 Kérdés: Jelölje az igaz állításokat!
 Egy UML-modell összefüggő (konzisztens), ha use case diagramjain nincs sem olyan use case, sem olyan aktor, mely nem vesz részt interakcióban.
-*Egy UML-modell összefüggő (konzisztens), ha osztálydiagramján nincs elszigetelt osztály.Egy UML-modell összefüggő (konzisztens), ha létezik hozzá egy bizonyos lehetséges működőképes implementáció.
+*Egy UML-modell összefüggő (konzisztens), ha osztálydiagramján nincs elszigetelt osztály.
+Egy UML-modell összefüggő (konzisztens), ha létezik hozzá egy bizonyos lehetséges működőképes implementáció.
 Kérdés: Jelölje az igaz állításokat!
 Egy inkonzisztens specifikáció azzal jár, hogy nem lehet meghatározni a use casek közötti összefüggéseket.
 *Egy inkonzisztens specifikáció azzal jár, hogy nem lehet belőle olyan szoftvert fejleszteni, ami működőképes lenne.
