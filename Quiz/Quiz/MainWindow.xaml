@@ -25,7 +25,7 @@
         <Label x:Name="kerdesSorszamLbl" Content="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="469,0,0,20" VerticalAlignment="Bottom" Width="45" RenderTransformOrigin="0.461,0.551" Height="37" FontWeight="Bold"/>
         <Label x:Name="rosszakLbl" HorizontalContentAlignment="Center" Content="" Margin="0,136,5,0" VerticalAlignment="Top" Height="268" FontWeight="Bold" HorizontalAlignment="Right" Width="49"/>
         <CheckBox x:Name="rosszakChk" Content="Jók" Margin="602,0,0,31" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="80" Checked="RosszakChk_Checked" Unchecked="RosszakChk_Checked"/>
-        <Button x:Name="rosszakTorolBtn" Content="Rosszak töröl" HorizontalAlignment="Left" Margin="687,409,0,20" Width="81" Click="RosszakTorolBtn_Click"/>
+        <Button x:Name="rosszakTorolBtn" Content="Rosszak töröl" HorizontalAlignment="Left" Margin="687,0,0,20" Width="81" Click="RosszakTorolBtn_Click" Height="37" VerticalAlignment="Bottom"/>
 
     </Grid>
 </Window>
