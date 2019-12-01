@@ -1,4 +1,5 @@
-# Projektmunka és Szoftvertechnológia Quiz
+#  Quiz program
+
 Quiz program a projektmunka és szoftvertechnológia tárgyhoz
 
 A programban található input mezőben meg lehet adni hogy mettől meddig adjon kérdést. 
