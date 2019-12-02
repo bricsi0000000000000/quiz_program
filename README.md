@@ -7,15 +7,12 @@ projektmunka és szoftvertechnológia
 vállalatgazdaságtan
 
 Viszont bármilyen kérdéssorral működik, az alábbi minta alpján
-
+```
 Kérdés: A te kérdésed
-
 első válasz
-
 \*második válasz
-
 harmadik válasz
-
+```
 
 A "Kérdés:" szót kell a krédés elé rakni, a * karaktert a helyes válasz(ok) elé.
 Figyelj hogy a kérdések és a válaszok a maguk sorában legyenek, mert soronként olvassa be a program.
