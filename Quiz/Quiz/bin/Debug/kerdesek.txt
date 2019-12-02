@@ -1,2100 +1,465 @@
-﻿Kérdés: Melyek a RUP modell fázisai?
-*Elindítás, kidolgozás, megépítés, átmenet
-Kezdeményezés, tervezés, elkészítés, átadás
-Elindítás, tervezés, kifejtés, átadás
-Helyzetelemzés, tervezés, kidolgozás, átadás
-Kérdés: Mely modell fázisait foglalja magában a RUP modell 2. dimenziója?
-*Vízesés modell
-Evolúciós modell
-Spirál modell
-V-modell
-Kérdés: Mi az a RUP?
-Egy specifikációs módszer.
-Egy zenei stílus.
-A Vízesés modell utolsó fázisa.
-*Egy szoftverfejlesztési modell.
-Kérdés: Miért olyan fontos a követelményspecifikáció a RUP modellben?
-Azért, mert jó követelményspecifikációval a projekt végén sok prémiumra számíthatunk.
-Egyrészt azért fontos, hogy ne kelljen sokat kommunikálni a fejlesztőkkel, másrészt azért, hogy a fejlesztés többi fázisát ne kelljen elvégezni, mivel jó követelményspecifikáció esetén nincs szükség a fejlesztés többi fázisára.
-*A számos előny közül kiemelendő, hogy ha a követelmények pontosan le vannak fektetve, akkor később a megrendelővel sem kell annyit egyeztetnünk, illetve a fejlesztés többi fázisát gyorsabban el tudjuk végezni, mivel letisztult, pontos kiindulási adataink vannak.
-Kérdés: Mely jellemző nem az agilis szoftverfejlesztés jellemzője?
-rugalmas
-jó követelményspecifikáció
-jó kommunikáció a megrendelővel, felhasználóval
-*nagyon bonyolult szabályrendszerek
-Kérdés:Mely szavak jellemzik leginkább az agilis szoftverfejlesztést?
-*fürge, rugalmas, hatékony, kommunikatív
-gyors, törtető, zárkózott, merev
-lassú, hatékony, kommunikatív, előre definiált
-fürge, előre definiált, korlátolt, hatékony
-Kérdés:Kik a scrum résztvevői?
-*Product Owner, ScrumMaster, Team
-SrumTeam, Coach, Audience
-Kérdés: Kik a kiemelt szereplői egy szoftverprojektnek?
-*team, projektvezető, projektmenedzser
-rendszergazda, oktató, felhasználó
-Kérdés: Egy szoftver projektben mi a feladata a projektvezetőnek?
-*projekttervezés, felülvizsgálat, beszámoló
-projekt anyagi támogatása, kész projekt felülvizsgálata
-team munkájának gazdasági elemzése, tanácsadás a megrendelőnek
-Kérdés:Mely tervre nem igaz, hogy egy szoftverprojekt tervezésének fontos része?
-validációs terv
-konfigurációkezelési terv
-*épületgépészeti terv
-karbantartási terv
-Kérdés:Mit nem tartalmaz a projektterv?
-bevezetés
-kockázatelemzés
-*megrendelő fizetése
-projekt ütemterve
-Kérdés:Egy szoftverprojekt során mely nem szoftverkockázat?
-specifikáció késése
-méret alábecslése
-*munkaerő stílusának megváltozása
-technológia megváltozása
-Kérdés: Egy szoftverprojekt esetében mely nem kockázati kategória?
-projektkockázat
-termékkockázat
-*szomszédos kockázat
-üzleti kockázat
-Kérdés:Miért jobb a COCOMO Intermediate, mint a COCOMO Basic?
-*Mert számol költségtényezőkkel is.
-Mert később dolgozták ki.
-Mert olcsóbb.
-Kérdés:Hány csoportra oszthatjuk a COCOMO Intermediate költségtényezőit?
-3
-6
-*4
-5
-Kérdés:Mely nem tartozik a COCOMO Intermediate személyi költségtényezői (personnelattributes) közé?
-applicationsexperience
-virtualmachineexperience
-*communicationability
-software engineercapability
-Kérdés:A COCOMO2 mely modellre vonatkozik elsősorban?
-V-modell
-*vízesés modell
-spirál modell
-evolúciós modell
-Kérdés:Mi az a CMM?
-*Kormányzati projektre kifejlesztett módszer annak kiderítésére, hogy milyen eséllyel teljesül a projekt.
-Koordinált műszaki manufaktúra.
-Olyan módszer, mellyel pontosan meghatározható a projekt teljes költsége.
-Kérdés:Melyik a CMM utódja?
-CMM1
-CMM2
-CMMb
-*CMMI
-Kérdés:Mely nem a CMMI fő iránya?
-development
-services
-*hardware
-acquisition
-Kérdés: Melyek a CMMI érettségi szintjei?
-*Initial, Managed, Defined, QuantitativelyManaged, Optimizing
-Initial, Intermediate, Defined, Created, Optimized
-Incomplete, Initial, Defined, Performed, Optimizing
-Kérdés: Mi a feladata a scrum-ban a Teamnek?
-*Csapat alkotása, a szoftver elkészítése.
-Mindenkinek megvan a titulusa, eszerint végzi a feladatát.
-A projekt legvégéig fix tagsággal működik, és a szoftver tesztelése a legfontosabb feladata.
-Kérdés: Mely állítás nem igaz a product backlog-ról?
-A kívánt munkák listáját tartalmazza a projekten.
-Része a sprint backlog.
-*A sprint burndown chart része.
-Kérdés: Mely állítás nem igaz a sprint-re?
-Közben a csapatot nem érheti külső hatás.
-A napi scrum meetinggel kezdődik.
-2-4 hetes iterációkban történik.
-*Pontosan egy van belőle egy projekt során.
-Kérdés:Mennyi ideig tart egy sprint?
-*2-4 hét
-1-6 hónap
-2 hét – 6 hónap
-4-8 hét
-Kérdés: Mi történik a sprint planning során?
-*Produckt backlog és sprint backlog elkészítése, a sprint céljának meghatározása.
-A daily scrum meeting témájának előkészítése.
-A szoftver elkészítése.
-Kérdés: Mi az a sprint burndown chart?
-*Egy diagram, mely tartalmazza (naponta), hogy mennyi idő és mennyi elem van még hátra.
-Egy diagram, melyen lineárisan ábrázolják a projekt időbeosztását.
-Egy diagram, mely folytonosan lefelé halad a 0-ig.
-Kérdés: Mi az a release burndown chart?
-*Diagram, melyen látható, hogy időben kész lesz-e a szoftver aktuális változata.
-Diagram, melyen láthatjuk a projekt teljes időbeosztását.
-Diagram, melyen 0-200 között láthatjuk a napi hátralévő feladatszámot.
-Kérdés: Mi jellemző a CMMI „Kezdeti ” érettségi szintére?
-*A folyamatok kiszámíthatatlanok, gyengén ellenőrzöttek.
-A hangsúly a folyamatok tökéletesítésén van.
-A folyamatok mérhetőek és ellenőrzöttek.
-A folyamatok a szervezetre szabottak és biztonságosabbak.
-Kérdés: Mi jellemző a CMMI „Menedzselt” érettségi szintére?
-*A folyamatok a projektre szabottabbak.
-A hangsúly a folyamatok tökéletesítésén van.
-A folyamatok mérhetőek és ellenőrzöttek.
-A folyamatok a szervezetre szabottak és biztonságosabbak.
-Kérdés: Mi jellemző a CMMI „Meghatározott” érettségi szintére?
-*A folyamatok a szervezetre szabottak és biztonságosabbak.
-A hangsúly a folyamatok tökéletesítésén van.
-A folyamatok mérhetőek és ellenőrzöttek.
-A folyamatok kiszámíthatatlanok, gyengén ellenőrzöttek.
-Kérdés: Mi jellemző a CMMI „Optimalizált” érettségi szintére?
-*A hangsúly a folyamatok tökéletesítésén van.
-A folyamatok mérhetőek és ellenőrzöttek.
-A folyamatok a szervezetre szabottak és biztonságosabbak.
-A folyamatok kiszámíthatatlanok, gyengén ellenőrzöttek.
-Kérdés: Mit mond ki a Moore-törvény?
-*Az ugyanazon térfogatba integrálható tranzisztorok száma és ezzel együtt a számítási teljesítmény másfél évenként megkétszereződik.
-Az ugyanazon térfogatba integrálható tranzisztorok száma és ezzel együtt a számítási teljesítmény két évenként megkétszereződik.
-Az ugyanazon térfogatba integrálható áramkörök száma és ezzel együtt a számítási teljesítmény másfél évenként megkétszereződik.
-Az ugyanazon térfogatba integrálható áramkörök száma és ezzel együtt a számítási teljesítmény két évenként megkétszereződik.
-Kérdés: Mik egy hardver rendszer részei?
-*Számítógép
-*Számítógéphez csatlakozó perifériák
-*Kommunikációs elemek
-*A rendszer felépítését, összetételét leíró dokumentáció
-*A rendszer üzemeltetését, működtetését leíró felhasználói dokumentáció
-A rendszer koncepcióját, tervét leíró fejlesztői dokumentáció
-A számítógépben található komponensek, egységek
-Kérdés: Mik egy szoftver rendszer részei?
-*A számítógépen futó programok együttese
-*A programok futtatásához szükséges konfigurációs adatok, fájlok együttese
-*A rendszer felépítését, összetételét leíró rendszer-dokumentáció.
-*A rendszer üzemeltetését, működtetését leíró felhasználói dokumentáció
-A számítógép tároló egységein található adat, információ
-A szoftverhez tartozó adattároló egység (pl.: CD, DVD)
-Kérdés: Az alábbiak közül melyik lehet egy szoftver termék?
-*Generikus termék
-Genetikus termék
-Generális termék
-Custom product
-Egyik sem
-Kérdés: Mi a generikus termék jellemzői?
-*Fejlesztő cég önálló terméke
-*Fejlesztő cég saját erőből állítja elő
-*Nyílt piacon értékesítik
-Felhasználói megrendelésre készül
-Megrendelő ötletei alapján készül
-Kérdés: Mi a generikus termék jellemzői?
-*Fejlesztő cég saját tervek alapján készíti el
-*Bárki megvásárolhatja
-Nyílt piacon nem kerül értékesítésre
-Megrendelő finanszírozza
-Adott ügyfél számára készül
-Kérdés: Mi a megrendeléses termék jellemzői?
-*Felhasználói megrendelésre készül
-*Felhasználó igényei alapján tervezik
-*Szerződés alapján készül
-Nyílt piacon értékesítik
-Fejlesztő cég saját erőből állítja elő
-Fejlesztő cég önálló terméke
-Kérdés: Melyik az a szoftver termék, melynek specifikálását, tervezését, létrehozását a fejlesztő intézmény a piaci elvárások felmérése alapján, a várható felhasználói igények meghatározása révén végzi el?
-*Generic product
-*Generikus termék
-Megrendeléses termék
-Custom software
-Bespoken product
-Egyik sem
-Kérdés: Szoftver termékek esetén mit jelent a customization?
-*Egy generikus szoftvert egy adott felhasználó igényeihez alakítva adnak el neki
-Adott felhasználó igényei alapján fejlesztenek számára egy egyedi szoftvert
-Olyan szoftverről van szó, melyet a felhasználó saját maga testre szabhat, igényeinek megfelelően
-A kifejezés nem értelmezett a szoftver termékek esetén
-Kérdés: Mit értünk az elvárásoknak megfelelő működésen?
-*A szoftver teljesíti a felhasználói igényeket, elfogadható futási idő alatt, és elfogadható kényelmet biztosítva végzi el feladatát.
-A szoftver kielégíti a specifikációban lefektetett feltételeket, és hibafellépés nélkül végzi el feladatát.
-A szoftver működése során nem veszélyeztet emberi életet, nem okoz környezeti és gazdasági károkat.
-A szoftver az elvárt kimenettel szolgál adott bemenetek esetén.
-Kérdés: Egy szoftver termékre milyen tulajdonságoknak kell teljesülnie?
-*Tesztelhető
-*Újra-felhasználható
-*Karbantartható
-*Együttműködhető
-Biztonságos
-Hasznosítható
-Kérdés: Mit jelent egy szoftver termék esetén a hatékonyság?
-*Kellő idő alatt teljesíti a számítási feladatát.
-*Elfogadható a futási ideje.
-Megfelelően lehet használni, elfogadható felhasználói kényelemmel, szolgáltatásokkal.
-Hibafellépés nélkül hajtja végre előírt feladatát.
-Kérdés: Mit jelent egy szoftver termék esetén a megbízhatóság?
-*Hibafellépés nélkül hajtja végre előírt feladatát.
-Kellő idő alatt teljesíti a számítási feladatát. Elfogadható a futási ideje.
-A hibákat felismeri és megfelelően kezeli.
-Megfelelően lehet használni, elfogadható felhasználói kényelemmel, szolgáltatásokkal.
-Kérdés: Mit jelent egy szoftver termék esetén a használhatóság?
-*Megfelelően lehet használni, elfogadható felhasználói kényelemmel, szolgáltatásokkal.
-Kellő idő alatt teljesíti a számítási feladatát.
-Hibafellépés nélkül hajtja végre előírt feladatát.
-Elfogadható a futási ideje.
-Kérdés: Mit jelent egy szoftver termék esetén a módosíthatóság?
-*Könnyen meg lehet változtatni, ha a követelmények változnak.
-Az egész szoftver vagy annak jól elhatárolható részei más rendszerekbe is beépíthetőek.
-A felhasználó igényei szerint változtathatja a szoftver összetételét, komponenseit.
-A felhasználás során felmerülő igényekhez lehessen megváltoztatni, átalakítani, módosítani.
-Kérdés: Mit jelent egy szoftver termék esetén a hordozhatóság?
-*A lehető legkevesebb újraírás árán lehessen átvinni egy másik hardver-platformra.
-*A lehető legkevesebb újraírás árán lehessen átvinni egy másik operációs rendszer alá.
-Az egész szoftver vagy annak jól elhatárolható részei más rendszerekbe is beépíthetőek, felhasználhatóak legyenek.
-A szoftver mobil informatikai eszközökön is futtatható legyen.
-Kérdés: Mit jelent egy szoftver termék esetén az újra-felhasználhatóság?
-*Az egész szoftver vagy annak jól elhatárolható részei más rendszerekbe is beépíthetőek, felhasználhatóak legyenek.
-A felhasználás során felmerülő igényekhez lehessen megváltoztatni, átalakítani, módosítani.
-A felhasználó a szoftvert az eredeti felhasználási igényeken túlmenően más feladatok elvégzésére is fel tudja használni.
-Könnyen meg lehet változtatni, ha a követelmények változnak.
-Kérdés: Mit jelent egy szoftver termék esetén a karbantarthatóság?
-*A felhasználás során felmerülő igényekhez lehessen megváltoztatni, átalakítani, módosítani.
-Az egész szoftver vagy annak jól elhatárolható részei más rendszerekbe is beépíthetőek, felhasználhatóak legyenek.
-Könnyen meg lehet változtatni, ha a követelmények változnak.
-Szoftver meghibásodás esetén hatékonyan lehet javítani, módosítani.
-Kérdés: Mi az úgynevezett Brooks-féle szabály?
-*Ahhoz, hogy a kezdeti kétemberes fejlesztés ne csak a két ember számára legyen elfogadható, hanem széles körben, mások által is használható legyen, még további munkára, ráfordításra van szükség, ami az eredetinek kb. 8-9-szerese.
-Ahhoz, hogy a kezdeti néhány emberes fejlesztés ne csak egy szűk kör számára legyen elfogadható, hanem széles körben, mások által is használható legyen, még további munkára, ráfordításra van szükség, ami az eredetinek kb. 4-5-szöröse.
-Az ugyanazon térfogatba integrálható áramkörök száma és ezzel együtt a számítási teljesítmény másfél évenként megkétszereződik
-Az ugyanazon térfogatba integrálható tranzisztorok száma és ezzel együtt a számítási teljesítmény másfél évenként megkétszereződik.
-Kérdés: Mi az emberhónap?
-*A projektek munkaráfordításának egy mérőszáma. Ezt a számot úgy kapjuk meg, hogy a projektben részt vevő emberek átlagos számát megszorozzuk a projekt teljes időtartamával.
-Egy szoftverfejlesztési mérőszám. Megadja, hogy egy adott fejlesztési projekt elvégzéséhez mennyi időre van szüksége a fejlesztőcsapatnak.
-Megadja, hogy a fejlesztő team egy tagjának mennyi idő szükséges a projekt feladat elvégzéséhez.
-Megadja, hogy a fejlesztő team havi lebontásban átlagosan hány fejlesztőt alkalmaz az adott projekt elvégzésére.
-Kérdés: Egy fejlesztési projekt esetén EH=112. Mennyi lehet E és H értéke?
-*E=1, H=112
-*E=2, H=56
-*E=28, H=4
-*E=7, H=16
-*E=14, H=8
-Kérdés: Egy szoftverfejlesztési projekt mikor nevezhető sikeresnek?
-*Ha a kitűzött határidőn belül készül el
-*Ha a fejlesztés a megállapított költségkereten belül valósul meg
-*Ha az eredetileg specifikált működési jellemzők többsége teljesül
-Ha a felhasználó igényeket teljes mértékben kielégíti
-Ha az értékesítés során sikerül profitot termelni
-Kérdés: Az alábbi kategóriák közül melyek tartoznak Roger Pressman által felállított szoftver alkalmazási területek közé?
-*Rendszer-szoftverek
-*Valós idejű szoftverek
-*Üzleti célú szoftverek
-Rendszer közeli szoftverek
-Kérdés: Az alábbi kategóriák közül melyek tartoznak Roger Pressman által felállított szoftver alkalmazási területek közé?
-*Mérnöki és tudományos célú szoftverek
-*Beágyazott szoftverek
-Felhasználói szoftverek
-Operációs rendszer szoftverek
-Kérdés: Mi a VIR?
-*EIS
-*Vezetői információs rendszer
-ERP
-Vállalati információs rendszer
-Vállalati irányítási rendszer
-Vezetői irányítási rendszer
-Kérdés: Az alábbi kategóriák közül melyek tartoznak Roger Pressman által felállított szoftver alkalmazási területek közé?
-*Személyi számítógépes szoftverek
-*Mesterséges intelligencia szoftverek
-Irodai és üzleti szoftverek
-Tervező és grafikai szoftverek
-Kérdés: Mi igaz a VIR esetén?
-*Elsősorban felső szintű döntéshozók, pénzügyi szakemberek és üzletemberek számára nyújt támogatást.
-*Nem dolgozik bele a vállalati adatbázisba, onnan csak kiválasztja a „hasznos” adatokat.
-Egy vállalat összes üzleti tevékenységét lefedi, kiszolgálja.
-Óriási mennyiségű adat írását, olvasását, feldolgozását végzi.
-Elterjedt angol megnevezése az Enterprise Resource Planning System.
-Kérdés: Mely szoftver alkalmazási területre jellemzőek az alábbi kifejezések? Időbeliséghez igazodás, külső események felügyelete, vezérlése, időkereten belüli reagálás.
-*Valós idejű szoftver
-Rendszer szoftver
-Mesterséges intelligencia szoftver
-Üzleti célú szoftver
-Kérdés: Mely szoftver alkalmazási területre jellemzőek az alábbi kifejezések? Nagy mennyiségű információ feldolgozás, komponens alapú komplex rendszer, minden komponensnek egyéni funkció.
-*Üzleti célú szoftver
-Rendszer szoftver
-Mérnöki és tudományos célú szoftver
-Beágyazott szoftver
-Kérdés: Mely szoftver alkalmazási területre jellemzőek az alábbi kifejezések? Nagy mennyiségű számítási igény, nagy teljesítményű hardver, komplex matematikai műveletek.
-*Mérnöki és tudományos célú szoftver
-Rendszer szoftver
-Mesterséges intelligencia szoftver
-Egyik sem
-Kérdés: Mely szoftver alkalmazási területre jellemzőek az alábbi kifejezések? Vezérlő eszköz vagy célberendezés működését segítik, teszik lehetővé.
-*Beágyazott szoftver
-Mesterséges intelligencia szoftver
-Rendszer szoftver
-Egyik sem
-Kérdés: Honnan számítható egy szoftver életciklusa?
-*Egy szoftver életciklusa a követelmények specifikálásával veszi kezdetét.
-Egy szoftver életciklusa akkor kezdődik, amikor a felhasználó használatba veszi az elkészült szoftvert.
-Egy szoftver életciklusa a fejlesztési folyamattal egy időben kezdődik.
-Egy szoftver életciklusa az üzembe helyezéssel indul.
-Kérdés: Mikor fejeződik be egy szoftver életciklusa?
-*Amikor a szoftver elavulttá válik, használaton kívülre kerül.
-Amikor a szoftverfejlesztés lezárul, értékesíthetővé válik a szoftver.
-Egy szoftver életciklusa sosem zárul le, mert a szoftver nem öregszik és nem megy tönkre.
-Amikor a szoftvernek újabb kiadása kerül értékesítésre, ezáltal a régebbi verzió használaton kívülre kerül.
-Kérdés: Az alábbiak közül melyek szoftverfejlesztési modellek?
-*Vízesés modell
-*Evolúciós fejlesztés
-*Inkrementális fejlesztés
-*Spirál modell
-*V-modell
-Generikus fejlesztés
-Dekrementális fejlesztés
-Iterációs fejlesztés
-Kérdés: Az alábbi állítások közül mely hamis?
-*A V-modell leginkább a vállalati információs rendszerekhez alkalmas.
-*A spirál modell a nem szigorúan specifikált kiinduláshoz alkalmazható.
-A spirál modell az erőforrások elosztására és a költségekre koncentrál.
-A V-modell a biztonsági követelmények teljesítéséhez alkalmazkodik
-Kérdés: Mi jellemezte egy szoftverfejlesztési folyamatot a szoftver-technológia kialakulásának kezdetén?
-*Egymás után elvégzendő feladatok sorozatának definiálása.
-*Egyes feladatok végrehajtására konkrét tevékenységek rendelése.
-*Fejlesztési tevékenységek időrendbeli rendezése.
-*Konkrét feladat megoldására alkalmas modell.
-Fejlesztési lépések halmazának definiálása.
-Fejlesztési lépések céljának meghatározása.
-Fejlesztési folyamat elvont, absztrakt definiálása.
-Általános fejlesztési modell.
-Kérdés: Mi jellemezi egy szoftverfejlesztési folyamatot a szoftver-technológia mai szemlélete szerint?
-*Fejlesztési lépések halmazának definiálása.
-*Fejlesztési lépések céljának meghatározása.
-*Fejlesztési folyamat elvont, absztrakt definiálása.
-*Általános fejlesztési modell.
-Egymás után elvégzendő feladatok sorozatának definiálása.
-Egyes feladatok végrehajtására konkrét tevékenységek rendelése.
-Fejlesztési tevékenységek időrendbeli rendezése.
-Konkrét feladat megoldására alkalmas modell.
-Kérdés: Milyen fázisok találhatóak a vízesés modellben?
-*Követelmények elemzése és meghatározása
-*Rendszertervezés és szoftvertervezés
-*Implementáció és az egységek tesztelése
-*Integrálás és rendszertesztelés
-*Üzemeltetés és karbantartás
-Fejlesztési célok, követelmények meghatározása
-Modulok előállítása és tesztelése
-Felhasználók oktatása
-Kérdés: A vízesés modell fázisai közül melyik az, melyből bármelyik korábbi fázishoz visszatérhetünk?
-*Üzemeltetés és karbantartás
-Rendszer validálás és bizonylatolás
-Integrálás és rendszertesztelés
-Implementáció és egységek tesztelése
-Kérdés: Hogyan szokás még nevezni a vízesés modellt?
-*Lineáris ciklus
-Inkrementális modell
-Növekményes fejlesztés
-Evolúciós fejlesztés
-Prototípus alapú fejlesztés
-Kérdés: Mikor alkalmazható jól a vízesés modell?
-*Ha a fejlesztési követelmények egyértelműen meg vannak határozva.
-*Ha nem áll fent annak a veszélye, hogy a követelmények megváltoznak.
-Ha a fejlesztési követelmények kezdetben nincsenek egyértelműen meghatározva.
-Ha a fejlesztési követelmények a projekt során többször módosulnak.
-Kérdés: Ha egy rendszert nem lehet vagy nem érdemes pontosan specifikálni, akkor milyen szoftverfejlesztési modellt célszerű alkalmazni?
-*Evolúciós fejlesztés
-*Prototípus-alapú fejlesztés
-Inkrementális modell
-Spirál modell
-V modell
-Kérdés: Mi jellemző a lineáris ciklusra?
-*Jellemző sajátossága a szekvencialitás, ami úgy nyilvánul meg, hogy az egyes fázisok kötött sorrendben követik egymást. Mégpedig oly módon, hogy egy fázis csak akkor kezdhető el, ha az őt megelőző fázis fejlesztési eredménye már rendelkezésre áll. Ideális esetben mindegyik szakasz csak egyetlen „menetben” valósul meg.
-Ez a modell több egymást követő fejlesztési állomásból tevődik össze, ahol az egyes állomások eredményeinek elemzése alapján kerül sor a következő állomás tervezésére és megvalósítására.
-Ebben a megközelítésben mindegyik állomás az előzőnél teljesebb, jobban kiérlelt verziót eredményez.
-Ebben a modellben az egyes tevékenységek nem előírt sorrendben követik egymást, a tevékenységek közötti bizonyos visszalépésekkel, hanem folyamatosan előre haladva, fejlesztési ciklusokba, hurkokba rendezve.
-Itt mindegyik ciklus egy önálló fejlesztési fázist képvisel.
-Ebben a megoldásban a felhasználók először csak főbb vonásokban határozzák meg az elérendő szolgáltatásokat, megadva a fontosabb és a kevésbé fontos szempontokat.
-Kiindulásként a teljes rendszert részfunkciókra bontják, és az egyes részfunkciókat megvalósító fejlesztési változatokat rendelik meg.
-Kérdés: Mi jellemző az evolúciós fejlesztésre?
-*Ez a modell több egymást követő fejlesztési állomásból tevődik össze, ahol az egyes állomások eredményeinek elemzése alapján kerül sor a következő állomás tervezésére és megvalósítására. Ebben a megközelítésben mindegyik állomás az előzőnél teljesebb, jobban kiérlelt verziót eredményez.
-Jellemző sajátossága a szekvencialitás, ami úgy nyilvánul meg, hogy az egyes fázisok kötött sorrendben követik egymást. Mégpedig oly módon, hogy egy fázis csak akkor kezdhető el, ha az őtmegelőző fázis fejlesztési eredménye már rendelkezésre áll. Ideális esetben mindegyik szakasz csak egyetlen „menetben” valósul meg.
-*Ebben a megoldásban a felhasználók először csak főbb vonásokban határozzák meg az elérendő szolgáltatásokat, megadva a fontosabb és a kevésbé fontos szempontokat. Kiindulásként a teljes rendszert részfunkciókra bontják, és az egyes részfunkciókat megvalósító fejlesztési változatokat rendelik meg.
-Ebben a modellben az egyes tevékenységek nem előírt sorrendben követik egymást, a tevékenységek közötti bizonyos visszalépésekkel, hanem folyamatosan előre haladva, fejlesztési ciklusokba, hurkokba rendezve. Itt mindegyik ciklus egy önálló fejlesztési fázist képvisel.
-Ebben a megközelítésben mindegyik állomás az előzőnél teljesebb, jobban kiérlelt verziót eredményez.
-Kérdés: Prototípus alapú fejlesztés esetén melyik az a fázis, mely során visszaléphetünk a modell kezdeti fázisához?
-*Prototípus megfelelőségének vizsgálata
-Rendszer specifikálása
-Rendszer tervezése
-Rendszer tesztelése és validálása
-Prototípus implementálása és tesztelése
-Kérdés: Mekkora rendszereknél célszerű alkalmazni az evolúciós fejlesztést?
-*Kiss és közepes méretű rendszerek esetén, ahol nincs szükség több team-re.
-Nagy méretű rendszerek esetén, ahol több team munkájára van szükség.
-Kiss és nagy méretű fejlesztések esetén egyaránt jól használható.
-Kiss méretű, de több team együttes munkáját igénylő fejlesztéseknél.
-Kérdés: Mit nevezünk inkrementumnak?
-*Növekményes fejlesztési modell esetén az egyes részfunkciókat megvalósító fejlesztési változatokat.
-Evolúciós fejlesztési modell esetén az egyes részfunkciókat megvalósító fejlesztési változatokat.
-Növekményes fejlesztési modell esetén a szoftver specifikációban lefektetett részfunkciókat.
-Evolúciós fejlesztési modell esetén a szoftver specifikációban lefektetett részfunkciókat.
-Egyik sem.
-Kérdés: Az alábbiak közül melyik igaz a növekményes fejlesztési modell esetén?
-*Inkrementumokból integrálják össze a kész rendszert.
-*Az egyes inkrementumokat külön fejlesztik le.
-A inkrementumok száma a rendszer moduljainak számától függ.
-Jellemző sajátossága a szekvencialitás.
-A rendszer validálása során bármely korábbi fázishoz visszaléphetünk.
-Kérdés: Inkrementális fejleszt esetén mely fázis során és hova léphetünk vissza?
-*A rendszer teljességének vizsgálata során léphetünk vissza az inkrementum kifejlesztési fázis elé.
-A rendszer teljességének vizsgálata során léphetünk vissza a rendszer architektúra tervezési fázis elé.
-A rendszer validálása során léphetünk vissza az inkrementum validálási fázis elé.
-Az inkrementum integrálása során léphetünk vissza az inkrementum kifejlesztési fázis elé.
-A rendszer validálása során bármely korábbi fázishoz visszaléphetünk.
-Kérdés: Milyen előnyei vannak az inkrementális fejlesztésnek?
-*A felhasználónak nem kell megvárnia, amíg a teljes végleges rendszert megkapja.
-*Viszonylag alacsony a kockázata annak, hogy teljes projekt sikertelen lesz.
-*A fontos szolgáltatások fogják a legtöbb tesztelést kapni.
-Szoros az inkrementumok közti kapcsolat és együttműködés.
-Az inkrementumok révén jól kezeli a nagy méretű részfunkciókat.
-A fejlesztés során előálló prototípusok révén jól tesztelhető a rendszer.
-Kérdés: Mi jellemző a spirál modellre?
-*Ebben a modellben az egyes tevékenységek nem előírt sorrendben követik egymást, a tevékenységek közötti bizonyos visszalépésekkel, hanem folyamatosan előre haladva, fejlesztési ciklusokba. Itt mindegyik ciklus egy önálló fejlesztési fázist képvisel.
-Ez a modell több egymást követő fejlesztési állomásból tevődik össze, ahol az egyes állomások eredményeinek elemzése alapján kerül sor a következő állomás tervezésére és megvalósítására.
-Ebben a megközelítésben mindegyik állomás az előzőnél teljesebb, jobban kiérlelt verziót eredményez.
-Ebben a megoldásban a felhasználók először csak főbb vonásokban határozzák meg az elérendő szolgáltatásokat, megadva a fontosabb és a kevésbé fontos szempontokat. Kiindulásként a teljes rendszert részfunkciókra bontják, és az egyes részfunkciókat megvalósító fejlesztési változatokat rendelik meg.
-Jellemző sajátossága a szekvencialitás, ami úgy nyilvánul meg, hogy az egyes fázisok kötött sorrendben követik egymást. Mégpedig oly módon, hogy egy fázis csak akkor kezdhető el, ha az őt megelőző fázis fejlesztési eredménye már rendelkezésre áll. Ideális esetben mindegyik szakasz csak egyetlen „menetben” valósul meg.
-Kérdés: Spirál modell esetén mi történik a tervezési fázisban?
-*A projekt teljes átvizsgálása, döntés további folytatásról.
-A felhasználói igények alapján meg kell tervezni a szoftver architektúrát.
-Az egyes szoftvermodulok implementálásához szükséges tervek előkészítése történik.
-Kockázatok azonosítása és csökkentése.
-Kérdés: Az alábbiak közül melyik igaz?
-*A spirál modell fontos velejárója a kockázatok feltárása és csökkentése.
-*Spirál modell esetén lehetséges az, hogy az egyik spirál-ciklust a másiktól eltérő modell használatával valósítsuk meg.
-Spirál modell esetén mindegyik ciklusban ugyanazt a modellt kell alkalmaznunk.
-Spirál modell esetén nem hangsúlyos a kockázatok elemzése és csökkentése.
-Kérdés: Milyen fejlesztési modellt vagy modelleket választana olyan feladat esetén, amit előzetesen pontosan ismer, a teljes felépítéssel együtt?
-*Vízesés modell
-V modell
-Prototípus alapú fejlesztés
-Inkrementális fejlesztés
-Spirál modell
-Kérdés: Milyen fejlesztési modellt vagy modelleket választana olyan feladat esetén, ahol korai eredményt szeretnénk elérni a felhasználó megnyerése érdekében?
-*Prototípus alapú fejlesztés
-*Spirál modell
-*Inkrementális modell
-V modell
-Vízesés modell
-Kérdés: Mi jellemzi a biztonságkritikus rendszert?
-*Ne veszélyeztesse az emberi életet.
-*Ne veszélyeztesse az egészséget.
-*Ne okozzon gazdasági kárt.
-*Ne okozzon környezeti kárt.
-*Tipikusan ilyenek a banki szoftverek.
-Tipikusan ilyenek a vállalati számlázó szoftverek.
-Szoftver hiba esetén is képes végrehajtani a feladatát.
-Kérdés: Mi jellemző a hibatűrő rendszerekre?
-*Hiba esetén is képes ellátni főbb funkcióit.
-*Hiba esetén teljesítménye lecsökkenhet.
-Hiba esetén is ugyanolyan hatásfokkal képes működni, mint hibamentesen.
-Szoftver meghibásodás esetén is képes működni.
-Tervezésnél az a cél, hogy a szoftver minden körülmények között hibamentesen működjön.
-Kérdés: Mi a megbízhatóság?
-*Annak feltételes valószínűsége, hogy egy informatikai rendszer hibátlanul működik a [t0, t] időintervallumban, feltéve, hogy a t0 <= t időpontban hibátlanul működött.
-Annak valószínűsége, hogy az informatikai rendszer helyesen működik a t időpontban.
-Annak valószínűsége, hogy az informatikai rendszer helyesen vagy hibásan működik a t időpontban, de oly módon, hogy nem veszélyeztet emberi életet, nem okoz anyagi vagy környezeti kárt, és nem befolyásolja károsan más rendszerek működését.
-Annak valószínűsége, hogy a meghibásodott rendszer újra működőképessé tehető t időtartam alatt.
-Kérdés: Mi a biztonságosság?
-*Annak valószínűsége, hogy az informatikai rendszer helyesen vagy hibásan működik a t időpontban, de oly módon, hogy nem veszélyeztet emberi életet, nem okoz anyagi vagy környezeti kárt, és nem befolyásolja károsan más rendszerek működését.
-Annak valószínűsége, hogy a meghibásodott rendszer újra működőképessé tehető t időtartam alatt.
-Annak feltételes valószínűsége, hogy egy informatikai rendszer hibátlanul működik a [t0, t] időintervallumban, feltéve, hogy a t0 <= t időpontban hibátlanul működött.
-Annak valószínűsége, hogy az informatikai rendszer helyesen működik a t időpontban.
-Kérdés: Melyik állítás igaz a megbízhatóság esetén?
-*Annak a valószínűségét fejezi ki, hogy a rendszer a [t0, t] intervallumban végig hibátlanul működik, feltéve, hogy t0-ban hibátlanul működött.
-Azt fejezi ki, hogy a [t0, t] intervallumban milyen valószínűséggel működik a rendszer, feltéve, hogy t0-ban hibátlanul működött.
-Megadja, hogy egy t időpillanatban milyen valószínűséggel működik hibátlanul a rendszer.
-Megadja, hogy egy t időpillanatban milyen valószínűséggel működőképes a rendszer.
-Kérdés: Ha egy rendszer megbízható, akkor hibatűrő is?
-*Nem, a hibatűrés javítja a megbízhatóságot, de ettől még nem biztos, hogy magas lesz a megbízhatóság.
-Igen, a megbízhatóság garantálja, hogy a rendszer nagy valószínűséggel hibátlanul működik.
-Igen, a két fogalom ekvivalens.
-Nem, a megbízhatóság azt garantálja, hogy valamilyen valószínűséggel nem fordul elő hiba, de a hibatűrés a hibák teljes kizárását követeli meg.
-Kérdés: Mi a különbség a megbízhatóság és a rendelkezésre állás között?
-*A megbízhatóság és a rendelkezésre állás között az a különbség, hogy az előbbi a t időpontig tartó folyamatos helyességet fejezi ki, míg az utóbbi csak azt, hogy a t időpontban legyen a működés helyes.
-*A rendelkezésre állás értéke ott lehet fontos, ahol a rendszert nem állandóan használják egy feladatra, míg a megbízhatóságot elsősorban olyan rendszerek jellemzésére használják, ahol egy rövid időre sincs megengedve a hibás működés.
-A rendelkezésre állás és a megbízhatóság között az a különbség, hogy az előbbi a t időpontig tartó folyamatos helyességet fejezi ki, míg az utóbbi csak azt, hogy a t időpontban legyen a működés helyes.
-A megbízhatóság értéke ott lehet fontos, ahol a rendszert nem állandóan használják egy feladatra, míg a rendelkezésre állást elsősorban olyan rendszerek jellemzésére használják, ahol egy rövid időre sincs megengedve a hibás működés.
-Kérdés: Mit jelent az A(t) >= 0,4 ?
-*Az informatikai rendszer a t időpontban legalább 0,4 valószínűséggel helyesen fog működik.
-Az informatikai rendszer t idő alatt legalább 0,4 valószínűséggel újra üzemképes állapotba hozható.
-Az informatikai rendszer a t időpontban legalább 0,4 valószínűséggel biztonságosan fog működni.
-Az informatikai rendszer a t időpontig legalább 0,4 valószínűséggel megbízhatóan fog működik.
-Kérdés: Mit jelent az S(t) >= 0,7 ?
-*Az informatikai rendszer a t időpontban legalább 0,7 valószínűséggel biztonságosan fog működni.
-Az informatikai rendszer a t időpontban legalább 0,7 valószínűséggel helyesen fog működik.
-Az informatikai rendszer t idő alatt legalább 0,7 valószínűséggel újra üzemképes állapotba hozható.
-Az informatikai rendszer a t időpontig legalább 0,7 valószínűséggel megbízhatóan fog működik.
-Kérdés: Mit jelent az M(t) >= 0,9 ?
-*Az informatikai rendszer t idő alatt legalább 0,9 valószínűséggel újra üzemképes állapotba hozható.
-Az informatikai rendszer a t időpontban legalább 0,9 valószínűséggel biztonságosan fog működni.
-Az informatikai rendszer a t időpontban legalább 0,9 valószínűséggel helyesen fog működik.
-Az informatikai rendszer a t időpontig legalább 0,9 valószínűséggel megbízhatóan fog működik.
-Kérdés: Mely állítások igazak a BIST esetén?
-*A built-in self-testing rövidítése.
-*Az M(t) értékének magas szinten tartására használják.
-Az R(t) értékének magas szinten tartására használják.
-Arra szolgál, hogy egy informatikai rendszer könnyen tesztelhető legyen.
-Az S(t) értékének magas szinten tartására használják.
-Kérdés: Mi a verifikáció?
-*Az a folyamat, amelyben meghatározzuk, hogy a vizsgált informatikai rendszer szoftvere teljesíti-e mindazokat a követelményeket, amelyeket egy előző fázisban specifikáltak a szoftver fejlesztési vagy előállítási folyamatában.
-Az a folyamat, amelyben meghatározzuk, hogy a vizsgált informatikai rendszer szoftvere teljesíti-e mindazokat a felhasználói elvárásokat, amelyeket egy előző fázisban specifikáltak a szoftver fejlesztési vagy előállítási folyamatában.
-A teljes szoftver vizsgálata és kiértékelése azzal a céllal, hogy meghatározzuk, minden szempontból megfelel-e a felhasználói követelményeknek.
-A teljes szoftver vizsgálata és kiértékelése azzal a céllal, hogy meghatározzuk, minden szempontból megfelel-e a specifikációban lefektetett követelményeknek.
-Kérdés: Mi a validáció?
-*A teljes szoftver vizsgálata és kiértékelése azzal a céllal, hogy meghatározzuk, minden szempontból megfelel-e a felhasználói követelményeknek.
-A teljes szoftver vizsgálata és kiértékelése azzal a céllal, hogy meghatározzuk, minden szempontból megfelel-e a specifikációban lefektetett követelményeknek.
-Az a folyamat, amelyben meghatározzuk, hogy a vizsgált informatikai rendszer szoftvere teljesíti-e mindazokat a felhasználói elvárásokat, amelyeket egy előző fázisban specifikáltak a szoftver fejlesztési vagy előállítási folyamatában.
-Az a folyamat, amelyben meghatározzuk, hogy a vizsgált informatikai rendszer szoftvere teljesíti-e mindazokat a követelményeket, amelyeket egy előző fázisban specifikáltak a szoftver fejlesztési vagy előállítási folyamatában.
-Kérdés: Ha tökéletesen végrehajtjuk a verifikációs folyamatot, akkor az garantálja a végtermék tökéletes felhasználhatóságát?
-*Nem. Amit garantálni lehet, az a kiindulási specifikációval való ekvivalencia teljesülése.
-*Nem. Ha specifikálásban történt hiányosság vagy tévedés, a végtermék nem fog minden tekintetben megfelelni a felhasználási követelményeknek.
-Nem. A verifikációs folyamat tökéletes végrehajtása csak elméleti szinten lehetséges.
-Igen. A verifikáció során mindvégig az előzetesen lefektetett felhasználói követelményekhez kell igazodni.
-Igen. A verifikálásra csak a validálás után kerülhet sor, ami garantálja a tökéletes felhasználhatóságot.
-Kérdés: Biztonságkritikus rendszer esetén mit kell igazolni a validáció során?
-*A funkcionális megfelelőséget.
-*A teljesítményben való megfelelőséget.
-*A biztonsági követelmények teljesülését.
-A felhasználói követelményeknek való megfelelőséget.
-A biztonsági előírásoknak való megfelelőséget.
-Kérdés: Az alábbiak közül melyik igaz?
-*A verifikáció arra ad választ, hogy a termék előállítása helyesen történt-e.
-*A validáció arra ad választ, hogy a helyes terméket állítottuk-e elő.
-A validáció arra ad választ, hogy a termék előállítása helyesen történt-e.
-A verifikáció arra ad választ, hogy a helyes terméket állítottuk-e elő.
-Kérdés: Mit fejez ki a V modell lefelé haladó ága?
-*A tervezési és létrehozási folyamatot.
-A specifikációs és architektúrális folyamatot.
-A teszttervezési és implementációs folyamatot.
-A tesztelési és ellenőrzési folyamatot.
-Kérdés: Mit fejez ki a V modell felfelé haladó ága?
-*A tesztelési és ellenőrzési folyamatot.
-A tervezési és létrehozási folyamatot.
-A specifikációs és architektúrális folyamatot.
-A teszttervezési és implementációs folyamatot.
-Kérdés: Az alábbiak közül melyek a V modell életciklusának állomásai?
-*Követelmények specifikálása
-*Hazárd- és kockázatanalízás
-*Rendszer specifikálás
-Felhasználói igények felmérése
-Szoftver specifikálás
-Kérdés: Az alábbiak közül melyek a V modell életciklusának állomásai?
-*Architektúra tervezés
-*Modul tervezés
-*Modulok előállítása és tesztelése
-Inkrementum kifejlesztése
-Specifikációnak való megfelelés vizsgálata
-Kérdés: Az alábbiak közül melyek a V modell életciklusának állomásai?
-*Rendszer integrálása és tesztelése
-*Rendszer verifikálása
-*Rendszer validálása
-Inkrementumok tesztelése és integrálása
-Rendszer architektúra tesztelése
-Kérdés: Mi a V modell életciklusának befejező állomásai?
-*Bizonylatolás, majd a rendszer üzemeltetése
-Rendszer verifikálása, majd validálása
-A felhasználók oktatása, végül a rendszer üzemeltetése
-Rendszer integrálása és tesztelése, végül a rendszer üzemeltetése
-Kérdés: V modell esetén mely fázis eredményeként áll elő a biztonsági követelmények dokumentációja?
-*Hazárdok és kockázatok elemzése
-Követelmények specifikálása
-Architekturális tervezés
-A teljes rendszer-specifikáció
-A teljes rendszer validálása
-Kérdés: V modell esetén mely fázis eredményeként állnak elő a hardver és szoftver tervdokumentációk?
-*Architekturális tervezés
-A teljes rendszer-specifikáció
-Követelmények specifikálása
-Modulokra bontás
-A teljes rendszer verifikálása
-Kérdés: V modell esetén az üzemeltetés és karbantartás fázisnak mi a bemeneti dokumentációja?
-*A biztonsági követelmények dokumentációja
-A rendszer-követelmények dokumentációja, és a teljes rendszer-specifikáció
-A rendszer terve, és a teljes rendszer-specifikáció
-A modulok terve, és a teljes rendszer terve
-Kérdés: V modell esetén a bizonylatolás fázisnak mi a bemeneti dokumentációja?
-*A rendszer-követelmények dokumentációja, és a teljes rendszer-specifikáció
-A biztonsági követelmények dokumentációja
-A modulok terve, és a teljes rendszer terve
-A teljes rendszer-specifikáció
-Kérdés: V modell esetén a teljes rendszer validálása fázisnak mi a bemeneti dokumentációja?
-*A rendszer-követelmények dokumentációja, és a teljes rendszer-specifikáció
-A biztonsági követelmények dokumentációja
-A modulok terve, és a teljes rendszer terve
-A rendszer terve, és a teljes rendszer-specifikáció
-Kérdés: V modell esetén a teljes rendszer verifikálása fázisnak mi a bemeneti dokumentációja?
-*A rendszer terve, és a teljes rendszer-specifikáció
-A biztonsági követelmények dokumentációja
-A rendszer-követelmények dokumentációja, és a teljes rendszer-specifikáció
-A modulok terve, és a teljes rendszer terve
-Kérdés: V modell esetén a szoftver-modulok összeintegrálása fázisnak mi a bemeneti dokumentációja?
-*A modulok terve, és a teljes rendszer terve
-A biztonsági követelmények dokumentációja
-A rendszer-követelmények dokumentációja, és a teljes rendszer-specifikáció
-A rendszer terve, és a teljes rendszer-specifikáció
-Kérdés: V modell esetén a modulok elkészítése és tesztelése fázisnak mi a bemeneti dokumentációja?
-*A modulok terve
-A modulok terve, és a teljes rendszer terve
-A rendszer-követelmények dokumentációja, és a teljes rendszer-specifikáció
-A biztonsági követelmények dokumentációja
-Kérdés: Mi igaz az inkrementális tesztelésre?
-*Egy kiindulási, minimális számú modulhoz egymás után illesztjük a bővítésként szolgáló modulokat. Minden egyes bővítés után külön teszteljük az addig összeállt komplexumot.
-*Az újabb hibák egy-egy bővítés során léphetnek be nagy valószínűséggel.
-A szoftver moduljait külön-külön teszteljük, majd a már verifikált alegységekből építjük fel a szoftver komplexumot.
-Egyszerű a hibajavítás, mert a bővítés során megjelenő hibák az újonnan beépített modulban keresendők.
-A tesztesetek halmazát inkrementálisan növeljük a tesztelés során.
-Kérdés: Mi igaz a big bang tesztelésre?
-*Az összes modult egyszerre rakjuk össze.
-*Azon a feltevésen alapul, hogy az előzetesen már letesztelt modulok együtt is jól fognak működni.
-Több menetben hajtjuk végre a tesztelést.
-Hibák megtalálása egyszerűbb, mint az inkrementális tesztelés esetén.
-Olyan rendszerek esetén használjuk, ami nem igényli, hogy több modulra bontsuk szét.
-Kérdés: V modell esetén mi történik az architekturális tervezés fázisban?
-*El kell dönteni, hogy mely funkciók legyenek megvalósítva hardver, és melyek szoftver által.
-*Elő kell állítani a hardver és szoftver rendszerterveket.
-El kell dönteni, hogy a szoftver rendszert milyen funkciókra bontjuk fel és azok milyen környezetben kerülnek megvalósításra.
-Elő kell állítani a szoftver modulok tervdokumentációját.
-Kérdés: Mi a HW-SW co-design?
-*Ebben a megközelítésben a tervezési folyamatnak csak egy későbbi szakaszában dől el a HW-SW- megosztás.
-A hardver és szoftver fejlesztés szétválasztására ad irányelveket.
-Ebben a megközelítésben mindvégig egységes alapokon történik a hardver és szoftver tervezés.
-Egy rendszerfejlesztési életciklus modellt definiál.
-Kérdés: Mi a hazárd?
-*Olyan helyzet, amely valóságos vagy lehetséges veszélyt jelent az emberek vagy a környezet számára.
-Egy kockázathoz kapcsolódó események és azok következményei, valószínűségi alapon. Azt fejezi ki, hogy milyen valószínűségű veszélyes következményei lehetnek egy kockázatnak.
-A szoftver vagy hardver rendszer olyan komponense, mely veszély és hiba forrása lehet.
-Olyan szituáció, mely gazdasági, környezeti, emberi károkat okozhat.
-Egyik sem.
-Kérdés: Mi a kockázat?
-*Egy hazárdhoz kapcsolódó események és azok következményei, valószínűségi alapon. Azt fejezi ki, hogy milyen valószínűségű veszélyes következményei lehetnek egy hazárdnak.
-Olyan helyzet, amely valóságos vagy lehetséges veszélyt jelent az emberek vagy a környezet számára.
-Olyan szituáció, mely gazdasági, környezeti, emberi károkat okozhat.
-A szoftver vagy hardver rendszer egy komponenséhez köthető valószínűségi alapú hibaforrás.
-Egyik sem.
-Kérdés: Mit nevezünk mérföldkőnek?
-*Egy kiemelt teljesítési időpont egy projekt menetében.
-Az életciklus modellek egyes állomásait nevezzük mérföldkőnek.
-A mérföldkő a projektek kezdeti fázisára utal.
-Mérföldkő egy jól meghatározott tevékenység egy projekt menetében.
-Egyik sem.
-Kérdés: Fejlesztési projekt esetén mit jelent a függőség?
-*Egy mérföldkőtől kiinduló tevékenységek csak akkor kezdődhetnek el, ha a mérföldkőbe befutó tevékenységek már befejeződtek.
-A szoftverrendszer egyes moduljai közti összefüggésre és kommunikációra utal.
-Meghatározza, hogy egy mérföldkő mikortól veheti kezdetét és milyen tevékenységektől függ.
-Megadja, hogy a szoftverrendszer moduljainak integrálása során mely modulokat és milyen sorrendben építsünk hozzá a rendszerhez.
-Kérdés: Hogyan ábrázoljuk a mérföldköveket?
-*Lekerekített sarkú téglalap
-Lekerekített sarkú négyzet
-Ellipszis
-Téglalap
-Négyzet
-Kérdés: Mire szolgál a tevékenységek és a mérföldkövek grafikus ábrázolása?
-*Időbeli összefüggések, időbeli kapcsolatok leírására.
-A rendszer modulok összeintegrálásának menetét határozza meg.
-A különböző életciklus modellek grafikus ábrázolására.
-Meghatározza a tevékenységek végrehajtásának sorrendjét.
-Kérdés: Mi igaz az alábbi jelölés esetén? T3, T6 (M3)
-*Az M3 mérföldkő teljesüléséhez T3 és T6 tevékenységek teljesítése szükséges.
-*Az M3 mérföldkőből kiinduló tevékenységekhez T6 teljesülése szükséges.
-*Az M3 mérföldkőből kiinduló tevékenységekhez T3 és T6 tevékenységek teljesülése szükséges.
-T3 független tevékenység. T6 tevékenység M3 mérföldkő teljesülésétől függ.
-Kérdés: Mi igaz az ütemezési terv esetén?
-*Felsoroljuk a tevékenységeket, meghatározzuk mindegyiknek az időtartamát.
-*Megadjuk a mérföldköveket.
-*Megadjuk a tevékenységek összefüggését.
-Grafikusan ábrázolhatjuk az ütemezési gráf segítségével.
-Megadja, hogy milyen modulokból épül fel a szoftver rendszer.
-Kérdés: Mivel ábrázolhatjuk grafikusan az ütemezési tervet?
-*Tevékenységi diagram
-*Tevékenységi hálózat
-*Tevékenységi gráf
-Ütemezési gráf
-Egyik sem
-Kérdés: Mi igaz a projekt-ütemezési táblázat esetén?
-*Tevékenységenként tartalmazza a tevékenységhez szükséges időt.
-*Tevékenységenként tartalmazza a függőségeket, mely megadja a tevékenység megkezdéséhez szükséges mérföldkövet és a mérföldkő eléréséhez szükséges tevékenységeket.
-Mérföldkövenként tartalmazza a mérföldkő eléréséhez szükséges időt.
-Mérföldkövenként tartalmazza a mérföldkő eléréséhez szükséges tevékenységeket.
-Megadja a projekt tevékenységeinek időrendi lefutását.
-Kérdés: Mit nevezünk kritikus útnak?
-*Az egymás után elvégzendő tevékenységek azon sorozata, amely meghatározza a projekt teljes időtartamát.
-Azon tevékenységek sorozata, melyek biztonsági szempontból kiemelt hangsúlyt kapnak a fejlesztés során.
-Időrendben elvégzendő tevékenységek olyan sorozata, melyek összideje a projekt teljesítéséhez szükséges minimális időt definiálják.
-A fejlesztés azon tevékenységeinek halmazát, melyek nagymértékben befolyásolják a projekt befejezéséhez szükséges időt.
-Kérdés: Mit nevezünk pszeudó-mérföldkőnek?
-*Tevékenységi diagramon a START állapotot.
-*Tevékenységi diagramon az END állapotot.
-*Tevékenységi diagramon a nem valódi mérföldköveket.
-Tevékenységi diagramon azokat az állapotokat, melyek a fejlesztés sikeressége szempontjából minimális kockázatot jelentenek.
-Tevékenységi diagram tervezése során olyan mérföldkövek, melyek a végleges diagramon nem szerepelnek, csak a tervezést segítik.
-Tevékenységi diagramon az egyes tevékenységeket.
-Kérdés: A tevékenységi diagram és a Gantt-diagram információ hordozás szempontjából egymással ekvivalens?
-*Igen, mindkettő segítségével az ütemezési tervet ábrázolhatjuk.
-Igen, mindkettő segítségével a projekt életciklus modelljét ábrázolhatjuk.
-Igen, a két megnevezés ugyanarra a jelölésmódra utal.
-Nem, a Gantt-diagram nem ábrázolja a mérföldköveket, szemben az ütemezési diagrammal.
-Nem, az ütemezési diagram nem ábrázolja a párhuzamosan végzendő tevékenységeket, szemben a Gantt-diagrammal.
-Kérdés: Mi igaz a tartalékidő esetén?
-*Angol megnevezése a slack time.
-*Tartalék időnek nevezzük, amikor egy tevékenység befejezéséhez a szükséges időn felül további korlátozott idő is rendelkezésre áll úgy, hogy a projekt befejezési idejét nem befolyásolja.
-*A tartalékidőt a Gantt-diagramon grafikusan ábrázoljuk.
-Angol megnevezése a spare time.
-A tartalékidőt a tevékenység diagramon grafikusan ábrázoljuk.
-Tartalékidőnek nevezzük azt, amikor egy tevékenységet az előzetes tervekben megszabott időkorlát alatt sikerül teljesíteni.
-Kérdés: Az alábbiak közül melyek nevezhetőek modulnak?
-*Szubrutin
-*Procedúra
-*Függvény
-*Metódus
-*Osztály
-Kérdés: Mit fejez ki az alábbi egyenlőtlenség? C(f1) > C(f2)
-*Az f1 feladat bonyolultsága nagyobb, mint az f2 feladat bonyolultsága.
-Az f1 probléma megoldására fordítandó erőfeszítés nagyobb, mint az f2 probléma megoldására fordítandó erőfeszítés.
-Az f1 forráskód hossza nagyobb, mint az f2 forráskód hossza.Az f1 modul funkciópontja nagyobb, mint az f2 modul funkciópontja.
-Kérdés: Mi következik a C(f1) > C(f2) egyenlőtlenségből?
-*E(f1) > E(f2)
-f1 < f2
-E(f1) < E(f2)
-E(f1) = E(f2)
-C(f1+f2) > C(f1) + C(f2)
-E(f1+f2) > E(f1) + E(f2)
-Kérdés: Mi következik a C(f1+f2) > C(f1) + C(f2) egyenlőtlenségből?
-*E(f1+f2) > E(f1) + E(f2)
-E(f1+f2) < E(f1) + E(f2)
-C(f1) > C(f2)
-C(f1) < C(f2)
-E(f1) > E(f2)
-E(f1) < E(f2)
-Kérdés: Milyen következtetést vonhatunk le a C(f1+f2) > C(f1) + C(f2) és E(f1+f2) > E(f1) + E(f2) egyenlőtlenségekből?
-*Könnyebb megoldani egy komplex feladatot úgy, hogy kezelhető részekre bontjuk, és a részfeladatokat külön-külön oldjuk meg.
-A szoftver modulok integrálása után nagymértékben megnőhet a rendszer komplexitása.
-Nem elegendő a szoftver modulok önálló tesztelése, a teljes rendszert is validálni kell, mert a rendszer integrálása után további, eddig felfedetlen hibák jöhetnek elő.
-A szoftver rendszer költsége nagymértékben növekedhet az integrálási folyamat során.
-Kérdés: Mely állítások igazak az alábbiak közül?
-*Minél több modulra bontjuk a szoftvert, annál kisebb erőfeszítés kell egy-egy modul kifejlesztéséhez.
-*Az integrálási költség a modulok számának növekedésével exponenciálisan növekszik.
-Az integrálási költség a modulok számának növekedésével lineárisan növekszik.
-Minél több modulra bontjuk a szoftvert, annál több erőfeszítés kell egy-egy modul kifejlesztéséhez.
-Az integrálási költség a modulok számának növekedésével logaritmikusan növekszik.
-Kérdés: A ráfordítási költségek számítása esetén mi igaz az M értékre?
-*Megadja az optimális modulszámot.
-*Értéke nagy ráfordítás árán számolható ki.
-Megadja a teljes szoftverköltséget.
-Értéke hatékonyan számolható.
-Megadja az optimális ráfordítási költséget.
-Kérdés: Ráfordítási költségek esetén minek az ismeretében határozhatjuk meg (közelítőleg) M értékét?
-Integrálási költség
-*Fejlesztési költség
-*Teljes szoftver költség
-Tesztelési költség
-M értékét nem lehet előzetes számításokkal megbecsülni.
-Kérdés: Mely állítás igaz a szoftver hívási gráf esetén?
-*A modulokat téglalapok formájában ábrázoljuk.
-*Mindegyik modul hívhat más modulokat.
-Mindegyik modult hívhatja más modul.
-A modulok közti hívást nyilak segítségével ábrázoljuk.
-Egy modul tartalmazhat más modulokat.
-Kérdés: Milyen jellemző tulajdonságai vannak egy hívási gráfnak?
-*Hívási lánc
-*Hívási út hossza
-Hívási magasság
-Hívási mélység hossza
-*Hívási mélység
-*Hívási szint
-*Hívási szélesség
-Hívási távolság
-Hívási kör
-Kérdés:Hívási gráf esetén mi határozza meg a rendszerméretet?
-*Modulok száma
-*Hívások száma
-Rendszer mélysége
-Rendszer szélessége
-Hívási mélység
-Hívási szélesség
-Hívási szint
-Kérdés: Az alábbiak közül melyek a teljes rendszerre vonatkozó mérőszámok?
-*Code length
-*Line of code
-Function point
-Card és Glass mérőszámai
-Henry és Kafura mérőszámai
-Kérdés: Az alábbiak közül melyek a forráskódra vonatkozó mérőszámok?
-*Halstead-számok
-*McCabe-féle szám
-KLOC
-Henry és Kafura mérőszámai
-Function point
-Kérdés: Az alábbiak közül melyek az architektúrára vonatkozó mérőszámok?
-*Card és Glass mérőszámai
-*Henry és Kafura mérőszámai
-MLOC
-Line of Code
-Halstead-számok
-Kérdés: Az alábbi állítások közül melyek igazak?
-*A KLOC a teljes rendszerre vonatkozik.
-A Halstead-számok a forráskódra vonatkoznak.
-Henry és Kafura mérőszámai a teljes rendszerre vonatkoznak.
-A McCabe-féle szám a forráskódra vonatkozik.
-Card és Glass mérőszámai a teljes rendszerre vonatkoznak.
-Kérdés: Az alábbiak közül melyek mérőszámok?
-*Funkció-orientált szám
-*McCabe-féle szám
-Henry és Glass mérőszámai
-Kafura-féle mérőszámok
-Constructive Model of Cost
-Kérdés: Mit ad meg a LOC?
-*A forráskód sorainak a számát.
-A forráskód utasításainak a számát.
-A forráskódban szereplő logikai elágazások számát.
-A forráskódban szereplő különálló blokkok számát.
-A forráskód karaktereinek számát.
-Kérdés: Mely állítás igaz az alábbiak közül?
-*A LOC a Line of Code rövidítése.
-*A LOC megadja a forráskód sorainak a számát.
-*A LOC a teljes rendszerre vonatkozó mérőszám.
-A LOC megadja a forráskód parancsainak számát.
-A LOC a List of Commands rövidítése.
-A LOC a forráskódra vonatkozó mérőszám.
-Kérdés: Funkciópont számítás esetén milyen működési részterületekkel dolgozunk?
-*Felhasználói bemenetek száma.
-*Felhasználói kimenetek száma.
-Szoftver interakciók száma.
-Kezelt memóriaterület mérete.
-Szoftver modulok száma.
-Kérdés: Funkciópont számítás esetén milyen működési részterületekkel dolgozunk?
-*Felhasználói lekérdezések száma.
-*A kezelt fájlok száma.
-*Külső interfészek száma.
-Felhasznált osztályok száma.
-Modul kapcsolatok száma.
-Kérdés: Az alábbiak közül melyek igazak?
-*A funkciópont funkció-orientált szám.
-*A funkciópont a teljes rendszerre vonatkozó szám.
-A funkciópont számítás során a fun-in és fun-out értékeket vesszük alapul.
-A funkciópont a forráskódra vonatkozó szám.
-A funkciópont számítás során 4 meghatározott működési részterületet veszünk alapul.
-Kérdés: Az alábbiak közül melyek igazak?
-*Funkciópont számításnál 5 meghatározott működési részterületet veszünk alapul.
-*Egy szoftverhez több funkciópont tartozik.
-Egy szoftverhez egy meghatározott funkciópont tartozik.
-Funkciópont számítás során tetszés szerint súlyozzuk a részterületeket.
-Minden szoftverhez 5 funkciópont tartozik.
-Kérdés: Egy szoftverre vonatkozó funkciók száma és azok súlyértékei láthatóak pontosvesszővel tagolva, ahol az első érték a funkció száma, második a súlyérték. Milyen funkciópontokkal rendelkezik a szoftver? 2;1 3;2 1;1 4;2 2;5
-*Egyik sem, az adatok hibásak.
-2, 6, 1, 8, 10, 27
-2, 6, 1, 8, 10, 960
-3, 5, 2, 6, 10, 26
-3, 5, 2, 6, 10, 26, 1800
-Kérdés: Milyen alapszámok találhatóak Halstead mérőszám rendszerében?
-*n1: a programban található különböző műveletek (operátorok), ill. műveleti jelek száma.
-*n2: a programban található különböző operandusok száma.
-n1: a programban található különböző utasítások száma.
-n2: a programban található különböző műveletek (operátorok), ill. műveleti jelek száma.
-n1: a programban található logikai elágazások száma.
-Kérdés: Milyen alapszámok találhatóak Halstead mérőszám rendszerében?
-*N1: az összes előforduló műveletek, ill. műveleti jelek száma a programban.
-*N2: az összes előforduló operandusok száma a programban.
-N1: az összes előforduló logikai elágazás a programban.
-N2: az összes előforduló utasítás a programban.
-N1: az összes előforduló vezérlési szerkezet a programban.
-Kérdés: Az alábbiak közül melyek igazak?
-*A Halstead-féle mérőszámok a forráskódra vonatkoznak.
-*Halstead 4 alapszámot használ a mérőszám rendszerében.
-A Halstead-féle mérőszámok a teljes rendszer összetettségének mérésére szolgálnak.
-Halstead az utasítások számából határozza meg mérőszámát.
-Halstead a logikai elágazások számából határozza meg mérőszámát.
-Kérdés: Az alábbiak közül melyek igazak?
-*Halstead 3 mérőszámot definiált.
-*Halstead mérőszámai a modulok forráskódjára vonatkozik.
-*A Halstead-féle mérőszámot a teljes rendszerre nézve is értelmezhetjük.
-A Halstead-féle mérőszámok a forráskódban szereplő logikai elágazásokra épülnek.
-Halstead 4 mérőszámot definiált.
-Kérdés: Hogyan számítható a forráskód becsült hossza Halstead mérőszáma alapján?
-*N(b) = n1 * log2 n1 + n2 * log2 n2
-N(b) = N * log2 (n1 + n2)
-N(b) = N1 + N2
-N(b) = (N1 + N2) * log2 (n1 + n2)
-N(b) = log2 n1 * log2 n2
-Kérdés: Hogyan számítható a forráskód aktuális hossza Halstead mérőszáma alapján?
-*N = N1 + N2
-N = n1 * log2 n1 + n2 * log2 n2
-N = log2 n1 * log2 n2
-N = (N1 + N2) * log2 (n1 + n2)
-N = N(b) * log2 (n1 + n2)
-Kérdés: Hogyan számítható a program tárgykódjának volumene Halstead mérőszáma alapján?
-*V = N * log2 (n1 + n2)
-V = N1 + N2
-V = n1 * log2 n1 + n2 * log2 n2
-V = log2 n1 * log2 n2
-V = (n1 + n2) * log2 (n1 + n2)
-Kérdés: Halstead mérőszámai közül mit fejez ki a „V” értéke?
-*Az elkészült program bonyolultságát.
-*A programozó szellemi ráfordítását.
-*A program tárgykódjának számított volumenét.
-A forráskód becsült hosszát.
-A szoftver rendszer becsült méretét.
-Kérdés: Hogyan számolható MC értéke?
-*MC = D + 1
-MC = n1 * log2 n1 + n2 * log2 n2
-MC = fan-out(i)^2
-MC = S(i) + D(i)
-MC = L(i) * (fan-in(i) + fan-out(i))^2
-Kérdés: Az alábbiak közül mely igaz?
-*A McCabe-féle szám a forráskódra vonatkozik.
-*A McCabe-féle szám a logikai döntések számától függ.
-*A McCabe-féle szám a program különböző utasítás-végrehajtási lehetőségeinek a számát adja meg.
-A McCabe-féle szám az architektúrára vonatkozik.
-A McCabe-féle szám a forráskód hosszától függ.
-Kérdés: Milyen mérőszámokat vezetett be Card és Glass?
-*Strukturális komplexitás
-*Adat-komplexitás
-Információ-komplexitás
-Logikai komplexitás
-Erőforrás komplexitás
-Kérdés: Milyen mérőszámokat vezetett be Card és Glass?
-*Modul-komplexitás
-*Architekturális komplexitás
-Rendszer komplexitás
-Logikai komplexitás
-Teljes szoftver komplexitás
-Kérdés: Card és Glass mérőszámai esetén mi az S(i) érték?
-*S(i) = fan-out(i)^2
-S(i) = v(i) / (fan-out(i) + 1)
-S(i) = C(i) + D(i)
-S(i) = fan-in(i) / fan-out(i)^2
-S(i) = C(1) + C(2) + C(3) + … + C(M-1) + C(M)
-Kérdés: Card és Glass mérőszámai esetén mi a D(i) érték?
-*D(i) = v(i) / (fan-out(i) + 1)
-D(i) = C(1) + C(2) + C(3) + … + C(M-1) + C(M)
-D(i) = C(i) + S(i)
-D(i) = fan-out(i)^2
-D(i) = fan-in(i) / fan-out(i)^2
-Kérdés: Card és Glass mérőszámai esetén mi a C(i) érték?
-*C(i) = S(i) + D(i)
-C(i) = D(1) + D(2) + D(3) + … + D(M-1) + D(M)
-C(i) = v(i) / (fan-out(i) + 1)
-C(i) = fan-in(i) / fan-out(i)^2
-C(i) = fan-out(i)^2
-Kérdés: Card és Glass mérőszámai esetén mi az AC érték?
-*AC = C(1) + C(2) + C(3) + … + C(M-1) + C(M)
-AC = D(1) + D(2) + D(3) + … + D(M-1) + D(M)AC = S(1) + S(2) + S(3) + … + S(M-1) + S(M)
-AC = C(1) * C(2) * C(3) * … * C(M-1) * C(M)
-AC = D(1) * D(2) * D(3) * … * D(M-1) * D(M)
-AC = S(1) * S(2) * S(3) * … * S(M-1) * S(M)
-Kérdés: Card és Glass mérőszámai esetén mi a v(i) érték?
-*Az i-edik modul be- és kimeneti hívási paramétereinek száma.
-Az i-edik modul forráskódjának mérete.
-Az i-edik modul logikai elágazásainak száma.
-Az i-edik modul adat-komplexitásának a mérete.
-Az i-edik modul változóinak száma.
-Kérdés: Egy szoftver modul szétágazásainak száma 3, input és output változóinak együttes darabszáma 8. Mekkora a modul strukturális komplexitása?
-*9
-3
-4
-2
-A megadott információból nem meghatározható.
-Kérdés: Egy szoftver modul szétágazásainak száma 3, input és output változóinak együttes darabszáma 8. Mekkora a modul adat-komplexitása?
-*2
-9
-3
-4
-A megadott információból nem meghatározható.
-Kérdés: Egy szoftver modul strukturális komplexitása 9, adat-komplexitása 2, input és output változóinak együttes darabszáma 8. Mekkora a modul-komplexitása?
-*11
-18
-7
-9
-A megadott információból nem meghatározható.
-Kérdés: Card és Glass kutatásaik eredményeként milyen kapcsolatot vélt felfedezni az architekturális komplexitás és a szoftver hibák között?
-*A két mérték között lineáris kapcsolat van.
-A két mérték között exponenciális kapcsolat van.
-A két mérték között logaritmikus kapcsolat van.
-A két mérték között nem találtak összefüggést.
-A kutatást nem Card és Glass végezte.
-Kérdés: Az alábbiak közül mely állítás igaz?
-*Card és Glass mérőszámai nem veszik figyelembe az összeágazásokat.
-*Henry és Kafura mérőszámai figyelembe veszik az összeágazásokat.
-*Card és Glass mérőszámai figyelembe veszik a szétágazásokat.
-*Henry és Kafura mérőszámai figyelembe veszik a szétágazásokat.
-Card és Glass mérőszámai figyelembe veszik az összeágazásokat.
-Henry és Kafura mérőszámai nem veszik figyelembe az összeágazásokat.
-Card és Glass mérőszámai nem veszik figyelembe a szétágazásokat.
-Henry és Kafura mérőszámai nem veszik figyelembe a szétágazásokat.
-Kérdés: Miként definiálta Henry és Kafura a komplexitási mérőszámot?
-*HKM(i) = L(i) * (fan-in(i) + fan-out(i))^2
-HKM(i) = fan-in(i) / fan-out(i)^2
-HKM(i) = fan-in(i) + fan-out(i)
-HKM(i) =fan-in(i)^2 * fan-out(i)^2
-HKM(i) = v(i) / (fan-out(i) + 1)
-Kérdés: Henry és Kafura mérőszámában mi az L(i) érték?
-*Az i-edik modul forráskódjának hossza.
-Az i-edik modul felhasználói be- és kimeneteinek száma.
-Az i-edik modul fan-in és fan-out értékeinek összege.
-Az i-edik modul forráskódjában szereplő logikai elágazások száma.
-Kérdés: McCabe miként definiálta a teljes rendszer komplexitását?
-*McCabe nem definiálta a teljes rendszer komplexitását.
-MC = MC(1) + MC (2) + MC (3) + … + MC (M-1) + MC (M)
-AC = C(1) + C(2) + C(3) + … + C(M-1) + C(M)
-AC = AC(1) + AC(2) + AC(3) + … + AC(M-1) + AC(M)
-Kérdés: Az alábbiak közül mely igaz?
-*A HKM az architektúrára vonatkozik.
-*A HKM az összeágazások és a szétágazások számát is figyelembe veszi.
-*A HKM megadja a teljes rendszer komplexitást.
-*A HKM növekedése az integrálási és tesztelési költségek növekedésével jár.
-A HKM csak az összeágazásokat veszi figyelembe.
-A HKM csak a szétágazásokat veszi figyelembe.
-A HKM a teljes rendszerre vonatkozik.
-Kérdés: Egy szoftver projekt tervének milyen fő összetevői vannak?
-*A fejlesztés célja.
-*Rendelkezésre álló erőforrások.
-*Rendelkezésre áll pénzügyi források.
-Fejlesztési életciklus modellek.
-Szoftver modulok terve.
-Fejlesztési és felhasználói dokumentációk.
-Kérdés: Mi a Rayleigh-függvény?
-*Megadja a szükséges emberi erőforrást az idő függvényében.
-Megadja a szükséges emberi erőforrást az projekt méretének függvényében.
-Megadja a szükséges pénzügyi erőforrást az idő függvényében.
-Megadja a szükséges pénzügyi erőforrást a projekt méretének függvényében.
-Kérdés: Minek a becslésére lehet alkalmas a Rayleigh-eloszlás?
-*Emberi ráfordítás
-*Utazás
-*Számítógép felhasználás
-*Szoftver eszközök felhasználása
-*Irodai eszközök felhasználása
-Szoftver költségek
-Fejlesztési idő
-Kérdés: Az alábbiak közül melyek igazak?
-*A Rayleigh-eloszlás az emberi ráfordítást határozza meg az idő függvényében.
-A Rayleigh-eloszlást RC(t)-vel jelöljük, ahol t az idő, RC pedig a Rayleigh Consumption rövidítése.
-A Rayleigh-eloszlásban az időnek nullától nagyobb értéket kell felvennie.
-A Rayleigh-eloszlás függvényében található „k” konstans egy a projektre jellemző érték, egy kritikus pontot határoz meg a függvényben.
-A Rayleigh-eloszlás függvényében található „v” konstans egy a projektre jellemző érték, a szoftver volumenéről ad információt.
-Kérdés: Mi az RC(t)?
-*RC(t) = t / (k^2) * e^(-t^2 / (2 * k^2))
-RC(t) = (k^2) / t * e^(t^2 / (2 * -k^2))
-RC(t) = v(t) / (fan-out(t) + 1)
-RC(t) = v(t) / (fan-out(t) * fan-in(t))^2
-Kérdés: Mi az AVC?
-*Kódsorok átlagos száma funkciópontonként.
-Parancsok átlagos száma funkciópontonként.
-Funkciópontok átlagos száma kódsoronként.
-Funkciópontok átlagos száma parancsonként.
-Modulok átlagos száma projektenként.
-Kérdés: Mely állítások igazak az alábbi képlet esetén? Ráfordítás = A * W * Méret^B
-*Az „A” egy konstans tényező, amelynek értéke függ a fejlesztendő szoftver jellegétől, típusától, bonyolultságától.
-*A „Méret” a szoftverre vonatkozik. Lehet utasításszám, a kódsorok száma, vagy a rendszer összesített funkciópontja.
-A „W” a projektben résztvevő személyek átlagos száma.
-A „B” kitevő értéke általában 3 és 15 közé eső szám, a projekt bonyolultságától függően.
-Az egyenlet megadja a teljes szoftver projekt emberi ráfordítását.
-Kérdés: Mi igaz az alábbi kifejezés esetén? 4E → 2H, 8E → 4H, 6E → 3H
-*A projekt időtartama 11 hónap.
-A projekt időtartama 58 hónap
-A projekt időtartama 58 hét.
-A projekt időtartama 11 hét.
-A projekt időtartama 4 hónap.
-A projekt időtartama 4 hét.
-Kérdés: Az alábbi esetben mennyi LSZ értéke? 5E → 2H, 9E → 1H, 3E → 2H
-*5E
-15E
-5H
-15H
-Kérdés: Mi az LSZ értéke?
-*(E_1 * H_1 + E_2 * H_2 + … + E_n * H_n) / (H_1 + H_2 + … + H_n)
-(H_1 + H_2 + … + H_n) / (E_1 * H_1 + E_2 * H_2 + … + E_n * H_n)
-(E_1 * H_1 + E_2 * H_2 + … + E_n * H_n) / (H_1 * H_2 * … * H_n)
-(E_1 * H_1 + E_2 * H_2 + … + E_n * H_n) / (E_1 + E_2 + … + E_n)
-(E_1 + E_2 + … + E_n) / (E_1 * H_1 + E_2 * H_2 + … + E_n * H_n)
-Kérdés: Mi az NH értéke?
-*H_1 + H_2 + … + H_n
-E_1 + E_2 + … + E_n
-H_1 * H_2 * … * H_n
-E_1 * E_2 * … * E_n
-EH_1 + EH_2 + … + EH_n
-EH_1 * EH_2 * … * EH_n
-Kérdés: Egy projekt esetén LSZ = 5E. Mely projekt megoszlás esetén igaz ez?
-*7E → 1H, 4E → 2H
-*5E → 2H, 9E → 1H, 3E → 2H
-2E → 1H, 3E → 2H
-8E → 1H, 2E → 2H
-2E → 3H, 4E → 1H, 4E → 1H
-Kérdés: Az alábbiak közül melyik lehet az emberhónap a COCOMO-modell esetén?
-*EH = 2,4 * KLOC^1,05
-EH = 3 * KLOC^1,2
-EH = 2,5 * KLOC^0,38
-EH = 1,12 * KLOC^2,5
-Kérdés: A COCOMO-modell alapján miként kaphatjuk meg az naptári hónap értékét?
-*NH = c * EH^d
-*NH = c * a^d * KLOC^(b*d)
-NH = a * KLOC^b
-NH = c^d * MLOC^d
-NH = c * (a * KLOC^d)^b
-Kérdés: Boehm a modelljében milyen kategóriákba sorolta a szoftvereket?
-*Normál szoftverek
-*Összetett szoftverek
-*Beágyazott szoftverek
-Rendszer szoftverek
-Üzleti célú szoftverek
-Mesterséges intelligencia szoftverek
-Kérdés: A COCOMO-modell alapján miként kaphatjuk meg az átlagos ráfordítási létszámot?
-*LSZ = (a * KLOC^b) / (c * a^d * KLOC^(b*d))
-*LSZ = a^(1 - d) / c * KLOC^(b*(1 - d))
-LSZ = c * a^d * KLOC^(b*d)
-LSZ = a * KLOC^b
-LSZ = c * (a * KLOC^b)^d
-Kérdés: Boehm modelljében mi az alapvető különbség a normál és az összetett szoftver között?
-*A normális szoftver nem függ a környezettől, nincsenek kapcsolatai, míg az összetett szoftver környezetfüggő, külső kapcsolatokkal rendelkezik.
-A normál szoftver komplexitása alacsony, jellemzően 1-2 modulból tevődik össze, ezzel szemben az összetett szoftver sok modulos, jellemzően nagy volumenű fejlesztés.
-A normál szoftver külső interfészek segítségével kommunikál külső hardver eszközökkel, míg az összetett szoftver magába a célhardverbe integrálva működik.
-Boehm modelljében nem szerepel normál szoftver.
-Kérdés: Mely állítás igaz a COCOMO-modell esetén?
-*Az EH görbéje gyorsabban növekszik, mint a kódméret.
-*Az NH görbe azt tükrözi, hogy a fejlesztés kezdeti szakaszában több idő kell a kódoláshoz.
-Ha ismerjük EH értékét és tisztázott, hogy hány ember vesz részt a szoftver-projektben, akkor NH értéke jól becsülhető.
-Az EH görbe a projekt későbbi szakaszában egyre lassabban növekszik, ami arra utal, hogy a szoftver befejezéséhez egyre kevesebb plusz idő szükséges.
-AZ EH és NH értéke függ a kódmérettől és a projektben résztvevő emberek számától.
-Kérdés: Mi a hibamodell?
-*Azon szoftver-hibák halmaza, amelyeknek a felfedésére irányul a teszttervezés.
-A szoftver bemeneti adatokkal való sorozatos ellátása és a kimeneti válaszadatok megfigyelése.
-Bemeneti adatok olyan rendezett sorozata, melynek hatására az adott hibát tartalmazó szoftver a legutolsó adatkombinációra a helyestől eltérő (hibás) kimeneti adatkombinációval válaszol.
-Ebben a modellben egy adott program (szoftver) az összes lehetséges bemeneti adatból előállítja az összes lehetséges kimeneti adatot.
-Kérdés: Mi a tesztelés?
-*A szoftver bemeneti adatokkal való sorozatos ellátása és a kimeneti válaszadatok megfigyelése.
-Bemeneti adatok olyan rendezett sorozata, melynek hatására az adott hibát tartalmazó szoftver a legutolsó adatkombinációra a helyestől eltérő (hibás) kimeneti adatkombinációval válaszol.
-Ebben a modellben egy adott program (szoftver) az összes lehetséges bemeneti adatból előállítja az összes lehetséges kimeneti adatot.
-Azon szoftver-hibák halmaza, amelyeknek a felfedésére irányul a teszttervezés.
-Kérdés: Mely állítás hamis?
-*A tesztelés az a folyamat, amikor egy szoftver detektálható hibák okát keressük.
-*A hibamodell megadja a szoftverben található hibákat.
-*A szoftver hibák mindig kihatással vannak a szoftver működésére.
-Egy hibáról akkor mondjuk, hogy detektálható, ha legalább egy tesztje létezik.
-Kérdés: Mi a fault coverage?
-*Azon hibák százalékos aránya az összes feltételezett hibához képest, amelyeket a tesztkészlet detektálni tud.
-Teszteknek olyan összessége, amely a szoftver mindegyik előre feltételezett és detektálható hibájának tesztjét magában foglalja.
-A bemeneti tesztsorozat és az elvárt válaszjelek meghatározása egy előre feltételezett hibahalmazra nézve.
-Bemeneti adatok olyan rendezett sorozata, melynek hatására az adott hibát tartalmazó szoftver a legutolsó adatkombinációra a helyestől eltérő (hibás) kimeneti adatkombinációval válaszol.
-Kérdés: Mely állítás igaz?
-*A fault coverage esetén a cél a 100%-os lefedés.
-*A tesztkészlet esetén a cél a 100%-os lefedés.
-A tesztkészlet lefedettsége 100%-os.
-A fault coverage lefedettsége 100%-os.
-Kérdés: Egy megrendelő olyan szoftvert szeretne, aminek segítségével tetszőleges háromszög és tetszőleges négyszög területét tudja kiszámolni. Ezen megrendelés esetén mely állítások bizonyulnak igaznak?
-*Specifikációs hiba, ha a szoftver csak háromszögek területét képes kiszámítani.
-*Specifikációs hiba, ha a szoftver képes kiszámolni a négyszögek kerületét.
-*Programozási hiba, ha a szoftver bizonyos háromszögek esetén hibás kimenetet ad.
-Specifikációs hiba, ha a szoftver negatív értékeket is elfogad bemenetként.
-Specifikációs hiba, ha a szoftver csak egész értékeket kezel.
-Programozási hiba, ha a szoftver nem képes kiszámolni egy tetszőleges deltoid területét.
-Kérdés: A szoftverfejlesztés minőségének javítására irányuló hibaelemzésnek mi az utolsó három lépése és milyen sorrendben követik egymást?
-*4. Mindegyik kategóriához meghatározzák a teljes javítási költséget.
-*5. A kapott adatok alapján megvizsgálják azokat a kategóriákat, amelyek a cég számára a legnagyobb költséget okozták.
-*6. Terveket dolgoznak ki arra vonatkozóan, hogy miként módosítsák azokat a folyamatokat, amelyek a leginkább költséges kategóriákra vezettek.
-4. Megállapítják az egyes kategóriákba eső hibák számát, és a kategóriákat sorba rendezik, csökkenő sorrendben.
-5. Mindegyik kategóriához meghatározzák a teljes javítási költséget.
-6. Feljegyzik az egyes hibák kijavítására fordított költséget.
-Kérdés: Hogyan hívhatjuk még a fekete doboz tesztelést?
-*Funkcionális tesztelés
-*Vasdoboz tesztelés
-*Iron-box testing
-*Black-box testing
-Glass-box testing
-White-box testing
-Kérdés: Hogyan hívhatjuk még a fehér doboz tesztelést?
-*Strukturális tesztelés
-*White-box testing
-Iron-box testing
-Sand-box testing
-Glasses-box testing
-Kérdés: Az alábbiak közül mely állítás igaz?
-*Funkcionális tesztelés esetén a szoftvert bemeneti értékekkel látjuk el és figyeljük a kapott kimeneti értékeket.
-*Funkcionális tesztelés esetén a szoftvert a külső viselkedésében vizsgáljuk.
-*Funkcionális tesztelés esetén a szoftver összes specifikált funkciójának vizsgálata a cél.
-Funkcionális tesztelés esetén a szoftver modulok (funkciók) tárgykódjának helyességét vizsgáljuk.
-Funkcionális tesztelés esetén a szoftver kódjának logikai felépítését vizsgáljuk.
-Kérdés: Az alábbiak közül mely állítás igaz?
-*Strukturális tesztelés esetén a szoftver forráskódját vizsgáljuk.
-*Strukturális tesztelés esetén a szoftver belső működésének a végigkövetése a cél.
-Strukturális tesztelés esetén a szoftvert bemeneti értékekkel látjuk el és figyeljük a kapott kimeneti értékeket.
-Strukturális tesztelés esetén a szoftver összes specifikált funkciójának vizsgálata a cél.
-Strukturális tesztelés esetén a szoftver modulok minél több bemenettel való ellátása a cél.
-Kérdés: Tegyük fel, hogy egy szoftver két modulból épül fel: A és B modul. Az A modulban eddig két hibát találtunk, a B modulban pedig nyolcat. Glenford Myers megfogalmazása szerint mely állít helyes?
-*Ha a B modult még nem vizsgáltuk meg alaposan, akkor nagyobb valószínűséggel találunk a B modulban hibát, mint az A modulban.
-Mivel az A modulban lényegesen kevesebb hibát detektáltunk, mint a B modulban, ezért nagyobb a valószínűsége, hogy az A modulban további hibákat találunk.
-A hibák felfedésével egyre kisebb a további hibát felfedésének a valószínűsége, ezért az A modulban nagyobb valószínűséggel találunk még hibát.
-Pusztán a már detektált hibák számából nem lehet becslést adni a szoftver modulokban található felfedetlen hibák számára.
-Ha ugyanakkora energia befektetéssel a B modulban több hibát találtunk, akkor valószínűleg az A modul már elég alaposan letesztelt, így a további hibák valószínűleg a B modulban lesznek.
-Kérdés: Az integrációs tesztelésnek milyen megoldásai léteznek?
-*Együttes tesztelés
-*Big bang testing
-*Inkrementális tesztelés
-Strukturális tesztelés
-Funkcionális tesztelés
-Iron-box testing
-Kérdés: Mit jelent egy modul izolált tesztelése?
-*A modult a környezetéből kiragadva, függőségeit helyettesítve teszteljük.
-A modult mindentől függetlenül, önmagában teszteljük.
-A modult oly módon teszteljük, hogy annak forráskódját a tesztelés során teljes mértékben bejárjuk.
-A tesztelés során csak a bemeneti értékekre adott kimeneti értékeket vesszük figyelembe.
-Kérdés: Mi igaz a meghajtó modul esetén?
-*Egy modul izolált ellenőrzése során használjuk.
-*A tesztelendő modult meghívó modult helyettesítjük vele.
-*A tesztelendő modul információt szolgáltat a meghajtó modul számára.
-Együttes tesztelés során, azon belül a hívási hierarchia szerinti vizsgálatnál használjuk.
-A tesztelendő modult helyettesítjük vele.
-A strukturális tesztelés során használjuk.
-Kérdés: Mi igaz a csonk modul esetén?
-*Inkrementális tesztelés során, azon belül a hívási hierarchia szerinti vizsgálatnál használjuk.
-*A tesztelendő modul által meghívót modulokat helyettesítjük vele.
-*Egy modul izolált ellenőrzése során használjuk.
-Azokat a modulokat hívjuk így, melyek a végleges rendszerben nem fognak szerepelni, csak a tesztelés során használtuk fel, egy másik modul vizsgálata során.
-A Funkcionális tesztelés során használjuk.
-A tesztelendő modult helyettesítjük vele.
-Kérdés: Mely állítás igaz?
-*A csonk modulnak az esetek többségében valamilyen számítást is kell végeznie, mielőtt visszaadná a vezérlést a hívó félnek.
-*Előfordulhat, hogy a csonk modulok hívása több szinten keresztül zajlik.
-*Érdemes külön meghajtó modult írni a fehér és fekete dobozos tesztelés esetén.
-Egy meghajtó modulnak kettős feladata van: meghívja a tesztelendő modult és ellátja vezérlési paraméterekkel.
-A csonk modulnak elegendő csupán visszaadnia a vezérlést a hívó fél számára, ezzel tesztelhető, hogy megfelelően működik kapcsolatok.
-Kérdés: Mely állítás igaz?
-*Az együttes tesztelést célszerű használni, ha a rendszer működése jól áttekinthető.
-*Az együttes tesztelést célszerű használni, ha a fejlesztés magas minőségi szinten, a hibaelkerülési elvek messzemenő betartásával ment végbe.
-Az együttes tesztelés hátránya a hibalokalizálás nehéz kivitelezhetősége.
-Az együttes tesztelést a gyakorlatban nem alkalmazzuk, csupán szemléltető eszközként használjuk a big bang káros következményeinek bemutatására.
-Az együttes tesztelést csak olyan esetben célszerű használni, ha a modulok kellő körültekintéssel lettek tesztelve, beleértve a modulok kapcsolatát megvalósító interfészeket is.
-Kérdés: Egy inkrementális tesztelés első három fázisa látható. Mi mondható el róla? 1) {A, B} modulok: T1, T2, T3 tesztek. 2) {A, B, C} modulok: T1, T2, T3, T4 tesztek. 3) {A, B, C, D} modulok: T1, T2, T3, T4, T5 tesztek.
-*Ezt a tesztelési módszert regresszív tesztelésnek nevezzük.
-*Ezt a tesztelési módszert regressziós tesztelésnek nevezzük.
-*Ezt a tesztelési módszert visszaható tesztelésnek nevezzük.
-Ezt a tesztelési módszert architekturális tesztelésnek nevezzük.
-Ezt a tesztelési módszert rekurzív tesztelésnek nevezzük.
-Kérdés: Vegyük az alábbi inkrementális tesztelés első kettő fázisát. Tegyük fel, hogy az első menetben az A és a B modulok tesztelésére szolgáló T1 teszt sikeresen lezajlott, nem talált hibát. Előfordulhat, hogy a második menetben T1 mégis talál hibát? 1) {A, B} modulok: T1 teszt. 2) {A, B, C} modulok: T1, T2, T3, T4 tesztek.
-*Igen, a beépülő C modul kölcsönhatásai végett újabb hibák kerülhetnek felszínre az A és B modulban.
-Igen, a beépülő C modul szintén tartalmazhat hibákat, amiket kimutathat a T1 teszt.
-Nem, a második menetben T1 teszt nem kerül végrehajtásra, csak az újonnan belépő T2, T3 és T4 tesztekkel vizsgálunk.
-Attól függ, hogy a beépítésre került C modul milyen kapcsolatban áll az A és a B modulokkal.
-Nem, mert a T1 teszt kizárólag az A és a B modul kapcsolatát vizsgálja, ezért a további modulok beépítése nincs kihatással.
-Kérdés: Előfordulhat, hogy tesztelés során nincs szükség meghajtó modulokra csak csonk modulokra?
-*Igen, top-down integrálás esetén az elkészült és letesztelt modulok használhatóak meghajtóként.
-Igen, ha az tesztelt modul működése egyértelműen specifikált, akkor elhagyható a meghajtó modul.
-Igen, ha strukturális tesztelést használunk, elegendő csak csonk modulokat készíteni.
-Nem, meghajtó modulra mindig szükség van. Csak olyan fordulhat elő, hogy további csonkok nem szükségesek.
-Nem, a meghajtó és csonk modulokra egyaránt szükség van, hogy a tesztelendő modul teljes környezetet helyettesíteni tudjuk.
-Kérdés: Előfordulhat, hogy tesztelés során nincs szükség csonk modulokra csak meghajtó modulokra?
-Igen, bottom-up integrálás esetén az elkészült és letesztelt modulok használhatóak csonkként.
-*Igen, ha az tesztelt modul működése egyértelműen specifikált, akkor elhagyható a csonk modul.
-Igen, ha strukturális tesztelést használunk, elegendő csak meghajtó modulokat készíteni.
-Nem, csonk modulra mindig szükség van. Csak olyan fordulhat elő, hogy további meghajtók nem szükségesek.
-Nem, a meghajtó és csonk modulokra egyaránt szükség van, hogy a tesztelendő modul teljes környezetet helyettesíteni tudjuk.
-Kérdés: Mi igaz az alábbi jelölés esetén? MH(2) = {A, B, CS(E), CS(C), CS(D)}
-*Top-down tesztelésről van szó.
-*Az integrálási folyamatban eddig két lépést tettünk meg.
-*Az adott fázisban három csonk modul található.
-*Az adott fázisig az A modul már biztosan le lett tesztelve.
-Az adott fázisban kettő meghajtó modul található.
-Bottom-up tesztelésről van szó.
-Kérdés: Mi igaz az alábbi jelölés esetén? MH(4) = {E, B, M(B)}
-*Bottom-up tesztelésről van szó.
-*Az adott fázisban egy meghajtó modul található.
-*Az adott fázisban E modul már biztosan le lett tesztelve.
-Hibás a jelölés, mert a B modul már szerepel a halmazban, ezért nincs szükség M(B)-re.
-Az integrálási folyamatban eddig három lépést tettünk meg.
-Top-down tesztelésről van szó.
-Kérdés: Mikor érdemes a bottom-up építkezést használni inkrementális tesztelés esetén?
-*Ha a komolyabb hibák lent keletkeznek a hierarchiában.
-Ha a komolyabb hibák fent keletkeznek a hierarchiában.
-Ha a modulok túlnyomó többsége a hierarchia tetején található.
-Ha a modulok túlnyomó többsége a hierarchia alján található.
-Nem érdemes a top-down építkezést használni, mert jellemzően bonyolultabb, mint a bottom-up.
-Kérdés: Mi a szendvics tesztelés?
-*A top-down és bottom-up megközelítés egyszerre történő alkalmazása.
-Az összes modul egy menetben történő, együttes tesztelése.
-A modulok izolált módon történő tesztelése.
-A modulok véletlenszerű tesztelése és integrálása.
-Inkrementális tesztelés esetén a lentről felfelé történő tesztelési módszer.
-Kérdés: Az alábbiak közül mely igaz?
-*Együttes tesztelésnél a modulokat izolált módon kell tesztelni.
-*Inkrementális tesztelés esetén nincs szükség meghajtó és csonk modulok együttes alkalmazására.
-Együttes tesztelés esetén beszélhetünk top-down és bottm-up megközelítésről.
-Együttes tesztelés esetén kevesebb segédprogram megírására van szükség, mint inkrementális tesztelés esetén.
-Inkrementális tesztelésnél a modulokat izolált módon kell tesztelni.
-Kérdés: Az alábbiak közül mely igaz?
-*A modulok közti interfészek hibái korábban kiderülnek az inkrementális tesztelésénél, mint az együttes tesztelés esetén.
-*Az inkrementális tesztelésnél könnyebb lokalizálni a hibákat, mint az együttes tesztelésnél.
-*Együttes tesztelés esetén lehetséges párhuzamosítani a teszteléseket.
-Az inkrementális tesztelésnél minden modulhoz el kell készíteni annak környezetét meghajtó és csonk modulok formájában.
-Ha egy hibát észlelünk az együttes tesztelés esetén, az mindig az új modulban vagy annak valamely kapcsolatában gyökeredzik.
-Kérdés: Egy készülő operációs rendszert szeretnénk tesztelni inkrementális módszerrel. Milyen megközelítésben lenne célszerű elvégezni a tesztelést és miért?
-*A rendszert bottom-up módszerrel célszerű tesztelni, mert az operációs rendszerek tipikusan réteg szervezésű szoftverek.
-A rendszert top-down módszerrel célszerű tesztelni, mert az operációs rendszerek komplexitása jellemzően a hierarchia alsóbb rétegeibe szerveződik.
-A rendszert big bang módszerrel célszerű tesztelni, mert így a hibák jelentős hányada könnyen lokalizálható.
-A rendszert szendvics módszerrel célszerű tesztelni, mert így a tesztelés könnyen párhuzamosítható, amit egy ilyen volumenű szoftver tesztelése egyértelműen megkíván.
-Kérdés: Mi a komponens alapú fejlesztés?
-*Egy olyan folyamat, amelyben egymástól független komponenseket tervezünk be és integrálunk egy közös szoftver rendszerbe.
-Egy olyan szoftver fejlesztési megközelítés, ahol olyan újra felhasználható modulokat gyártunk, melyek különböző rendszerekbe beépíthetőek.
-Komponens alapú fejlesztés során a szoftver rendszert funkciók szerinti modulokra bontjuk, és az egyes modulokat önállóan fejlesztjük le.
-Ebben a megközelítésben a szoftver rendszert nem egy menetben készítjük el, hanem úgynevezett komponenseket írunk iteratív módon.
-Kérdés: Mi jellemzi a komponens alapú fejlesztést?
-*A komponensek az interfészükkel vannak specifikálva.
-*Minden komponens tartalmaz interfészt.
-*A komponensek szabványa előírja, hogy miként kell kommunikálni a komponenseknek.
-A komponensek szabványosítva vannak, mely előírja a programozási nyelvüket is.
-A komponensek middleware szoftverek segítségével kommunikálnak egymással.
-Kérdés: Mi igaz a middleware esetén?
-*Egymástól független elemek együttműködésére használjuk.
-*Egy middleware például a CORBA.
-*Egy middleware például az EJB.
-Arra használjuk, hogy egy régi technológiával készült szoftver komponens kapcsolatba tudjon lépni modernebb komponensekkel is.
-A szoftver komponensek között helyezkedik el, másik megnevezése az interfész.
-Kérdés: Ian Sommerville szerint milyen tulajdonságokkal kell rendelkeznie egy szoftver komponensnek?
-*Szabványosított
-*Független
-*Beépíthető
-Módosítható
-Hatékony
-Mozgatható
-Kérdés: Ian Sommerville szerint milyen tulajdonságokkal kell rendelkeznie egy szoftver komponensnek?
-*Telepíthető
-*Dokumentált
-Újra-felhasználható
-Tesztelhető
-Karbantartható
-Kérdés: Mi igaz a szolgáltatási interfész esetén?
-*Lényegében ez a komponens API-ja.
-*A komponens által nyújtott szolgáltatásokat definiálja.
-A komponens által felhasznált szolgáltatásokat definiálja.
-Jele egy zárt félkör.
-Jele egy nyitott félkör.
-Kérdés: Mi igaz az igénylési interfész esetén?
-*A komponens által fogadott és használt szolgáltatásokat definiálja.
-OO-megközelítésben az objektumok azon metódusait definiálja, amelyeket a komponenst használó szoftver hívni tud.
-A komponenstől igényelhető szolgáltatásokat definiálja.
-Jele egy kör.
-Jele egy zárt félkör.
-Kérdés: Az alábbiak közül mely igaz?
-*A komponensek azonnal elindíthatóak, nem kell őket együttesen lefordítani.
-*A komponensek nem definiálnak adattípust.
-*A komponensek megvalósítása ismeretlen is lehet.
-A komponensek forráskódja mindig rendelkezésre áll.
-A komponensek azonnal futtathatóak, de ha együttesen szeretnénk őket használni, akkor újra fordítás szükséges.
-Kérdés: Az alábbiak közül mely igaz?
-*A komponensek nyelvtől függetlenek.
-*A komponensek szabványosítva vannak.
-Komponensek esetén biztosan rendelkezésre áll a forráskód.
-A komponensek tetszőleges módon, megkötés nélkül megvalósíthatóak.
-Csak ugyanazon nyelven írt komponensek tudnak együttműködni.
-Kérdés: Mi igaz a legacy systems esetén?
-*Általában fontos üzleti funkciót látnak el.
-*Régi technológiával készültek.
-*Jól bevált megoldásokat valósítanak meg.
-Fejlesztő vállalat fő szoftver terméke.
-Külső vállalat által készített szoftver komponens.
-Kérdés: Mi igaz a csomagoló program esetén?
-*A csomagoló program egy interfész.
-*A csomagoló program feladata, hogy a régi szoftver összes funkcióját közvetítse.
-A csomagoló program feladata, hogy egy korábban írt szoftvert új funkciókkal lásson el.
-Angol megnevezése a boxing-application.
-Angol megnevezése a warper.
-Kérdés: Komponens alapú fejlesztés esetén mi a fejlesztési modell első három lépése és azok sorrendje?
-*1. A rendszerkövetelmények meghatározása
-*2. A számításba vehető komponensek azonosítása
-*3. A követelmények módosítása a megtalált komponensekhez igazodva
-1. Felhasználó követelmények felmérése
-2. Rendszertervezés
-3. A számításba vehető komponensek azonosítása
-Kérdés: Komponens alapú fejlesztés esetén mi a fejlesztési modell második három lépése és azok sorrendje?
-*4. Architekturális tervezés
-*5. A számításba vehető komponensek azonosítása
-*6. A komponensek egybeépítése, a teljes szoftver rendszer létrehozása
-4. Komponensek tervezése
-5. Rendszer integrálása és validálása
-6. Rendszer üzemeltetés és karbantartás
-Kérdés: Az alábbiak közül mely igaz a komponens alapú fejlesztés esetén?
-*Komponens alapú fejlesztés esetén előfordulhat, hogy egy komponenst nekünk kell elkészítenünk.
-*Az architekturális tervezés után előfordulhat, hogy bizonyos komponensek nem illenek a rendszerbe.
-A követelményeket a fejlesztés során már nem változtatjuk.
-Előfordulhat, hogy még a komponensek azonosítása előtt vissza kell lépni a fejlesztés kezdeti szakaszához.
-Komponens alapú fejlesztés esetén mindig csak előre gyártott szoftver komponensekből építkezünk.
-Kérdés: Komponens alapú fejlesztés esetén mely fázisokban mely lépései zajlanak a komponensek azonosításának?
-*A második fázisban történik a komponensek keresése és kiválasztása, az ötödik fázisban történik a komponensek validálása.
-A második fázisban történik a komponensek keresése, az ötödik fázisban történik a komponensek kiválasztása és validálása.
-A harmadik fázisban történik a komponensek keresése és kiválasztása, a negyedik fázisban történik a komponensek validálása.
-A harmadik fázisban történik a komponensek keresése, a negyedik fázisban történik a komponensek kiválasztása és validálása.
-Kérdés: Mi a software maintenance?
-*Az üzembe helyezést követően, a normál felhasználás alatt elvégzendő szoftver-változtatások folyamata.
-A szoftver validálása során elvégzendő hibajavítási folyamat.
-A szoftver új funkciókkal való bővítési folyamata.
-Szoftver meghibásodás esetén elvégzendő folyamat.
-A szoftver üzembe helyezését megelőző, a teljes rendszert érintő validációs folyamat.
-Kérdés: A szoftver-karbantartásnak milyen típusai vannak?
-*Javító karbantartás
-*Adaptív karbantartás
-*Kibővítő karbantartás
-Módosító karbantartás
-Tervezési karbantartás
-Kódolási karbantartás
-Kérdés: Mi az SMI?
-*Egy karbantartási mérőszám.
-*A szoftver érettségi foka.
-Komponens alapú fejlesztést megvalósító programozási nyelv.Komponens alapú fejlesztési irányelv.
-Forráskódra vonatkozó mérőszám.
-Kérdés: Egy szoftver esetén SMI = 1,2. Milyen értékekkel kaphattuk ezt?
-*Egyik sem.
-M = 1,2; F(vált) = 0; F(új) = 0; F(tör) = 0
-M = 1; F(vált) = 0,1; F(új) = 0,1; F(tör) = 0
-M = 0,6; F(vált) = 0; F(új) = 0; F(tör) = 2
-Kérdés: Az alábbiak közül mi igaz a szoftver érettségi indexe esetén?
-*Értékének kiszámításához négy paraméter szükséges.
-A szoftver érettségi fokának értéke nem lehet egynél nagyobb.
-Ha egy szoftveren változtatást végzünk, akkor az SMI értéke maximum egy lehet.
-Az F(vált) érték a modulban található változók számát adja meg.
-Az M érték megadja a modulok komplexitását.
-Kérdés: Miként számolhatjuk ki egy szoftver SMI értékét?
-*SMI = (M – (F(vált) + F(új) + F(tör))) / M
-SMI = (M * (F(vált) + F(új) + F(tör))) / M^2
-SMI = (M + (F(vált) * F(új) * F(tör))) / M
-SMI = (F(vált) + F(új) + F(tör)) / M
-Kérdés: Ha egy szoftvernek M modulja van és ebből K darabot megváltoztatunk, akkor hány interfészt kell megvizsgálnunk a modulok változtatása után?
-*K * (M - K) + (K * (K - 1)) / 2
-(M - K) + (K * (M - 1)) / 2
-A megadott információból nem meghatározható.
-Ennek meghatározásához szükség van a modulok fan-in és fan-out értékeire.
-Kérdés: Mit jelent a „Use case”?
-A felhasználótól / megrendelőtől kapott megvalósítási részletek gyűjtőneve, használati eset.
-*Használati eset, szoftverfunkció, amelyet a fejlesztendő szoftverrendszernek meg kell valósítani.
-Használati eset, osztályleírás, mely meghatározza, hogy milyen megvalósítási részletekre lesz szükség.
-Kérdés: Mit értünk „business case” alatt?
-*Üzleti igény, vagy üzleti gyakorlat, ügymenet, mely sok esetben kiváltja a fejlesztést.
-Használati eset, szoftverfunkció, amelyet a fejlesztendő szoftverrendszernek meg kell valósítani.
-Kérdés: Mi a különbség egy rendszer statikus és dinamikus nézete között?
-A dinamiuks nézet az OO elemek közötti állandó kapcsolatokat dokumentálja, míg a statikus nézet a futás közbeni változásokat mutatja.
-*A statikus nézet az OO elemek közötti állandó kapcsolatokat dokumentálja, míg a dinamiuks nézet a futás közbeni változásokat mutatja.
-Kérdés: Mik tartoznak az UML statikus diagramjai közé?
-*Osztálydiagram
-*Csomagdiagram
-Aktivitási diagram
-*Telepítési diagram
-*Komponens diagram
-Use case diagram
-Állapot-átmenet diagram
-Kérdés: Mik tartoznak az UML dinamikus diagramjai közé?
-*Use case
-Osztálydiagram
-*Aktivitás diagram
-Komponens diagram
-*Állapot-átmenet diagram
-*Interakciós diagramok
-Kérdés: Mit jelent: refactoring?
-A követelmények újra-összegyűjtését
-*A kód olyan átalakítását, mellyel a funkcionalitás nem változik meg, de a kód jobbá, optimálisabbá válik.
-Kérdés: Az alábbiak közül melyik jelentheti refactoring szükségességét?
-Megduplázódott felhasználószám
-Új ügyfél, akinél bevezetik a terméket
-Hatalmas adatmennyiség
-*Megduplázott kódrészek
-Kérdés: Mik tartoznak a rendszer határainak meghúzásához?
-*Anyagi
-*Emberi
-*Erőforrásbeli
-Kérdés: Az alábbiak közül melyek funkcionális követelmények?
-*A megrendelő kijelenti, hogy a nyilvántartott termék típusát betűk jelzik.
-A megrendelő kijelenti, hogy várhatóan 30.000 felhasználó lesz.
-A megrendelő kijelenti, hogy adott gomb megnyomásától számítva egy jelzésnek be kell következnie 10 másodperc alatt.
-A megrendelő kijelenti, hogy a rendelkezésre álló hardvert kell felhasználni a projekthez.
-*A megrendelő megadja, hogy a kamatozott összeg kiszámításához melyik képletet kell használni.
-*A megrendelő megadja, hogy milyen információkat kell tárolni a vevőikről.
-*A megrendelő megadja, hogy nála egy beszállító szigorúan csak egy terméket szállíthat.
-*A megrendelő rámutat, hogy az utazás és foglalás között csak 1:1 kapcsolat lehet
-*A megrendelő megadja, hogy az összesítő képernyőn milyenadatokat szeretne látni.
-*A megrendelő rámutat, hogy az összesítő képernyőn mikori adatok jelenjenek meg.
-Kérdés: Az alábbiak közül melyek nem-funkcionális követelmények?
-A megrendelő kijelenti, hogy a nyilvántartott termék típusát betűk jelzik.
-*A megrendelő kijelenti, hogy várhatóan 30.000 felhasználó lesz.
-*A megrendelő kijelenti, hogy adott gomb megnyomásától számítva egy jelzésnek be kell következnie 10 másodperc alatt.
-*A megrendelő kijelenti, hogy a rendelkezésre álló hardvert kell felhasználni a projekthez.
-A megrendelő megadja, hogy a kamatozott összeg kiszámításához melyik képletet kell használni.
-A megrendelő megadja, hogy milyen információkat kell tárolni a vevőikről.
-A megrendelő megadja, hogy nála egy beszállító szigorúan csak egy terméket szállíthat.
-A megrendelő rámutat, hogy az utazás és foglalás között csak 1:1 kapcsolat lehet
-A megrendelő megadja, hogy az összesítő képernyőn milyenadatokat szeretne látni.
-A megrendelő rámutat, hogy az összesítő képernyőn mikori adatok jelenjenek meg.
-Kérdés: Az alábbiak közül melyek minősülnek szakterületi követelménynek?
-Orvosi rendszer esetén: Menük a jobb oldalon legyenek.
-*Orvosi rendszer esetén vonatkozó törvényi szabályozás szerint a háromszoros biztonsági mentésre van szükség.
-Orvosi rendszer esetén egy beteghez több eset tartozhat.
-Kérdés: Az alábbiak közül melyek tartoznak a Use Case diagram elemei közé?
-*Actor
-*Kapcsolat
-*Use Case
-Állapot
-Tevékenység
-Csatlakozás
-Kérdés: Válassza ki egy funkció feljesztésének működőképes sorrendjét
-Követelmények összegyűjtése  Tesztelés  Elemzés  Tervezés  Implementáció  Kibocsátás
-*Követelmények összegyűjtése  Elemzés  Tervezés  Implementáció Tesztelés  Kibocsátás
-Elemzés  Követelmények összegyűjtése  Tervezés  Implementáció Tesztelés  KibocsátásElemzés  Tervezés Követelmények összegyűjtése  Implementáció Tesztelés  Kibocsátás
-Kérdés: Milyen módokon fejthető ki jobban egy Use Case?
-*Grafikusan aktivitási diagrammal
-*Grafikusan tevékenység diagrammal
-Komponens és telepítés diagramokkal
-Objektum diagrammal
-*Szövegesen forgatókönyvként, ez nem az UML része
-*Szövegesen forgatókönyvként, ez az UML része
-Vitakurzus rendezésével
-A követelményekből célszerű kigyűjteni a főneveket.
-Kérdés: Mi a követelmény?
-*Olyan szolgáltatás, melynek teljesítését elvárjuk a tervezett alkalmazástól.
-*Olyan feltétel, melynek teljesítését (vagy az annak való megfelelést) elvárjuk a tervezett alkalmazástól.
-Olyan kódrészlet, melyet el fogunk készíteni a felhasználóval tartott beszélgetések után
-Olyan tervezési minta, melyet fel fogunk használni a tervezés során.
-*Olyan feltétel, képesség, szolgáltatás, melynek teljesítését (vagy az annak való megfelelést) elvárjuk a tervezett alkalmazástól.
-Kérdés: Mi a követelménymenedzsment célja?
-*Cél a követelmények változásának követhetősége
-Cél a követelmények központi gyűjtése
-Cél, hogy a követelményekhez mindenki hozzáférhessen
-Cél, hogy mindenki böngészhesse a követelményeket
-Kérdés: Miért van szükség a követelmények priorizálására?
-Mert így egyértelműen látszik, hogy melyeket nem kell megvalósítani.
-Mert így az elemző eldöntheti, hogy melyik részek lesznek megvalósítva
-*Mert így könnyebb kiválasztani az először megvalósítandókat
-Kérdés: Hány normál és hány alternatív működés tartozhat egy use case-hez?
-*Egy normál és az ésszerűség keretein belül tetszőlegesen sok alternatív
-Kötelezően és kizárólag csak egy normál működés
-Kötelezően és kizárólag csak egy normál lefutás
-Egy normál lefutáshoz kötelezően tartozik egy alternatív lefutás is
-Kérdés: Mik a jó forgatókönyv tulajdonságai?
-*Felhasználó szemszögéből van írva
-*Felhasználó és rendszer közötti üzenetváltásokat és akciókat írja le
-*Főleg arra koncentrál, hogy milyen üzenetek szerepelnek
-Kitér a technikai részletekre
-Részletesen kitér az adatokkal végzett műveletekre
-Az adatokon végzett műveletek csak tárgyilagosan vannak leírva
-*Elsősorban a normál működésre koncentrál
-Kérdés: Melyik definíció illik leginkább az alábbiak közül erre: Felhasználói követelmény.
-A felhasználónak a projekttel szemben támasztott költségvetése.
-A felhasználónak a projekttel szemben támasztott elvárt költségvetése.
-*A felhasználónak a szoftverrel szemben támasztott igényei és elvárásai
-A felhasználónak a szoftverrel szemben támasztott prioritási sorrendje.
-Kérdés: Mik a felhasználói követelmények jellemzői?
-Gyakran részletesek, technikai megvalósítási részletekkel
-Tervezési mintákat tartalmaznak
-*Gyakran magas szintű és absztrakt követelmények
-*Valószínűleg egyszerűbb UML diagramok és természetes leírás
-*Annak leírása, hogy milyen szolgáltatásokat, milyen feltételek és megszorítások mellett vár el a megrendelő
-Kérdés: Melyik definíció illik leginkább az alábbiak közül erre: Nem funkcionális követelmény.
-*A rendszer funkcióival és szolgáltatásaival kapcsolatos megszorítások
-Olyan elemzői megkötés, mely leírja a funkciók belső sorrendjét
-Kérdés: Melyik definíció illik leginkább az alábbiak közül erre: Szakterületi követelmény.
-*A rendszer szakterületén alkalmazott előírások és megszorítások
-Kizárólag a szakértőtől származó funkcionális követelmények tartoznak ide.
-Kizárólag a szakértőtől származó nem funkcionális követelmények tartoznak ide.
-Csak a törvényi előírások tartoznak ide.
-Kérdés: Az alábbiak közül mi a szakterületi követelmények jellemzője?
-*Természetesen lehetnek funkcionális és nem funkcionális követelmények
-Kizárólag védett követelmények lehetnek, melyeket a törvények határoznak meg
-Természetesen csak a szakértők által megadott képernyőtervek tartoznak ide.
-Kérdés: A fejlesztés során mikorra áll elő a use case modell?
-A legtöbb esetben a tervezés végére.
-Az implementáció végére
-*Tipikusan a követelményspecifikáció végére
-Tipikusan a tesztelés elején keletkezik
-Kérdés: Melyik definíció illik leginkább az alábbiak közül erre: Use Case egy use case modellben?
-Olyan cselekvések, melyeket a felhasználó végez.
-*Szoftverfunkciók, amelyeket a fejlesztendő szoftverrendszernek meg kell valósítani.
-Olyan szoftverfunkciók, melyeket a felhasználó valósít meg.
-Kérdés: Melyik definíció illik leginkább az alábbiak közül erre: Aktor egy use case modellben?
-*A rendszer határán kívül vannak, a rendszerrel kapcsolatba kerülnek, hogy a rendszerrel feladatokat (szoftverfunkciók) hajtsanak végre
-A rendszer határán belül vannak, a rendszer feladatait (szoftverfunkciók) hajtják végre
-Kérdés: Melyik definíció illik leginkább az alábbiak közül erre: Kapcsolat egy use case modellben?
-*Az aktorok és use case-ek közötti viszonyrendszert definiálja
-Osztályhierarchiát mutat be
-Kizárólag use case – use case közötti speciális viszonyt definiálja
-Kérdés: Mik a tipikus jellemzői az aktorok és use case-k megkeresésének?
-Tipikusan a felhasználótók kapott osztályspecifikáció alapján készítjük őket
-*Az elkészült aktorlista alapján nézzük meg – a felhasználó szemszögéből – mit várnak el a rendszertől!
-*A szakirodalom szerint elsőként könnyebb az aktorok listájának elkészítése, majd ezután a use case-k megkeresése
-Ezek már a fejlesztés előtt rendelkezésre állnak.
-Kérdés: Mely állítások igazak az aktorokra?
-*Az aktorok nem kizárólag személyek, lehetnek elemek, dolgok, gépek-berendezések, üzleti egységek, vagy a rendszerrel kapcsolatot létesítő valamely külső rendszerek, rendszerkomponensek
-Az aktorok kizárólag a rendszer leendő felhasználói lehetnek, ezért jelük a pálcikaember.
-*A rendszer szereplője, valaki vagy valami a rendszer határán kívül, aki/ami kapcsolatba kerül a rendszerrel
-Az aktorok csak külső rendszerkomponensek lehetnek, melyek a rendszer határán kívül helyezkednek el.
-Kérdés: Az alábbi listából melyek minősülhetnek aktornak?
-Konkrét (természetes személy)
-Konkrét jogi személy
-*Külső szolgáltatás
-*Megvásárolt rendszerkomponens
-*Külső üzleti egység
-*Egy felhasználói csoport
-Kérdés: Az alábbi listából mely technikák lehetnek alkalmasak az aktorok azonosítására? 
-*(Leendő) felhasználóval folytatott beszélgetés
-*Megrendelővel folytatott beszélgetés
-*Rendelkezésre álló dokumentációból kikeressük a főneveket
-Rendelkezésre álló dokumentációból kikeressük az igéket
-*Megpróbálunk válaszolni az alábbi kérdésre: Kommunikál-e az új rendszer más rendszerekkel?
-*Megpróbálunk válaszolni az alábbi kérdésre: Ki/mi használja a rendszert?
-Az aktorlista már rendelkezésre áll a fejlesztés előtt.
-Az aktorlistát a megrendelő átadja.
-Kérdés: Jelölje az aktorokkal kapcsolatos igaz állításokat!
-*Egy felhasználó többfajta szerepet is játszhat/végezhet, többféle szerepkörben lehet
-*Egy szerepkört több felhasználó is betölthet
-Kérdés: Jelölje az aktorokkal kapcsolatos igaz állításokat!
-*A feladatok végrehajtását kezdeményező szereplőket kezdeményező szereplőnek nevezzük
-Az aktorlista már rendelkezésre áll a fejlesztés előtt.
-Az aktorlistát a megrendelő átadja.
-*A funkció (use case) megvalósításában részt vevőket résztvevő szereplőnek hívjuk.
-*Egy use case-t mindig csak egy aktor kezdeményezhet
-*Egy use case megvalósításában viszont több aktor is részt vehet
-Egy use case megvalósításában egy aktor vehet részt.
-Kérdés: Jelölje az aktorokkal kapcsolatos igaz állításokat!
-Egy use case megvalósításában egy aktor vehet részt.
-*Az aktor grafikus szimbóluma egy pálcikaemberke.
-*Az aktorok egymással együttműködve megvalósítják a rendszer céljait.
-Az aktorlistát a megrendelő átadja.
-Kérdés: Jelölje az aktorokkal kapcsolatos igaz állításokat!
-*Az aktor nevét a szimbólum alá írjuk.
-Az aktor neve csak a kifejtés során kap szerepelhet
-Egy use case megvalósításában egy aktor vehet részt.
-Kérdés: Mely definíciók igazak a use casekre?
-*A use casek a rendszer kívülről látható funkciói, un. kapcsolódási pontok a szoftverrendszert használók és a szoftverrendszer között
-*A use case a rendszer egy aspektusának pillanatképe. A rendszerrel kapcsolatos összes use case feltárása a fejlesztendő rendszer külső képét adja
-*A felhasználó és a számítógépes rendszer közötti interakciót definiálja
-*Tipikusan a szoftver és a felhasználó (aktor) között lezajló kommunikáció, üzenetváltás lépéseit írja le
-*Egy use case pontosan azt határozza meg, hogy a felhasználó (aktor) MIT akar a szoftverrel végrehajtani, milyen célt kíván megvalósítani, ugyanakkor nem tér ki a megvalósítás, a HOGYAN részleteire?
-Kérdés: Az alábbi listából mely technikák lehetnek alkalmasak az aktorok azonosítására?
-*Az adott területre jellemző felhasználóval való folytatott közös beszélgetések, interjúk.
-*Kérdőívek használata csoportos felmérés esetén.
-*Brainstorming alkalmazása
-*Vitakurzus indítása
-*A célokat megfogalmazó dokumentumokból kigyűjtjük az igéket.
-A célokat megfogalmazó dokumentumokból kigyűjtjük a főneveket.
-Kérdés: Milyen kategorizálás vonatkozhat use casekre?
-*Egy use case lehet „kicsi vagy nagy”
-Egy use case származhat a megrendelőtől vagy a felhasználótól.
-*A fejlesztendő rendszer szempontjából megkülönböztetünk: architektúrálisan fontos, egyéb és rendszeridegen use case-eket
-A fejlesztendő rendszer szempontjából megkülönböztetünk: megrendelőtől és fejlesztőtől származó use caseket.
-Kérdés: Jelölje a use casekkel kapcsolatos igaz állításokat!
-*A use case-eket UML-ben grafikusan egy ellipszis szimbólum jelöli.
-*Egy use case egy diszkrét feladat vagy funciót jelöl.
-A use case-eket UML-ben grafikusan egy lekerekített sarkú téglalap jelöli.
-*Minden use case-hez tartozni kell egy use case leírásnak
-Egy use case tipikusan egy modult jelent.
-Kérdés: Use case modellben a kapcsolat irányítottsága (vagy hiánya) mit jelöl?
-*Közreműködés
-*Kezdeményezést
-Hívást
-Vezérlési folyamot
-*Részvétel a végrehajtásban
-Kérdés: Use case diagram aktorok és use casek közötti kapcsolat elemeire mely állítások igazak?
-*A rendszer szereplői és a use case-ek közötti kapcsolatot egy irányított vonal, nyíl jelöli.
-*A rendszer szereplői és a use case-ek közötti kapcsolatot egy vonal jelöli.
-*A nyíl a szereplőtől a use case felé mutat
-A nyíl a use case felől a szereplő felé mutat
-A nyíl lehet szaggatott
-Az alapértelmezett sztereotípia itt <<cando>>
-Kérdés: Use case diagram aktorok és use casek közötti kapcsolat elemeire mely állítások igazak?
-*Egy feladat (use case) végrehajtásában több aktor is közreműködhet.
-*A use case megvalósításában részt vevő szereplőket és a use case-t egyszerű vonal (irányítás nélküli) köti össze.
-Szaggatott vonallal a lehetséges megvalósulást jelöljük.
-Sazggatott vonallal az elképzelt ideális megvalósulást jelöljük.
-Kérdés: Use case diagram aktorai közötti kapcsolat…
-*Öröklődési viszont jelent
-Közreműködést jelöl
-Kérdés: Aktorok közötti öröklődés jele:
-Telt fehér végű nyíl, mely az ős felé mutat
-*Telt fehér végű nyíl, mely a leszármazott felé mutat
-Telt fehér végű nyíl, mely az ős felé mutat, szaggatott vonal a feltételes öröklődést jelöli.
-Telt fehér végű nyíl, mely a gyerek felé mutat, szaggatott vonal a feltételes öröklődést jelöli.
-Kérdés: Milyen speciális viszonyok definiálhatóak aktorok között?
-*Öröklődés
-Feltételes segítségnyújtás use case végrehajtásában
-Kizárólagos közös végrehajtás
-Kérdés: Milyen speciális viszonyok definiálhatóak use casek között?
-*Tartalmazás
-*Kiterjesztés
-*Öröklődés
-Ideális megvalósulás
-Feltételes megvalósulás
-Kérdés: Jelölje a use casek között értelmezett kiterjesztés viszonyra igaz állításokat!
-A szereplő által kezdeményezett (alap vagy normál) use case-ek végrehajtásában vannak olyan részek, lépések, amelyek mindegyik use case végrehajtásakor bekövetkeznek és azonos módon játszódnak le
-A kiterjesztett use case végrehajtása feltétel nélküli, vagyis az alap use case végrehajtáskor mindig bekövetkezik, lejátszódik.
-*Szaggatott nyíllal jelöljük.
-Francia zárójelek közé írt <<include>> sztereotípiával jelöljük.
-*A szaggatott nyíl az alap use case felé mutat.
-*Mivel a normál use case viselkedésében a feltétel csak bizonyos esetekben következik be, ezért a normál use case- t bővítő viselkedést érdemes külön use case-ben leírni.
-*A modellben lehetnek use case-ek, amelyek végrehajtási menetében bizonyos feltételek bekövetkezésekor a vezérlés egy másik use case-nek adódik át. Ilyenkor a normál use case-nek egy bővített változata játszódik le.
-Kérdés: Jelölje a use casek között értelmezett öröklődési viszonyra igaz állításokat!
-A leszármazott use case örökli a normál use case viselkedését, kapcsolatait.
-*A leszármazott az eredeti/normál use case viselkedéséhez hozzáadhat újabb viselkedéseket, sőt az eredeti use case viselkedését felülbírálhatja, felülírhatja.
-A leszármazott use case egy ideális megvalósulást takar.
-*Az alkalmazott sztereotípia ilyenkor <<generalization>>
-Az alkalmazott sztereotípia ilyenkor <<realize>>
-Az alkalmazott sztereotípia ilyenkor <<trace>>
-Kérdés: Mely mezők jelenhetnek meg tipikusan egy követelmény-bejegyzés formalapon?
-Megvalósítási ajánlás
-*Kapcsolódó követelmények
-*Kapcsolódó iratok
-*Prioritás
-*Funkcionális és nem funkcionális követelmények
-Interjú helyszíne
-*Forrás
-Kérdés: Mely állítások igazak a use case realizációra?
-*Jele egy szaggatott szélű ellipszis
-*Az alkalmazott sztereotípia: <<trace>>
-Az alkalmazott sztereotípia: <<uses>>
-*Jelzés: egy szekvenciadiagramra utalás
-Jelzés: egy állapotgépre utalás
-Jelzés: egy másik, megvalósítandó use case-re utalás
-Kérdés: Mit jelent a vezérjel?
-*Token, adott pillanatban a végrehajtás aktuális pontja
-Üzenet, melyet az egyik objektum küld a másiknak
-Kérdés: Mit jelent a token?
-*Vezérjel, adott pillanatban a végrehajtás aktuális pontja
-Üzenet, melyet az egyik objektum küld a másiknak
-Kérdés: Az alábbiak közül melyik ábrákon van értelmezve a vezérjel?
-*Tevékenységdiagram
-Use Case diagram
-Osztálydiagram
-*Aktivitási diagram
-Osztályleltár
-Kérdés: Mit jelent tevékenységdiagramokon a kifejtési jel?
-Az adott tevékenység később osztálydiagramon lesz kifejtve
-*Az adott aktivitás ki van fejtve másik aktivitási diagramon
-Létezik a műköést leíró szekvenciadiagram
-Kérdés: Milyen többletjelentést ad tevékenységdiagramon az úszópályák használata?
-Megmutatja, melyik use case felelőssége alá tartozik az adott aktivitás
-*Megmutatja, hogy milyen felelősségi körhöz mely tevékenységek tartoznak
-*Utalhat arra, hogy az adott aktivitás később melyik osztály felelősségi körébe tartozzon
-A kapcsolódó állapotgép aktuális állapotát mutatja.
-Kérdés: Tevékenységdiagramon az alapértelmezés szerinti esetválasztó csúcs milyen működési logikát valósít meg?
-VAGY kapu logikát
-ÉS kapu logikát
-*KIZÁRÓ vagy logikát
-Kérdés: Tevékenységdiagramokon mi a kivételkezelés jele?
-Szaggatott, lekerekített téglalap
-*Villámjel
-try-catch felirat
-Szaggatott nyíl
-Kérdés: Osztálydiagramok készítésének milyen fázisai vannak?
-*Elemzési osztálydiagram
-Kollaborációs osztálydiagram
-*Tervezési osztálydiagram
-Osztálydiagram a tervezési minták kialakításához
-*Megvalósítási osztálydiagram
-Futásidejű osztálydiagram
-Kérdés: UML osztálydiagramon hogyan kell értelmezni két osztály közötti vonalat?
-kooperáció
-*asszociáció
-aggregáció
-kompozíció
-Kérdés: UML osztálydiagram számosság jelölésére melyek a szintaktikailag helyes válaszok?
-*0..1
-*..0
-**
-*0..*
-*5
-*0..3
-Egyik sem, a számosság másképpen van jelölve.
-Kérdés: Osztálydiagram esetén mire jó a fogalmi szótár?
-Magyarázatot ad a modellben felhasznált metódusokra, tevékenységdiagramokkal.
-*Magyarázatot ad a modellben felhasznált fogalmakra, szinonímákkal, fogalmi környezettel.
-Kérdés: Jelölje az igaz állítást!
-*Osztálydiagramon az asszociáció kapcsolatot jelöl, a kompozíció tulajdonlást.
-Osztálydiagramon a kompozíció kapcsolatot jelöl, az asszociáció tulajdonlást.
-Kérdés: UML osztálydiagramon mi a kompozíció jele?
-*Fekete rombusz végű vonal, rombusz a tartalmazó oldalon
-Fekete rombusz végű vonal, rombusz a tartalmazott oldalon
-Nyílt fejű nyíl
-Telt fejű nyíl, az ős felöli olalon
-Kérdés: Melyik (osztálydiagram) kapcsolattípusra igaz az alábbi állítás: A tartalmazó objektum megszűntével az összes részobjektum is felszámolódik
-Öröklődés
-*Kompozíció
-Asszociáció
-Kooperáció
-Kérdés: UML osztálydiagram esetén mi az osztály rajzjele?
-Lekerekített sarkú téglalap
-*3 részre osztott téglalap
-Ellipszis
-Kérdés: Mely állítások igazak osztálydiagram osztály rajzelemre?
-3 részre osztott téglalap, benne osztálynév, aktor és use case lista
-Egyszerű téglalap, benne use case elnevezése
-*Egyszerű téglalap, benne az osztály neve
-*3 részre osztott téglalap, benne osztálynév, attribútumok és műveletek
-Kérdés: Osztálydiagramon mit jelent a dőlt betűs osztálynév?
-Statikus osztály, azaz nem lehetnek példányai
-*Absztrakt osztály, azaz nem lehetnek példányai
-Controller típusú osztály
-Kérdés: Osztálydiagramon mit jelent az <<abstract>> sztereotípia?
-Olyan osztályt jelöl, melyet nem lehet további öröklési hierarchiában felhasználni.
-Adatbázis interfészt jelöl
-*Olyan osztályt jelöl, melynek nem lehetnek példányai
-Olyan osztályt jelöl, melynek szigorúan csak egy példánya létezhet
-Kérdés: Osztálydiagramon mit jelent az <<uses>> sztereotípia?
-Öröklődést
-*Interfész használatot
-Aktor általi használatot
-Kérdés: Osztálydiagramon mit jelent az <<implements>> sztereotípia?
-Use case megvalósítást
-*Interfész megvalósítást
-Absztrakt osztály megvalósítást
-Kérdés: Osztálydiagramon mit értünk interfész alatt?
-*Olyan szerződést, mely metódus szignatúrákat definiál
-Absztrakt osztályt
-Olyan csatlakozási pontot, mely segítségével külső rendszerekből kérhetünk le adatokat
-Kérdés: Osztálydiagramon hogyan jelöljük az interfészt?
-Szaggatott ellipszissel
-<<implements>> sztereotípiával
-*<<interface>> sztereotípiával
-*Körrel illetve gömbcsuklóval
-Kérdés: Osztálydiagramon mi a különbség egy interfész és egy absztrakt osztály között?
-Nincs különbség, de interfészekkel szebb megvalósítás érhető el
-Egy interfészből tetszőleges számú példány létrehozható, de absztrakt osztályból csak egy.
-Egy interfészből tetszőleges számú példány létrehozható, de absztrakt osztályból egy sem.
-Interfész csak szignatúrát definiál, az absztrakt osztály megvalósítást is, mely felül nem bírálható
-*Interfész csak szignatúrát definiál, az absztrakt osztály megvalósítást is, mely felülbírálható
-Kérdés: Osztály diagramon mely állítások igazak az aktív osztályokra?
-*Önmaguktól aktiválódnak, nem kell hozzá külső esemény
-Felhasználói akcióra aktiválódnak, ez a külső esemény
-*<<activeclass>> sztereotípiával hangsúlyozható
-<<controller>> sztereotípia kötelező ilyenkor
-Kérdés: UML osztálydiagram esetén melyek a kompozíció hierarchia jellemzői?
-*Csak osztályok tüntethetőek fel, kapcsolatokkal
-Csak statikus osztályok tüntethetőek fel
-Csak osztályok és use casek tüntethetőek fel
-Kérdés: UML osztálydiagram. Jelölje az igaz állításokat.
-*Statikus osztály nem példányosítható
-Statikus osztály csak tervezési minta szerint példányosítható
-Statikus osztály csak egy példánnyal rendelkezhet
-Kérdés: Mely állítások igazak? Az UML <<snapshot>> sztereotípia…
-*… kizárólag osztálydiagramon használható
-… osztály kötelező példányosítását jelöli
-… osztály opcionális példányosítását jelöli
-*… osztály objektumára példát mutat
-Kérdés: Mely állítások igazak?
-*Az ER diagram kinyerhető egy jól elkészített osztálydiagramból
-*Az EK diagram kinyerhető egy jól elkészített osztálydiagramból
-*Az ER diagramon meg fog jelenni valamennyi <<entity>> sztereotípiájú osztály
-Az ER diagramon meg fog jelenni valamennyi <<er>> sztereotípiájú osztály
-Kérdés: Függőségi ciklus hogyan oldható fel
-Legtöbbször a kód megduplázásával
-*A ciklusban lévő csomagok közös csomagba helyezésével
-Csomagimporttal
-Kérdés: Csomagdiagramon mit jelent a {global} kibővítés?
-*A csomag elemei mindenhol elérhetőek
-A csomag elemei titkosítottak
-A csomag elemei nemzetközi használatra készültek
-Kérdés: Csomagdiagramon mit jelent a {abstract} kibővítés?
-*Még meg nem valósított csomagot
-Olyan csomagot, melynek nem lehetnek példányai
-Kérdés: A függőség tranzitív?
-Igen
-*Nem
-Kérdés: Mit jelent a tranzitivitás függőségek esetén?
-A függőségi láncok tiltását
-*A függőség továbbterjedését
-Azt, hogy a függő osztályok átlátszóak
-Kérdés: Mely állítások igazak az interakciós diagramokra?
-*Az interakciós diagram üzenetváltásokat ábrázol.
-*Az interakciós diagramon a kölcsönhatásban partner lehet egy osztály
-Az interakciós diagramon a kölcsönhatásban partner lehet egy use case
-*Az interakciós diagramon a kölcsönhatásban partner lehet egy interfész
-*Az interakciós diagramon a kölcsönhatásban partner lehet egy komponens
-Kérdés: Az alábbiak közül melyek tartoznak az interakciós diagramok közé?
-Állapotgép
-*Idődiagram
-Állapot átmenet diagram
-*Kommunikációs diagram
-*Szekvencia diagram
-Kérdés: Mely állítások igazak az interakciós diagramokra?
-*Használható követelmények leírására
-*Használható tesztesetek leírására
-*Elvárt viselkedés specifikálható vele
-Használható elvárt rendszer felhasználói felület difiniálására
-*Használható létező rendszer folyamatainak vizsgálatára
-*Használható létező rendszer folyamatainak dokumentálására
-*Használható létező rendszer folyamatainak vizualizálására
-Kérdés: Interakciós diagramok közül a szekvencia diagram mivel nyújt többet egy kommunikációs diagramnál?
-Az alapvető különbség az időzítési megkötések feltüntetésében van.
-*Nincs különbség, azonos információtartalommal bíró ábrákról van szó.
-Kérdés: Jelölje az igaz állításokat!
-*Szekvencia diagram esetén az aktivitási sáv és az életvonal egyszerre kezdődhet.
-Szekvencia diagram esetén az aktivitási sáv kezdete minden esetben megelőzi az életvonal kezdetét, jelezve az inicializálást.
-*Szekvencia diagram esetén az életvonal végével az aktivitási sávnak is végződnie kell.
-*Szekvencia diagram esetén az életvonal vége az objektum megszűntét jelöli.
-*Szekvencia diagram esetén az aktivitási sáv széles sávval van jelölve.
-*Szekvencia diagram esetén az aktivitási sávban lehetnek szünetek, kimaradások.
-Szekvencia diagram esetén az életvonalban lehetnek szünetek, kimaradások
-Kérdés: Jelölje az igaz állításokat!
-*Egy szekvencia diagramon több életvonal lehet.
-Egy szekvencia diagramon csak egy aktivitási sáv lehet.
-Egy kommunikációs diagramon sok aktivitási sáv is lehet.
-*Az idődiagramon feltüntethetőek az objektum állapotai
-Kérdés: Jelölje az igaz állításokat!
-*Szekvencia diagramon a kommunikációs partnerek térbeli elhelyezkedése nem számít
-Kommunikációs diagramon a kommunikációs partnerek térbeli elhelyezkedése számít
-*Idődiagramon a kommunikációs partnerek térbeli elhelyezkedése nem számít
-Kérdés: Jelölje az igaz állításokat!
-*Szekvencia diagramon az időt fentről lefelé kell értelmezni.
-Kommunikációs diagramon az időt balról jobbra kell értelmezni.
-*Idődiagramon az időt balról jobbra kell értelmezni.
-*Kommunikációs diagramon az időt nem értelmezzük.
-Szekvencia diagramon az idő nincs értelmezve.
-Kérdés: Jelölje az igaz állításokat!
-*Szekvencia diagramon minden partnerhez fog életvonal tartozni.
-Kommunikációs diagramon minden partnerhez fog életvonal tartozni.
-Kérdés: Jelölje az igaz állításokat!
-*Szekvencia diagramok használata ott előnyösebb, ahol kevés partner között, de bonyolult minta szerint történik a kommunikáció.
-Kommunikációs diagramok használata ott előnyösebb, ahol kevés partner között, de bonyolult minta szerint történik a kommunikáció.
-Kommunikációs diagramok használata ott előnyösebb, ahol sok partner között, bonyolult minta szerint történik a nagyszámú üzenetváltás.
-*Kommunikációs diagramok használata ott előnyösebb, ahol sok partner között, inkább egyszerű minta szerint történik a kommunikáció.
-Kérdés: Hogyan kell értelmezni a kontextus interakciós ábrákat?
-Olyan idődiagram, melyen környezeti előírások szerepelnek
-*Olyan szekvencia diagram, melyen nem funkcionális megkötések szerepelnek.
-Olyan kommunikációs diagram, melyen környezeti előírások szerepelnek.
-Kérdés: Szekvencia diagram esetén hogyan kell értelmezni a STRICT operátort?
-*A halmazban lévő operandusok szigorú sorrendjét írja elő
-Szigorú minőségi követelményeket ír le.
-*Csak akkor jöhet a következő, ha az előző teljes mértékben befejeződött
-Csak kezdési sorrendet szab meg, a befejezés a futásidő függvénye.
-Kérdés: Szekvencia diagram esetén hogyan kell értelmezni a REF operátort?
-Szigorú minőségi követelményeket ír le.
-Csak akkor jöhet a következő, ha az előző teljes mértékben befejeződött
-*Hivatkozás másik diagramra
-Azt szabja meg, hogy a halmazban lévő műveleteknek le kell futnia, opcionálisan.
-Kérdés: Szekvencia diagram esetén hogyan kell értelmezni a BRK operátort?
-Szigorú minőségi követelményeket ír le.
-*A megszakítás esetén bekövetkező működést írja le.
-Hivatkozás másik diagramra
-Tetszőlegesen felhasználható rövidítés, meg kell nézni az UML Modeling Guidelines dokumentumban, hogy aktuálisan mire van használva.
-Kérdés: Szekvencia diagram esetén hogyan kell értelmezni a ALT operátort?
-*Egymást kizáró működéseket ír le.
-Csak akkor jöhet a következő, ha az előző teljes mértékben befejeződött és megvan a számítási érték.
-A párhuzamosítási alternatívákat jelöli
-Kérdés: Szekvencia diagram esetén hogyan kell értelmezni a LOOP operátort?
-Egymást kizáró működéseket ír le.
-Csak akkor jöhet a következő, ha az előző teljes mértékben befejeződött és megvan a számítási érték.
-A párhuzamosítási alternatívákat jelöli
-*Ismétlődés szemléltetéséhez használható
-*STRICT és ALT használatát váltja ki.
-Kérdés: Szekvencia diagram esetén hogyan kell értelmezni a SEQ operátort?
-Egymást kizáró működéseket ír le.
-*Hasonlít a STRICT-hez, de itt a sorrendiség csak indításkor fontos
-A párhuzamosítási alternatívákat jelöli
-Ismétlődés szemléltetéséhez használható
-STRICT szinonimája, csak ezt általában UML2-ben használják.
-*Sorba kapcsolja az interakciókat
-Kérdés: Jelölje az igaz állításokat!
-Szekvencia diagramon feltüntethető az objektum aktuális állapota, téglalapba írva.
-*Szekvencia diagramon feltüntethető az objektum aktuális állapota, lekerekített téglalapba írva.
-Szekvencia diagramon feltüntethető az objektum aktuális állapota, ellipszisbe írva.
-Kérdés: Jelölje az igaz állításokat!
-*Az interakciós áttekintés olyan tevékenységdiagram, melyen szekvencia diagramokat hivatkozhatunk.
-Az interakciós áttekintés olyan osztálydiagram, melyen szekvencia diagramokat hivatkozhatunk.
-Az interakciós áttekintés olyan szekvencia diagram, melyen kommunikációs diagramokat hivatkozhatunk.
-Az interakciós áttekintés olyan szekvencia diagram, melyen aktivitási diagramokat hivatkozhatunk.
-Kérdés: Jelölje az igaz állításokat!
-*Osztálydiagramon az osztály rajzelemben feltüntethetőek objektum életciklus hivatkozások.
-*Osztálydiagramon az osztály rajzelemben feltüntethetőek use case hivatkozások.
-*Az objektum életciklus diagram bemutatja, hogy milyen műveletek hatására melyik állapotból, melyik állapotba kerül egy példány.
-Az állapotgép tulajdonképpen nem más, mint egy use-case és metódus-megvalósítás összerendelés
-Kérdés: Jelölje az igaz állításokat!
-*Állapotgépen az összetett állapot jele egy lekerekített téglalap, benne két kisebb jellel.
-Állapotgépen az összetett állapot jele lehet egy három részre osztott lekerekített téglalap.
-*Állapotgépen az összetett állapot jele lehet egy két részre osztott lekerekített téglalap.
-Kérdés: Jelölje az igaz állításokat!
-*Állapotgépen az összetett állapot jele lehet egy két részre osztott lekerekített téglalap – fent az állapot neve, lent tevékenységdiagram részlettel
-*Állapotgépen az összetett állapot kibontható és több alállapotot tartalmaz, állapotátmenetekkel
-Állapotgépen az összetett állapot kibontható és több alállapotot tartalmaz, állapotátmenetek nélkül.
-Kérdés: Jelölje az igaz állításokat!
-Jelölése téglalap, benne a választás, és a kimeneteken szögletes zárójelben a feltételek.
-*Állapotgépen az esetválasztó csúcs csak egymást kizáró kimeneteket tartalmazhat.
-*Jelölése rombusz, benne a választás, és a kimeneteken szögletes zárójelben a feltételek.
-Állapotgépen az esetválasztó csúcs nem csak egymást kizáró kimeneteket tartalmazhat, valamint párhozamos működés esetén jelezheti a párhuzamos szakasz kezdetét.
-Kérdés: Állapotgépekkel kapcsolatban melyik állítás(ok) igaz?
-*Egyszerű történeti állapot esetén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres.
-*Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került.
-Egyszerű történeti állapot esetén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapotba kerül a vezérlés, amennyiben a történeti állapot üres.
-Egyszerű történeti állapot esetén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres.
-Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került. Az állapotkonfiguráció is visszaállításra kerül.
-Kérdés: Igaz-e az alábbi állítás: Mély történeti állapot estén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres. Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került, de nem csak az állapot, hanem az állapotkonfiguráció kerül visszaállításra.
-*Igaz
-Hamis
-Kérdés: Igaz-e az alábbi állítás: Egyszerű történeti állapot estén (Közvetlen tartalmazó állapotba érkezéskor a közvetlen tartalmazott régióban elsőként) a történeti állapot rákövetkező állapotába kerül a vezérlés, amennyiben a történeti állapot üres. Ha nem üres, akkor azt az állapotot veszi fel újra az automata, melyben akkor volt, amikor a közvetlen tartalmazó állapot elhagyásra került, de nem csak az állapot, hanem az állapotkonfiguráció kerül visszaállításra.
-Igaz
-*Hamis
-Kérdés: Jelölje az igaz állításokat!
-*A dialóguslefutás az állapotgép egyik fajtája, de állapotokként a képernyő állapotait kell feltüntetni.
-A dialóguslefutás az tevékenységdiagram egyik fajtája, de tevékenységekként a képernyő helyzetét kell feltüntetni.
-A dialóguslefutás az objektumdiagram egyik fajtája, de objektumok helyett a képernyőket kell feltüntetni.
-Kérdés: Jelölje az igaz állításokat!
-Egy UML-modell összefüggő (konzisztens), ha use case diagramjain nincs sem olyan use case, sem olyan aktor, mely nem vesz részt interakcióban.
-*Egy UML-modell összefüggő (konzisztens), ha osztálydiagramján nincs elszigetelt osztály.
-Egy UML-modell összefüggő (konzisztens), ha létezik hozzá egy bizonyos lehetséges működőképes implementáció.
-Kérdés: Jelölje az igaz állításokat!
-Egy inkonzisztens specifikáció azzal jár, hogy nem lehet meghatározni a use casek közötti összefüggéseket.
-*Egy inkonzisztens specifikáció azzal jár, hogy nem lehet belőle olyan szoftvert fejleszteni, ami működőképes lenne.
-Egy inkonzisztens specifikáció azzal jár, hogy lesznek olyan osztályok, melyek ugyan meg vannak valósítva, de használatban nincsenek.
-Kérdés: Jelölje az igaz állításokat!
-*Egy UML tervezési modellt teljesnek nevezünk, ha az általa leírt szoftver-rendszer állapotai és viselkedési módjai mindegyik lehetséges működési esetre és feltételre specifikálva lettek.
-Egy UML tervezési modellt teljesnek nevezünk, ha abban minden – szakterület által megkívánt – aktor megtalálható.
-Egy UML tervezési modellt teljesnek nevezünk, ha az általa leírt use casek és forgatókönyveik mindegyik lehetséges forgatókönyveik specifikálva lettek.
-Kérdés: Jelölje az igaz állításokat!
-Jelenleg úgy a teljesség, mint a konzisztencia megléte bizonyítható emulációs szoftverek segítségével.
-*Jelenleg nincs megoldva még a teljesség bizonyításának vagy cáfolásának feladata.
-Jelenleg ugyan rendelkezésre áll olyan módszer, ill. a módszert megvalósító számítógépes eszköz, ami egy szoftver-terv UML-diagramjai közötti összhang bizonyítására, ill. cáfolására alkalmas lenne, ám ennek használata nem terjedt el.
-Jelenleg nem áll rendelkezésre olyan módszer, ill. a módszert megvalósító számítógépes eszköz, ami egy szoftver- terv UML-diagramjai közötti összhang bizonyítására, ill. cáfolására lenne alkalmas.
-Kérdés: Jelölje az igaz állításokat!
-*A komponens diagram a komponensekből felépülő szoftver-rendszer struktúráját vázolja fel.
-*A komponens adott modellelemek (osztályok, csomagok) fizikai egysége.
-*A komponens diagram jól modellezi a szoftver-komponensek egymáshoz való viszonyát, kommunikációját.
-A komponens adott modellelemek (use case és forgatókönyv) fizikai egysége.
-Kérdés: Jelölje az igaz állításokat!
-*UML szimbóluma egy téglalap, amelynek bal oldalát két kisebb téglalap metszi.
-Egy komponensben csak egy implementációs osztály valósulhat meg, vagy számos tervezési osztály.
-UML szimbóluma egy téglalap, amelynek jobb felső sarkát körbe írt paraméter jellemezheti..
-*Egy komponensben számos implementációs osztály valósulhat meg.
-Kérdés: Jelölje az igaz állításokat!
-*Komponens diagramon a <<executable>> sztereotípia használható komponensek jellemzésére.
-Komponens diagramon a <<trace>> sztereotípia használható komponensek jellemzésére.
-Komponens diagramon a <<implements>> sztereotípia használható komponensek jellemzésére.
-Komponens diagramon a <<snapshot>> sztereotípia használható komponensek jellemzésére.
-*Komponens diagramon a <<file>> sztereotípia használható komponensek jellemzésére.
-Kérdés: Jelölje az igaz állításokat!
-*Komponens diagramon a <<file>> sztereotípia használható komponensek jellemzésére.
-Komponens diagramon a <<instanceOf>> sztereotípia használható komponensek jellemzésére.
-*Komponens diagramon a <<library>> sztereotípia használható komponensek jellemzésére.
-Komponens diagramon a <<property>> sztereotípia használható komponensek jellemzésére.
-*Komponens diagramon a <<document>> sztereotípia használható komponensek jellemzésére.
-Kérdés: Jelölje az igaz állításokat!
-*A telepítési diagram minden egyes csomópontja (node) valamilyen számítási feldolgozási egységet képvisel, egy szoftver vagy egy hardver elemet.
-A telepítési és komponens diagramok nem kombinálhatóak közös ábrába.
-*A telepítési diagram minden egyes csomópontja (node) valamilyen számítási feldolgozási egységet képvisel, egy szoftver vagy egy hardver elemet. A hardver lehet egy kisebb egység, de lehet egy teljes számítógép is.
-*A telepítési és komponens diagramok nem kombinálhatóak közös ábrába.
-Kérdés: Jelölje az igaz állításokat!
-*Az UML-specifikáció részét képező OCL nyelv megszorítások definiálására alkalmas.
-Az UML-specifikáció részét képező OCL nyelv pszeudo-kód és ábrarészletek definiálására alkalmas.
-*A <<boundary>> sztereotípia osztályokra alkalmazható.
-A <<boundary>> sztereotípia képernyőrészletekre alkalmazható.
-*OO tervezésben egy CRC-kártya osztályokhoz felelősségeket határozhat meg.
-OO tervezésben egy CRC-kártya fejlesztőkhöz felelősségeket határozhat meg.
-Kérdés: Jelölje az igaz állításokat!
-*Többszintű öröklődés esetén van olyan osztály, melynek őse és leszármazottja is van.
-Többszörös öröklődés esetén van olyan osztály, melynek őse és leszármazottja is van.
-*Többszörös öröklődés esetén lehet olyan osztály, melynek több őse és több leszármazottja van.
-*Többszörös öröklődés esetén lehet olyan osztály, melynek több őse és egy leszármazottja van.
-Kérdés: Jelölje az igaz állításokat!
-Egy adott objektum dinamikus működésének leírására az osztálydiagram szolgál.
-Egy adott objektum dinamikus működésének leírására az objektumdiagram szolgál.
-*Egy adott objektum dinamikus működésének leírására az állapot-átmenet diagram szolgál.
-Egy adott objektum dinamikus működésének leírására a tevékenységdiagram szolgál.
-Kérdés: Alapvetően melyik UML diagramon lehetséges üzenetek feltüntetése?
-Use case diagram
-*Szekvencia diagram
-Állapotgép
-Osztálydiagram
-Kérdés: Alapvetően melyik diagramon lehet események bekövetkezését jelölni?
-Use case diagram
-Szekvencia diagram
-*Állapot-álmenet diagra
-Osztálydiagram
-Kérdés: Jelölje az osztálydiagramon osztályokra alkalmazható sztereotípiákat!
-<<implements>>
-<<uses>>
-*<<entity>>
-*<<boundary>>
-Kérdés: Jelölje az igaz állításokat!
-*Refaktoring során elképzelhető, hogy új metódusok kerülnek egy osztályba.
-*Refaktoring során a funkcionalitás nem változik meg.
+﻿Kérdés: Az alábbiak közül melyek jelentenek vállalati gazdaságtan felfogást?
+*business administration 
+strategy business	 
+*Betriebswirtschaft 
+Kérdés: Az alább felsoroltak között melyek jellemzik a vállalatot? 
+nem profitorientált szervezet 
+*munkahely 
+*állandó szervezet 
+Kérdés: Mi minősül belső tranzakciónak?
+*a vállalati iroda használata
+üzleti tárgyalásra utazni vonattal
+üzleti ebéd a város legjobb éttermében 
+Kérdés: Mi nem befolyásolja a vállalat nagyságát?
+az értékesítési piac nagysága
+a vállalati tevékenység jellege
+*az állami előírások száma 
+Kérdés: Az alábbiak közül melyek részei az autóipari vertikumnak?
+*a motorgyártás
+a taxi-szolgáltatás
+*a karosszérialemezek gyártása 
+Kérdés: Jelölje meg, hogy az alábbi állítás igaz vagy hamis!
+*B to b ügylet, ha kötegelt kábelt szállítunk a telefongyárnak. 	
+*B to b ügylet, ha motort szállítunk be az autógyárnak. 	
+*Nem számít b to b ügyletnek egy kész autó eladása. 	
+Kérdés: Az alábbiak közül melyik folyamat egy vállalat core business-e?
+az autógyár számára a szállítók által végzett munka
+az alvállalkozóknak kiadott tevékenység az építőiparban
+*az autó összeszerelése az autógyárban 
+Kérdés: Melyik nem lehet vállalatgeneráló tényező?
+a konjuktúra
+az állam gazdaságpolitikai intézkedése
+*a külföldi tőke eltávozása
+Kérdés: Az alábbiak közül melyek tartoznak a vállalati életciklushoz?
+*a férfikor
+az öregkor
+*a háborús konjuktúra  
+Kérdés: Milyen jogi formában működhet a vállalkozás?
+*gazdasági társaságként
+önkormányzatként
+alkalmazottként 
+Kérdés: Jelölje meg, hogy az alábbi állítások közül melyek igazak vagy hamisak!
+*Az egyéni vállalkozó korlátlanul felelős a vállalkozásért. 	
+Az egyéni vállalkozó nem szerepelhet a cégjegyzékben. 	
+Az egyéni vállalkozó társasági szerződést köt. 	
+Kérdés:  Jelölje meg, hogy az alábbi állítások közül melyek igazak vagy hamisak!
+A közkereseti társaság vezetője az ügyvezető. 	
+*A korlátolt felelősségű társaság vezetője az ügyvezető. 	
+A közkereseti társaság jogi személy. 
+Kérdés: Melyik gazdasági szervezetre jellemzőek az alábbiak? saját üzletrészének tulajdonosa lehet; tagjának felelőssége korlátozott; jogi személy
+*korlátolt felelősségű társaság
+betéti társaság
+egyesület 
+Kérdés: Melyik a részvénytársaság tulajdonosi szervezete?
+a vezetőség
+az igazgatósági elnök
+*közgyűlés
+Kérdés: Válassza ki az alábbiak közül azt, amely nem igaz a szövetkezetekre!
+minden tagjának azonos jogai vannak
+jogi személy
+*vezetője az ügyvezető 
+Kérdés: Az alábbi állítások közül melyik igaz vagy hamis?
+*Üzleti tevékenységet végezhet alapítvány. 	
+Üzleti tevékenységet nem végezhet egyesület. 	
+*Üzleti tevékenységet végezhet szövetkezet. 
+Kérdés: Milyen új vállalkozási formák lehetségesek 2004. május 1. óta Magyarországon is?
+az európai korlátolt felelősségű társaság
+*az európai szövetkezet
+*az európai részvénytársaság 
+Kérdés: Az alábbiak közül melyek részei a vállalati környezeti tényezők nagy csoportjának?
+*a politikai környezet
+a stratégiai környezet
+*a társadalmi környezet 
+Kérdés: Melyik eleme a vállalat politikai környezetének?
+a szállítók befolyása
+a vevők
+*a demográfiai helyzet
+Kérdés: Jelölje meg, hogy az alábbi állítások igazak, vagy hamisak!
+*Az üzleti etika a helyes üzleti viselkedésről szól. 	
+*Az üzleti etika hozzájárulhat a szerződések költségének csökkentéséhez. 	
+Az üzleti etika csökkenti a partnerek közötti bizalmat. 
+Kérdés: Melyek tartoznak az alábbiak közül a PEST-analízis tényezőcsoportjaihoz?
+az épített környezet
+*a természeti környezet
+*a társadalmi környezet 
+Kérdés: Jelölje meg, hogy mely állítás igaz, melyik hamis!
+*A PEST-analízis készítésekor mérhető tényezőket értékelünk. 	
+A PEST-analízis készítésekor nem rendelhetünk súlyszámokat az egyes tényezőkhöz. 	
+*A PEST-analízis készítésekor súlyszámokat rendelhetünk a tényezőcsoportokhoz. 	
+Kérdés:  Döntse el, hogy az alábbi állítások igazak vagy hamisak!
+A vállalati stakeholderek között nem lehet bank. 	
+*A vállalati stakeholderek rendelkezhetnek szavazati joggal. 	
+*A vállalati stakeholderek különféle befolyással bírhatnak. 	
+Kérdés: Jelölje be a helyes választ! A kisvállalkozások...
+nem képesek komoly vertikum integrálására
+általában szűk piacon értékesítenek
+társasági formában is működhetnek
+*az első három válasz mindegyike helyes 
+Kérdés: A következő állításokról állapítsa meg, hogy melyek igazak vagy hamisak!
+A vállalkozások infrastrukturális környezetébe tartoznak...
+*a banki szolgáltatások
+*a közutak	 
+a beszállítói hálózat 
+Kérdés: Melyik nem tényezője a PEST-elemzésnek?
+társadalmi környezet (S)
+politikai környezet (P)
+*épített környezet (E) 
+Kérdés: Az alábbiak közül melyik az egyéni vállalkozás előnye?
+korlátlan felelősség
+alacsony az előírt törzstőke minimuma
+*vállalkozó függetlensége
+Kérdés: Válassza ki az alábbiak közül az etikus üzleti magatartás jellemzőit?
+mindig jövedelmező
+*az üzleti élet általános érdeke
+csak a jogszabályokban előírt magatartásokat követeli meg
+*egyszerűsíti a szerződéskötést 
+Kérdés:  Jelölje meg, hogy az alábbiak közül melyek elemei a vállalati tulajdonjognak!
+*a személyzet elbocsátásának joga
+*a haszon elsajátításának joga
+a privatizációs kisajátítás joga
+Kérdés:  Jelölje meg, hogy az alábbi állítások közül melyik igaz vagy hamis!
+A vállalati tulajdonjogok gyakorlása tulajdonosi szervezetek által nem lehetséges. 	
+*A vállalati tulajdonjogok gyakorlása vagyonkezelő nélkül is lehetséges. 	
+*A vállalati tulajdonjogok gyakorlása közvetlen irányítás nélkül is lehetséges. 	
+Kérdés:  Jelölje meg, hogy az alábbi állítások közül melyik igaz vagy hamis!
+A társasági törvény alapján a minimális alaptőke a kft-nél 1 millió forint. 	
+*A társasági törvény alapján a minimális alaptőke az rt-nél 20 millió Ft. 	
+*A vállalati vagyon nagyságát befolyásolja a vállalat tevékenységének jellege. 
+Kérdés: Válassza ki, melyik tartozik az ingatlanértékelési fogalom körébe!
+a menedzsment minősége
+a részvény napi értéke
+*a bruttó érték
+Kérdés:  Válassza ki, melyek a vállalatértékelés indítékai!
+*szanálási intézkedések, felszámolások
+adóév végi elszámolás
+a vállalat átszervezése 
+Kérdés: Válassza ki, hogy melyik tartozik a szellemi jogok és termékek közé az alábbiak közül!
+kötvények
+*know-how
+váltó 
+Kérdés: Jelölje meg, hogy az alábbi állítás igaz vagy hamis!
+*A vállalatértékelés egyik tényezője lehet a goodwill. 	
+A vállalatértékelés mindig a pénzáramlás elemzésén alapszik. 	
+*A vállalatértékelés egyik speciális esete a praxisok értékelése.
+Kérdés: Válassza ki, mely esetben beszélünk üzletértékelésről!
+ha a vagyontárgyak értéke domináns
+*ha a goodwill és a vagyonelemek értéke is jelentős
+ha csak ingatlant kell értékelni
+Kérdés: Jelölje meg, hogy az alábbi állítások közül melyik helyes vagy hamis!
+Az MVA belső mutató. 	
+Az EVA tőzsdei árfolyamból számítható. 	
+*Az SHV a vállalati érték és az adósságállomány különbsége. 	
+Kérdés: Válassza ki a helyes megoldásokat!
+A Balanced Scorecard
+*mutatószámok rendszere
+*négy nézőpontot tartalmaz
+minden mutatója eredménymutató
+Kérdés: Válassza ki az alábbiak közül a divizionális szervezeti formára jellemzőket!
+*Az egyes divíziók valamilyen mértékben önállóak.
+*A stratégiai feladatokat központi egységek látják el.
+A divíziók külön jogi személyek. 
+Kérdés: Válassza ki az alábbi megállapítások közül azt, amely nem jellemző a lineáris szervezeti formára!
+a szervezet horizontálisan bővíthető
+*a szervezeti egységek önállóak
+a szervezetre jellemző a szolgálati utak rendszere 
+Kérdés: Válassza ki az alábbiak közül a vállalati szervezeti szinteket!
+*menedzserek
+képviselők
+*bürokraták 
+Kérdés: Az alábbi állítások közül melyik igaz vagy hamis?
+*A törzskar (staff) nem a végrehajtó szervezet része. 	
+A törzskar csak katonai szervezeteknél használt elem. 	
+A törzskar feladata mindig az ellenőrzés. 
+Kérdés: Válassza ki az alábbiak közül, hogy melyek jelentik a tulajdonosi funkciók gyakorlásának módját!
+*közvetlen tulajdonosi felügyelet
+*vagyonkezelőkön keresztül gyakorolt tulajdonlás
+ingatlankezelőkön keresztül gyakorolt tulajdonlás
+Kérdés:  Az alábbi állítások közül melyik igaz vagy hamis?
+*Az organigráf szemléletesebb, mint az organigram. 	
+Az organigráfon csak a nevek és a beosztások szerepelnek. 	
+A news-vállalatok felépítése mátrix-rendszerű. 
+Kérdés: Válassza ki, hogy a vállalatok vételénél melyik kifejezéseket használják!
+*kivásárlás
+*akvizíció
+stratégiai szövetség
+Kérdés: Válassza ki, hogy az alábbiak közül melyik igaz a hálózatos vállalatcsoportra!
+a hálózatos vállalatcsoportban egy vezető vállalat van
+*a hálózatos vállalatcsoportban több vezető erőközpont található
+a hálózatos vállalatcsoportban felismerhető a hierarchia 
+Kérdés: Válassza ki, hogy a közvetett tulajdonú vállalatcsoportnak melyik jellemzője!
+*van a csoportban olyan vállalat, amely tulajdonos
+csak egy tulajdonosa lehet
+*az állam szerepelhet mint eredeti tulajdonos 
+Kérdés: Jelölje meg, hogy az alábbi állítások igazak vagy hamisak!
+*A stratégiai szövetség létrehozható beszerzésre. 	
+*A vállalatcsoport tagjai között tulajdonosi kapcsolatok vannak. 	
+A konzorcium mindig vállalatcsoport. 
+Kérdés: Válassza ki a következők közül a vállalatcsoportok építőköveit!
+*közvetett tulajdon
+stratégiai szövetség
+*kereszttulajdon 
+Kérdés: Jelölje meg, hogy az alábbi állítások közül melyek igazak vagy hamisak!
+A konszern csak horizontális kapcsolatokon alapul. 	
+*A stratégiai szövetség irányulhat a közös kutatás-fejlesztésre. 	
+Magyarországon nincs klaszter. 
+Kérdés: . Válassza ki, hogy melyik együttműködési forma köthető egy meghatározott földrajzi helyhez, területhez!
+szindikátus
+stratégiai szövetség
+*klaszter 
+Kérdés: Jelölje meg, hogy az alábbi állítások közül melyik igaz vagy hamis!
+A vállalati tulajdonjogok gyakorlása csak tulajdonosi szervezetek által lehetséges.
+*A vállalati tulajdonjogok gyakorlása vagyonkezelő nélkül is lehetséges.	 
+A vállalati tulajdonjogok gyakorlása közvetlen irányítás nélkül nem lehetséges. 
+Kérdés: Válassza ki, melyik tartozik az ingatlanértékelési fogalom körébe!
+*a nettó érték
+a részvény napi értéke
+*a bruttó érték 
+Kérdés:  Jelölje meg, hogy az alábbi állítás igaz vagy hamis!
+A vállalatértékelés tényezői között nem szerepel a goodwill. 	hamis 		 
+A vállalatértékelés csak a pénzáramlás elemzésén alapszik. 	hamis 		 
+*A vállalatértékelés egyik speciális esete a praxisok értékelése. 
+Kérdés: Az alábbi állítások közül melyik igaz vagy hamis!
+A törzskar a végrehajtó szervezet része. 	
+*A törzskari egységek hagyományos eleme a belső ellenőrzés. 	
+*Az első számú vezető a CEO. 
+Kérdés: Válassza ki, melyek a vállalatértékelési módszerek!
+*tárgyi eszköz módszere
+stratégiai elemzés módszere
+üzlettárs-elemzés 
+Kérdés: Jelölje meg, hogy az alábbi állítások igazak, vagy hamisak!
+Az MVA belső mutató. 	
+*A BSC mutatószám-rendszer. 	
+Az EVA a részvényárfolyamból számítható. 
+Kérdés: Válassza ki, hogy melyik szervezeti formára érvényes a következő: a vállalat nagy végrehajtó egységei bizonyos mértékű önállósággal rendelkeznek!
+a lineáris funkcionális felépítésű vállalatra
+a mátrix-szervezetű vállalatra
+*a dvizionális felépítésű vállalatra 
+Kérdés: Jelölje meg, hogy az alábbi állítások közül melyek igazak vagy hamisak!
+*Az organigráf a vállalat működését jobban bemutatja, mint az organigram. 		 
+A konszernben jogilag nem önálló társaságok egységes irányítás alatt állnak. 	
+*Az önkormányzat lehet egy vállalatcsoport eredeti tulajdonosa. 
+Kérdés:  Válassza ki az alábbiak közül a vállalat alapvető céljait!
+*alapvető cél, hogy a működés legyen jövedelmező
+alapvető, hogy feleljen meg a munkavállalók igényeinek
+*alapvető, hogy a vállalat által kibocsátott termék vagy szolgáltatás elégítse ki a vevőkör szükségleteit
+Kérdés: Jelölje meg, hogy az alábbi állítások közül melyik igaz vagy hamis!
+A vízió megfogalmazása egy több oldalas dokumentumban történik. 	
+*A küldetésben a vállalkozások alapvető céljaikat fogalmazzák meg. 	
+A küldetés elkészítése a bürokraták, szakalkalmazottak feladatkörébe tartozik.
+Kérdés: Válassza ki, hogy kinek a feladatkörébe tartoznak a szakmai stratégiák kidolgozása!
+a tulajdonosok feladata
+a törzskari vezetők feladata
+*a funkcionális vezetők feladata 
+Kérdés:  Válassza ki, hogy melyek tartoznak a versenystratégia fő tényezői közé!
+*a vevők alkupozíciója
+a kiegészítő termékek és azok fenyegetése
+*a szállítók alkupozíciója 
+Kérdés: Jelölje meg, hogy az alábbi állítások közül melyik igaz vagy hamis!
+*Az összpontosító versenystratégia egyetlen vagy kevés kiválasztott vevőre koncentrál 	
+Az összpontosító versenystratégia mindig a legjobb eredményeket hozza a nagyvállalatoknál 	
+*Az összpontosító versenystratégia egyedi termék/szolgáltatás létrehozására is irányulhat 
+Kérdés: Válassza ki, hogy az alábbiak közül melyik jellemző a termék megkülönböztetésén alapuló versenystratégiára!
+*a jó minőség
+az alacsony ár
+*a márkanév ismertségére való törekvés 
+Kérdés: A költségvezető stratégia esetén nem jellemző...
+*a magas ár
+a nagyvállalati méret
+*a márkanévre vonatkozó intenzív reklám 
+Kérdés: Válassza ki, hogy melyik lehet tervezési időtáv!
+*egyéves
+operatív
+*azonnali 
+Kérdés: Válassza ki a különféle időtávú tervekre jellemzőket!
+*készülhetnek összehangoltan
+általában egymástól függetlenek
+*a stratégiai terv alapján készíthetünk üzleti tervet 
+Kérdés:  Jelölje meg, hogy a következő állítások közül melyik igaz vagy hamis!
+A tervek mindig csak belső használatra készülnek 	
+*Üzleti terv készülhet hitelfelvételhez. 	
+A tervek mindig az egész vállalatra vonatkoznak 
+Kérdés:  Válassza ki az alábbiak közül az üzleti tervre jellemzőket!
+*az üzleti terv igazodik a stratégiai terv előirányzataihoz
+a vállalati tevékenység egy részének terve
+mindig egy évre készül 
+Kérdés: Jelölje meg, hogy a következő állítások közül melyik igaz vagy hamis!
+*A stratégiai terv tartalmaz funkcionális fejezeteket. 	
+A stratégiai terv időhorizontja általában egy év. 	
+*A stratégiai terv tartalmaz hat fejlesztési fejezetet. 
+Kérdés: Válassza ki, hogy az alábbiak közül melyek jellemzőek a tervezésre!
+Mindig hosszú időszakra szól
+*Nem csak a tervek elkészítése fontos
+*Feladatát elláthatja állandó belső szervezet is 
+Kérdés: Válassza ki a stratégiai tervezésre jellemzőket a következők közül!
+*az alapvető vállalati célkitűzéseken alapszik
+egyik kiindulópontja az üzleti terv
+*egyik kiindulópontja a vállalati küldetés 
+Kérdés: Válassza ki, hogy az alábbiak közül melyik nem tartozik a vállalat alapvető céljai közé!
+a működés legyen jövedelmező
+*feleljen meg a munkavállalók igényeinek
+vállalat által kibocsátott termék vagy szolgáltatás elégítse ki a vevőkör szükségleteit 
+Kérdés: Jelölje meg, hogy az alábbi állítások közül melyik igaz vagy hamis!
+A misszió megfogalmazása egy több kötetes dokumentumban történik. 	
+*A jövőkép a külvilág számára szóló üzenet. 	
+*A küldetés elkészítése a tulajdonosok és a legfelső vezetés feladatkörébe tartozik. 
+Kérdés: Válassza ki, hogy melyek tartoznak az általános versenystratégiák közé!
+az átfogó nyereségvezető szerepre való törekvés
+*az összpontosítás stratégiája
+*a termék megkülönböztetésére való törekvés 
+Kérdés:  Jelölje meg, hogy az alábbi állítások közül melyik igaz vagy hamis!
+*Az összpontosító versenystratégia egyetlen vagy kevés kiválasztott vevőre koncentrál. 	igaz 		 
+*Az összpontosító versenystratégia mindig a legjobb eredményeket hozza a kisvállalatoknál. 	igaz 		 
+Az összpontosító versenystratégia egyedi termék/szolgáltatás létrehozására nem irányulhat. 
+Kérdés:  Válassza ki, hogy melyik lehet tervezési időtáv!
+*középtáv
+operatív
+*azonnali 
+Kérdés: Jelölje meg, hogy a következő állítások közül melyik igaz vagy hamis!
+*A tervek nem mindig csak belső használatra készülnek. 	
+A tervek mindig szakértők készítik. 	
+A tervek mindig az egész vállalatra vonatkoznak. 
+Kérdés: Jelölje meg, hogy a következő állítások közül melyik igaz vagy hamis!
+*A stratégiai terv tartalmaz funkcionális fejezeteket. 	
+*A stratégiai terv időhorizontja általában 5-15 év. 			 
+A stratégiai terv sohasem tartalmaz fejlesztési fejezetet. 
+Kérdés:  Válassza ki, hogy az alábbiak közül melyek jellemzőek a tervezésre!
+*nem csak hosszú időszakra szól
+csak a tervek elkészítését jelenti
+*feladatát elláthatja külső szakértő is 
+Kérdés: Jelölje meg, hogy a következő állítások közül melyik igaz vagy hamis!
+*Prognózisok készítése része a vállalati tervezés rendszerének  		 
+*A célalkotási folyamat része a vállalati tervezés rendszerének 		 
+*A környezet-elemzés része a vállalati tervezés rendszerének 
+Kérdés: Válassza ki az alábbiak közül, melyik adja a termelés inputjait!
+az értékesítés
+*a beszerzés
+a tervezés 
+Kérdés: Jelölje meg, hogy az alábbi állítások közül melyik igaz vagy hamis!
+*A logisztikai tevékenység nem csak tényleges anyagmozgatást jelent. 	
+*A logisztikai tevékenység kapcsolódik a termeléshez. 	
+A logisztikai tevékenység a beszerzéshez nem kapcsolódik. 
+Kérdés: Válassza ki, hogy melyik esetben kell közbeszerzési eljárást lefolytatni!
+minden építési munkánál
+*ha az önkormányzat a törvényi értékhatár feletti építési munkát végeztet
+minden szolgáltatás igénybevételére, értékhatártól függetlenül 
+Kérdés: Válassza ki az alábbiak közül a beszerzésre igaz állításokat!
+*a beszerzés polgári jogi szerződés megkötésével lehetséges
+a beszerzés stratégiai kérdése a venni vagy vásárolni
+*a beszerzés egyik fontos kérdése, hogy egy vagy több szállítót foglalkoztassunk 
+Kérdés: Jelölje meg, hogy az alábbiak közül melyik állítás igaz vagy hamis!
+A nagy készletek a termelés ellátását bizonytalanná teszik. 	
+*A nagy készletek gazdaságtalanná tehetik a termelést. 	
+*A nagy készletek a termelés ellátását biztonságosabbá teszik. 
+Kérdés:  Válassza ki, hogy az alábbiak közül melyek jelentenek döntési szempontot a termelni-vásárolni között!
+kereslet nagysága
+*minőségi kérdések
+*gazdasági kérdések 
+Kérdés: 
+*ha jogszabályba ütközik
+*ha lehetetlen szolgáltatásra irányul
+ha szóban kötik 
+Kérdés: Melyik megállapítások helyesek?
+A logisztikai tevékenység kapcsolódik...
+*a termeléshez
+a stratégiai tervezéshez
+*az értékesítéshez 
+Kérdés: Válassza ki az alábbiak közül melyik hagyományos eleme a marketingmixnek!
+*a promóciós politika
+a jövedelmezőség
+a teljesítmény (performance)
+Kérdés: Jelölje meg a következő állítások közül melyik igaz vagy hamis!
+A marketing eljárás folyamatának első lépése a pozícionálás. 	
+*A marketing szemszögéből a vevő igényei jelentik a kiindulópontot. 	
+*A piackutatás a marketingtevékenység információs bázisa. 
+Kérdés: Válassza ki az alábbiak közül melyek a marketingmix hagyományos elemei!
+a profit
+*az ár
+*a promóció 
+Kérdés: Válassza ki az alábbiak közül melyek nem a marketingmix klasszikus elemei!
+*partner connection
+production
+*performance 
+Kérdés: Jelölje meg a következő állítások közül melyik igaz vagy hamis!
+*A controlling a vezetést segítő tevékenység. 	
+A controlling főleg ellenőrzési feladatokat lát el. 	
+*A controlling információfeldolgozást is végez. 
+Kérdés: Válassza ki az alábbiak közül a controlling funkció jellemzőit!
+*egyik fontos könyvét Horváth Péter írta
+*a gazdasági vezető irányítása alatt áll
+csak a menedzsment számára készít jelentéseket 
+Kérdés: elölje meg a következő állítások közül melyik igaz vagy hamis!
+*A modern vállalatnál a gazdasági vezető irányítása alá tartozik a számvitel. 	
+*A modern vállalatnál a gazdasági vezető irányítása alá tartozik a controlling. 	
+A modern vállalatnál a termelési vezető irányítása alá tartozik a pénzügy. 
+Kérdés: Válassza ki, hogy az alábbiak közül melyek a számviteli tevékenység eredményei!
+*a mérleg
+a vállalatértékelés
+*az eredménykimutatás 
+Kérdés: Válassza ki, hogy melyik tartozik a vállalati személyügyi munka környezeti feltételeihez!
+a szállítók
+*a munkaerőpiac
+a logisztikai kultúra
+Kérdés: Válassza ki, hogy az alábbiak közül melyek tartoznak a személyügyi funkció szakmai területeihez!
+*toborzás, képzés, bér- és jövedelempolitika
+*karriertervezés
+érdekvédelem 
+Kérdés: Válassza ki a munkaerő-gazdálkodás környezeti feltételeihez tartozó elemeket!
+*általános gazdasági feltételek
+tőkepiac helyzete
+*jogi szabályozás 
+Kérdés: Jelölje meg a következő állítások közül melyik igaz vagy hamis!
+Az innováció mindig a termelési vezető irányítása alatt áll. 	
+*Az innováció marketing indíttatású is lehet. 	
+*Az innováció folyamata csigavonallal írható le. 
+Kérdés: Jelölje meg a következő állítások közül melyik igaz vagy hamis!
+*Az innováció nehezen integrálható vállalati funkció. 	
+*Az innováció egy része a kutatás-fejlesztési tevékenység. 	
+Az innováció kizárólag műszaki fogalom. 
+Kérdés: Jelölje meg a következő állítások közül melyik igaz vagy hamis!	A vállalati információs rendszerekkel szemben támasztott követelmények közé tartozik, hogy
+*- a vezetők informáltság-szintje a felelősségükkel összhangban legyen. 	
+*- teljesítse az előírt adatszolgáltatási kötelezettségeket. 	
+A vállalati információs rendszerekkel mindig egyedi fejlesztésűek. 
+Kérdés: Válassza ki a megfelelő információt!
+*a valóságot tükrözi
+*idejében érkezik
+nincs meghatározott tartalma 
+Kérdés: Válassza ki a vállalati szabványos rendszerek jellemzőit!
+*alapdokumentumuk a kézikönyv
+nem tanúsíttathatók
+*funkciókat keresztező tevékenységek 
+Kérdés: Jelölje meg, hogy az alábbi állítások közül melyik igaz vagy hamis!
+*A minőségi rendszer működését külső és belső auditokkal ellenőrzik. 	
+*A tanúsítást csak független tanácsadó végezheti. 	
+A rendszerek közvetlen irányítását mindig a legfelső vezető végzi. 
+Kérdés: Válassza ki, hogy melyik esetben nem kötelező közbeszerzési eljárást lefolytatni!
+*a vállalat által megrendelt építési munkánál
+ha az önkormányzat a törvényi értékhatár feletti építési munkát végeztet
+ha állami megrendelő értékhatár felett vásárol autókat 
+Kérdés: Válassza ki az alábbiak közül a beszerzésre igaz állításokat!
+*a beszerzés munkaügyi szerződés megkötésével nem lehetséges
+*a beszerzés stratégiai kérdése a venni vagy gyártani
+a beszerző a szerződésben kötelezett 
+Kérdés: Válassza ki, mely elem tartozik a logisztika feladatai közé!
+*a beszerzési logisztika
+a dolgozók szállítása
+*a termelés anyagi ellátása 
+Kérdés: Válassza ki az alábbiak közül a marketingmix hagyományos elemeit!
+a profit
+*a termékpolitika
+*a promóció 
+Kérdés:  Jelölje meg a következő állítások közül melyik igaz vagy hamis!
+A controlling tevékenységet a termelési vezető irányítja. 	
+A controlling belső ellenőrzést jelent. 	
+*A munkaügy a gazdasági-pénzügyi funkció hagyományos eleme. 
+Kérdés: Válassza ki, hogy melyek tartoznak a vállalati személyügyi munka külső környezeti feltételeihez!
+*a földrajzi helyzet
+*a munkaerőpiaci helyzet
+a vállalati kultúra 
+Kérdés: Jelölje meg a következő állítások közül melyik igaz vagy hamis!
+*Az innováció lehet marketing indíttatású. 	
+*Az innováció folyamatát csiga alakú ábrán ábrázolhatjuk. 	 		 
+Az innovációs tevékenységet a gazdasági vezetés irányítja. 
+Kérdés: Válassza ki a vállalati szabványos rendszerek jellemzőit!
+*lehetnek szabványosak
+*tanúsíttathatók
+hagyományos törzskari tevékenységek 
