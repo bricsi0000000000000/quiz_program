@@ -10,7 +10,7 @@ Viszont bármilyen kérdéssorral működik, az alábbi minta alpján
 ```
 Kérdés: A te kérdésed
 első válasz
-\*második válasz
+*második válasz
 harmadik válasz
 ```
 
