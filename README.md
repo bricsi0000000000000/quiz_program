@@ -1,13 +1,8 @@
 #  Quiz program
 
 Jelenleg 2 tárgyhoz vannak benne kérdéssorok:
-<<<<<<< HEAD
 projektmunka és szoftvertechnológia
 vállalatgazdaságtan
-=======
-*projektmunka és szoftvertechnológia
-*vállalatgazdaságtan
->>>>>>> 9357a7885b3b92ddc2d76775fcbe2989b0a629d3
 
 Viszont bármilyen kérdéssorral működik, az alábbi minta alpján
 Kérdés: A te kérdésed
