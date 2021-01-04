@@ -1,0 +1,166 @@
+﻿<UserControl x:Class="Quiz.SettingsContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Quiz"
+             mc:Ignorable="d"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+             TextElement.FontWeight="Regular"
+             TextElement.FontSize="17"
+             TextOptions.TextFormattingMode="Ideal" 
+             TextOptions.TextRenderingMode="Auto"        
+             Background="{DynamicResource MaterialDesignPaper}"
+             FontFamily="{DynamicResource MaterialDesignFont}"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <materialDesign:DialogHost HorizontalAlignment="Stretch"
+                                   VerticalAlignment="Stretch"
+                                   CloseOnClickAway="True"
+                                   Grid.ColumnSpan="3"
+                                   >
+        <materialDesign:DialogHost.DialogContent>
+            <StackPanel Margin="16">
+                <TextBlock Text="Add new questions list"/>
+                <TextBox Margin="0 8 0 0"
+                         Name="AddNewQuestionsListNameTextBox"
+                         HorizontalAlignment="Stretch"/>
+                <StackPanel Orientation="Horizontal"
+                                HorizontalAlignment="Right"
+                                >
+                    <Button Style="{StaticResource MaterialDesignFlatButton}"
+                            IsDefault="True"
+                            Margin="0 8 8 0"
+                            Command="materialDesign:DialogHost.CloseDialogCommand"
+                            Content="Add"
+                            Click="AddNewQuestionsListButton_Click"
+                            >
+                    </Button>
+                    <Button Style="{StaticResource MaterialDesignFlatButton}"
+                            IsCancel="True"
+                            Margin="0 8 8 0"
+                            Command="materialDesign:DialogHost.CloseDialogCommand"
+                            Content="Cancel"
+                            >
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </materialDesign:DialogHost.DialogContent>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+
+                <materialDesign:Card Margin="5,5,0,5">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="45"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="45"/>
+                            <RowDefinition Height="45"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBox x:Name="QuestionsListNameTextBox"
+                                 Grid.Row="0"
+                                 Margin="5,0,0,2.5"
+                                 FontSize="14"
+                                 TextWrapping="Wrap"
+                                 TextChanged="QuestionsListNameTextBox_TextChanged"
+                                 materialDesign:HintAssist.Hint="Questions list name"
+                                 materialDesign:HintAssist.IsFloating="True"/>
+
+                        <StackPanel x:Name="QuestionListStackPanel"
+                                    Grid.Row="1"
+                                    Margin="5,0"/>
+
+                        <Grid Grid.Row="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Button Grid.Column="0"
+                                    Name="ImportFileButton"
+                                    Margin="5,0"
+                                    Click="ImportFileButton_Click"
+                                    Foreground="White">
+                                <materialDesign:PackIcon Kind="Import"/>
+                            </Button>
+
+                            <Button Grid.Column="1"
+                                    Name="AddQuestionButton"
+                                    Margin="5,0"
+                                    Click="AddQuestionButton_Click"
+                                    Foreground="White">
+                                <materialDesign:PackIcon Kind="PlaylistAdd" Name="AddQuestionButtonIcon"/>
+                            </Button>
+                        </Grid>
+
+                        <Button x:Name="AddNewQuestionsListButton"
+                                Grid.Row="4"
+                                Foreground="White"
+                                Command="{x:Static materialDesign:DialogHost.OpenDialogCommand}"
+                                Content="Add new questions list"
+                                Margin="5,0"/>
+                    </Grid>
+                </materialDesign:Card>
+            </Grid>
+
+            <GridSplitter HorizontalAlignment="Stretch"
+                          Grid.Column="1"
+                          Margin="0,0,0,25"
+                          />
+
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="5"/>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+
+                <materialDesign:Card Margin="0,5,5,0">
+                    <TextBox x:Name="QuestionNameTextBox"
+                             Margin="5"
+                             TextWrapping="Wrap"
+                             materialDesign:HintAssist.Hint="Question"
+                             materialDesign:HintAssist.IsFloating="True"/>
+                </materialDesign:Card>
+
+                <GridSplitter HorizontalAlignment="Stretch"
+                              Grid.Row="1"
+                              />
+
+                <materialDesign:Card Margin="0,0,5,5"
+                                     Grid.Row="2">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="45"/>
+                        </Grid.RowDefinitions>
+
+                        <ScrollViewer>
+                            <StackPanel x:Name="AnswersStackPanel"/>
+                        </ScrollViewer>
+
+                        <Button x:Name="AddAnswerButton"
+                                Content="Add answer"
+                                Grid.Row="1"
+                                Margin="5,0"
+                                Click="AddAnswerButton_Click"
+                                Foreground="White"/>
+                    </Grid>
+                </materialDesign:Card>
+            </Grid>
+        </Grid>
+    </materialDesign:DialogHost>
+</UserControl>

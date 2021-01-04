@@ -5,27 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Quiz"
         mc:Ignorable="d"
-        Title="Quiz" Height="496.8" Width="800" WindowStartupLocation="CenterScreen">
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="17"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto"        
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
+        Title="Quiz"
+        Height="600"
+        Width="1000"
+        WindowStartupLocation="CenterScreen">
     <Grid>
+        <dragablz:TabablzControl x:Name="MainMenuTabControl"/>
 
-        <TextBlock TextWrapping="WrapWithOverflow" x:Name="kerdesLbl" Margin="10,10,5,0" VerticalAlignment="Top" Height="45" FontSize="18"/>
-        <StackPanel Name="sp" Margin="10,60,59,62">
-            <StackPanel.Resources>
-                <Style TargetType="{x:Type CheckBox}">
-                    <Setter Property="Margin" Value="0,10,10,0"/>
-                </Style>
-            </StackPanel.Resources>
-        </StackPanel>
-        <Button x:Name="mehetBtn" Content="Mehet" Margin="109,0,0,20" Click="MehetBtn_Click" HorizontalAlignment="Left" Width="75" Height="37" VerticalAlignment="Bottom"/>
-        <Button x:Name="kovetkezoKerdesBtn" Content="Következő" Margin="199,0,0,20" Click="KovetkezoBtn_Click" HorizontalAlignment="Left" Width="75" Height="37" VerticalAlignment="Bottom"/>
-        <TextBox x:Name="rangeTxtB" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="295,0,0,20" TextWrapping="Wrap" Text="" HorizontalAlignment="Left" Width="80" Height="37" VerticalAlignment="Bottom" />
-        <Button x:Name="elozoKerdesBtn" Content="Előző" HorizontalAlignment="Left" Margin="20,0,0,20" Width="75" Click="ElozoKerdesBtn_Click" Height="37" VerticalAlignment="Bottom"/>
-        <Label x:Name="pontszamLbl" Content="" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="380,0,0,20" VerticalAlignment="Bottom" Height="37" FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" Width="84"/>
-        <CheckBox x:Name="sorbanChk" IsChecked="True" Content="Random" HorizontalAlignment="Left" Margin="519,0,0,31" VerticalAlignment="Bottom" Checked="SorbanChk_Checked" Unchecked="SorbanChk_Checked" RenderTransformOrigin="-0.146,0.504"/>
-        <Label x:Name="kerdesSorszamLbl" Content="" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="469,0,0,20" VerticalAlignment="Bottom" Width="45" RenderTransformOrigin="0.461,0.551" Height="37" FontWeight="Bold"/>
-        <Label x:Name="rosszakLbl" HorizontalContentAlignment="Center" Content="" Margin="0,136,5,0" VerticalAlignment="Top" Height="268" FontWeight="Bold" HorizontalAlignment="Right" Width="49"/>
-        <CheckBox x:Name="rosszakChk" Content="Jók" Margin="602,0,0,31" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="80" Checked="RosszakChk_Checked" Unchecked="RosszakChk_Checked"/>
-        <Button x:Name="rosszakTorolBtn" Content="Rosszak töröl" HorizontalAlignment="Left" Margin="687,0,0,20" Width="81" Click="RosszakTorolBtn_Click" Height="37" VerticalAlignment="Bottom"/>
-
+        <materialDesign:Snackbar MessageQueue="{materialDesign:MessageQueue}"
+                                 x:Name="ErrorSnackbar"
+                                 Foreground="White"
+                                 />
     </Grid>
 </Window>

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.352
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz", "Quiz\Quiz.csproj", "{19EC7A0E-28F4-4485-B045-C4536A2BA2AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quiz", "Quiz\Quiz.csproj", "{C8B95E5D-0F0D-4798-B57C-C13D3601126B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{19EC7A0E-28F4-4485-B045-C4536A2BA2AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{19EC7A0E-28F4-4485-B045-C4536A2BA2AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{19EC7A0E-28F4-4485-B045-C4536A2BA2AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{19EC7A0E-28F4-4485-B045-C4536A2BA2AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B95E5D-0F0D-4798-B57C-C13D3601126B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B95E5D-0F0D-4798-B57C-C13D3601126B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B95E5D-0F0D-4798-B57C-C13D3601126B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B95E5D-0F0D-4798-B57C-C13D3601126B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {DB92BF7C-054C-4897-B4EC-7126DA2825B4}
+		SolutionGuid = {C965151E-F06A-4A23-A538-C27D7146F3EA}
 	EndGlobalSection
 EndGlobal
