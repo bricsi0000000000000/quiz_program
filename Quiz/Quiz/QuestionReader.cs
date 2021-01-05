@@ -12,25 +12,35 @@ namespace Quiz
     {
         public static void ReadFile(string fileName)
         {
+            QuestionManager.ClearQuestions();
+
             using (var reader = new StreamReader(fileName))
             {
                 dynamic json = JsonConvert.DeserializeObject(reader.ReadToEnd());
 
-                for (int i = 0; i < json.questions.Count; i++)
+                for (int i = 0; i < json.Count; i++)
                 {
-                    string question = json.questions[i].name;
+                    string question = json[i].Name;
                     var answers = new List<Answer>();
 
-                    for (int j = 0; j < json.questions[i].answers.Count; j++)
+                    for (int j = 0; j < json[i].Answers.Count; j++)
                     {
-                        string answer = json.questions[i].answers[j].name;
-                        bool right = json.questions[i].answers[j].right;
-                        answers.Add(new Answer(answer, right));
+                        string answer = json[i].Answers[j].Name;
+                        bool right = json[i].Answers[j].Right;
+                        answers.Add(new Answer(j, answer, right));
                     }
 
                     QuestionManager.AddQuestion(new Question(i, question, answers));
                 }
             }
+
+            foreach (var item in QuestionManager.Questions)
+            {
+                Console.WriteLine(item.ID + "\t" + item.Name);
+            }
+
+            ((QuestionsContent)TabManager.GetTab("Questions").Content).AddNewQuestion();
+            ((SettingsContent)TabManager.GetTab("Settings").Content).UpdateQuestionItems(fileName);
         }
     }
 }

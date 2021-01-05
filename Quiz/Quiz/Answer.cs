@@ -12,8 +12,9 @@ namespace Quiz
         public string Name { get; set; }
         public bool Right { get; set; } = false;
 
-        public Answer(string name, bool right)
+        public Answer(int id, string name, bool right)
         {
+            ID = id;
             Name = name;
             Right = right;
         }

@@ -31,7 +31,8 @@
                    Grid.Column="1"
                    Content="sadsadasdsa"
                    PreviewMouseLeftButtonUp="Grid_PreviewMouseLeftButtonUp"
-                   VerticalContentAlignment="Center"/>
+                   VerticalContentAlignment="Center"
+                   HorizontalContentAlignment="Left"/>
 
             <Button x:Name="DeleteQuestionItemButton"
                     Grid.Column="2"

@@ -25,7 +25,9 @@ namespace Quiz
 
         bool loadedQuestionsList = false;
 
-        Snackbar errorSnackbar;
+        private string filePath;
+
+        private readonly Snackbar errorSnackbar;
 
         public SettingsContent(ref Snackbar errorSnackbar)
         {
@@ -58,6 +60,23 @@ namespace Quiz
                 UpdateEnabledElements();
 
                 AddNewQuestionsListNameTextBox.Text = string.Empty;
+
+                var saveFileDialog = new SaveFileDialog
+                {
+                    InitialDirectory = @"C:\",
+                    Title = $"Save {questionsListName}",
+                    CheckPathExists = true,
+                    DefaultExt = "json",
+                    Filter = "Json files (*.json)|*.json|All files (*.*)|*.*",
+                    RestoreDirectory = true
+                };
+
+                if (saveFileDialog.ShowDialog() == true)
+                {
+                    filePath = saveFileDialog.FileName;
+                    SaveQuestions();
+                    QuestionManager.ClearQuestions();
+                }
             }
             else
             {
@@ -72,14 +91,13 @@ namespace Quiz
                 Title = "Read file",
                 DefaultExt = ".json",
                 Multiselect = false,
-                Filter = "json files (*.json)|All files (*.*)|*.*"
+                Filter = "json files (*.json)|*.json|All files (*.*)|*.*"
             };
 
             if (openFileDialog.ShowDialog() == true)
             {
-                string fileName = openFileDialog.FileName.Split('\\').Last();
-
-                
+                filePath = openFileDialog.FileName;
+                QuestionReader.ReadFile(filePath);
             }
         }
 
@@ -102,13 +120,18 @@ namespace Quiz
                 editMode = false;
 
                 var questionItem = questionItems.Find(x => x.ID == actualQuestionID);
-                questionItem.SetQuestion(new Question(questionsID, QuestionNameTextBox.Text, new List<Answer>(actualAnswers)));
+                var question = new Question(questionsID, QuestionNameTextBox.Text, new List<Answer>(actualAnswers));
+                QuestionManager.SetQuestion(question);
+                questionItem.SetQuestion(question);
             }
             else
             {
                 actualAnswersID = 0;
 
-                var questionItem = new QuestionItem(new Question(questionsID, QuestionNameTextBox.Text, new List<Answer>(actualAnswers)));
+                var question = new Question(questionsID, QuestionNameTextBox.Text, new List<Answer>(actualAnswers));
+                QuestionManager.AddQuestion(question);
+
+                var questionItem = new QuestionItem(question);
                 QuestionListStackPanel.Children.Add(questionItem);
                 questionItems.Add(questionItem);
 
@@ -149,7 +172,7 @@ namespace Quiz
                 questions.Add(item.Question);
             }
 
-            using (var writer = new StreamWriter(questionsListName + ".json"))
+            using (var writer = new StreamWriter(filePath))
             {
                 var serializer = new JsonSerializer();
                 serializer.Serialize(writer, questions);
@@ -230,10 +253,8 @@ namespace Quiz
             {
                 var questionItem = new QuestionItem(item);
                 QuestionListStackPanel.Children.Add(questionItem);
-                questionItems.Add(questionItem);
             }
 
-            //TODO a beimportalt lista neve
             QuestionNameTextBox.Text = string.Empty;
 
             AnswersStackPanel.Children.Clear();
@@ -242,6 +263,30 @@ namespace Quiz
             loadedQuestionsList = true;
 
             UpdateEnabledElements();
+        }
+
+        public void UpdateQuestionItems(string fileName)
+        {
+            actualAnswersID = 0;
+            questionsID = 0;
+
+            editMode = false;
+
+            loadedQuestionsList = true;
+
+            questionItems.Clear();
+
+            foreach (var question in QuestionManager.Questions)
+            {
+                questionItems.Add(new QuestionItem(question));
+            }
+
+            questionsID = questionItems.Count - 1;
+
+            QuestionNameTextBox.Text = fileName;
+
+            UpdateEnabledElements();
+            InitQuestionItems();
         }
     }
 }

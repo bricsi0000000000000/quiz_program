@@ -32,7 +32,7 @@
                             IsDefault="True"
                             Margin="0 8 8 0"
                             Command="materialDesign:DialogHost.CloseDialogCommand"
-                            Content="Add"
+                            Content="Add and save file"
                             Click="AddNewQuestionsListButton_Click"
                             >
                     </Button>

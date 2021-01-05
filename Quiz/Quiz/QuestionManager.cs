@@ -19,5 +19,16 @@ namespace Quiz
         {
             return Questions.Find(x => x.ID == id);
         }
+
+        public static void ClearQuestions()
+        {
+            Questions.Clear();
+        }
+
+        public static void SetQuestion(Question question)
+        {
+            GetQuestion(question.ID).Name = question.Name;
+            GetQuestion(question.ID).Answers = question.Answers;
+        }
     }
 }

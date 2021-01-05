@@ -9,12 +9,12 @@ namespace Quiz
   public  class Question
     {
         public int ID { get; private set; }
-        public string Name { get; private set; }
-        public List<Answer> Answers { get; private set; } = new List<Answer>();
+        public string Name { get; set; }
+        public List<Answer> Answers { get; set; } = new List<Answer>();
 
         public Question(int id, string name, List<Answer> answers)
         {
-            ID = ++id;
+            ID = id;
             Name = name;
             Answers = answers;
         }

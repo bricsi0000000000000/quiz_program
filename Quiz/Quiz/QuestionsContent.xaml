@@ -31,14 +31,12 @@
                 <Label Name="QuestionNumberLabel" 
                         VerticalContentAlignment="Center"
                         Margin="5,0"
-                        FontWeight="Bold"
-                        Content="14. Kérdés"/>
+                        FontWeight="Bold"/>
 
                 <TextBlock Name="QuestionTextBlock"
                             Margin="10,0"
                             Grid.Row="1"
-                            TextWrapping="WrapWithOverflow"
-                            Text="Web alkalmazásban mi a különbség valami.aspx, valami.aspx.cs és valami.aspx.designer.cs fájlok tartalma között?Web alkalmazásban mi a különbség valami.aspx, valami.aspx.cs és valami.aspx.designer.cs fájlok tartalma között?Web alkalmazásban mi a különbség valami.aspx, valami.aspx.cs és valami.aspx.designer.cs fájlok tartalma között?"/>
+                            TextWrapping="WrapWithOverflow"/>
             </Grid>
         </materialDesign:Card>
 
@@ -59,7 +57,7 @@
         </materialDesign:Card>
 
         <Grid Grid.Row="3"
-              Margin="5,0,5,10">
+              Margin="5,0,5,0">
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="80"/>
@@ -72,7 +70,6 @@
                 </Grid.ColumnDefinitions>
 
                 <Label Name="GoodAnswerCountsLabel"
-                       Content="5/6/7"
                        VerticalContentAlignment="Center"
                        HorizontalContentAlignment="Center">
                     <Label.ToolTip>

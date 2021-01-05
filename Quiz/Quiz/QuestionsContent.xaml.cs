@@ -24,7 +24,7 @@ namespace Quiz
         /// True if in order, false if random
         /// </summary>
         private bool inOrder = true;
-        private int actualQuestionNumber = 1;
+        private int actualQuestionNumber = 0;
 
         private List<Answer> actualAnswers = new List<Answer>();
         private List<Question> actualQuestions = new List<Question>();
@@ -33,16 +33,12 @@ namespace Quiz
         {
             InitializeComponent();
 
-            QuestionReader.ReadFile("questions.json");
-
             InOrderRadioButton.IsChecked = inOrder;
             RandomOrderRadioButton.IsChecked = !inOrder;
             QuestionNumberInputTextBox.IsEnabled = inOrder;
-
-            AddNewQuestion();
         }
 
-        private void AddNewQuestion()
+        public void AddNewQuestion()
         {
             if (actualQuestionNumber > QuestionManager.Questions.Count)
             {
@@ -64,15 +60,15 @@ namespace Quiz
             {
                 AnswersStackPanel.Children.Add(new AnswerContent(answer.Name));
 
-                AddAnswer(answer.Name, answer.Right);
+                AddAnswer(answer.ID, answer.Name, answer.Right);
             }
 
             actualQuestions.Add(question);
         }
 
-        private void AddAnswer(string name, bool picked)
+        private void AddAnswer(int id, string name, bool picked)
         {
-            actualAnswers.Add(new Answer(name, picked));
+            actualAnswers.Add(new Answer(id, name, picked));
         }
 
         private void CheckAnswersButton_Click(object sender, RoutedEventArgs e)

@@ -51,7 +51,7 @@ namespace Quiz
 
         public void SetQuestion(Question question)
         {
-            this.Question = question;
+            Question = question;
             QuestionNameLabel.Content = question.Name;
         }
     }
