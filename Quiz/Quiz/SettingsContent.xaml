@@ -75,7 +75,9 @@
 
                         <ScrollViewer Grid.Row="1"
                                       Margin="5,0">
-                            <StackPanel x:Name="QuestionListStackPanel"/>
+                            <StackPanel x:Name="QuestionListStackPanel"
+                                        PreviewMouseLeftButtonDown="QuestionListStackPanel_PreviewMouseLeftButtonDown"
+                                        PreviewMouseLeftButtonUp="QuestionListStackPanel_PreviewMouseLeftButtonUp"/>
                         </ScrollViewer>
 
                         <Grid Grid.Row="2">

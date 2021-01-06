@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Quiz
 {
-  public  class Question
+    public class Question
     {
         public int ID { get; private set; }
         public string Name { get; set; }
@@ -23,6 +23,16 @@ namespace Quiz
         {
             ID = id;
             Name = name;
+        }
+
+        public void SetID(int id)
+        {
+            ID = id;
+        }
+
+        public Answer GetAnswer(int id)
+        {
+            return Answers.Find(x => x.ID == id);
         }
     }
 }

@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 
 namespace Quiz
 {
@@ -28,6 +29,9 @@ namespace Quiz
         private string filePath;
 
         private Snackbar errorSnackbar;
+
+        private int beforeDrag;
+        private int afterDrag;
 
         public SettingsContent(ref Snackbar errorSnackbar)
         {
@@ -84,7 +88,7 @@ namespace Quiz
                     Title = $"Save {questionsListName}",
                     CheckPathExists = true,
                     DefaultExt = "json",
-                    Filter = "Json files (*.json)|*.json|All files (*.*)|*.*",
+                    Filter = "Json files (*.json)|*.json",
                     RestoreDirectory = true
                 };
 
@@ -337,6 +341,40 @@ namespace Quiz
 
             UpdateEnabledElements();
             InitQuestionItems();
+        }
+
+        private void QuestionListStackPanel_PreviewMouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            beforeDrag = ((QuestionItem)e.Source).ID;
+        }
+
+        private void QuestionListStackPanel_PreviewMouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            afterDrag = ((QuestionItem)e.Source).ID;
+            InsertDraggedQuestionItem();
+        }
+
+        private void InsertDraggedQuestionItem()
+        {
+            if(beforeDrag == afterDrag)
+            {
+                return;
+            }
+
+            var temp = QuestionManager.GetQuestion(beforeDrag);
+            for (int i = afterDrag; i < QuestionManager.Questions.Count; i++)
+            {
+                QuestionManager.Questions[i].SetID(i + 1);
+            }
+            temp.SetID(afterDrag);
+
+            questionItems = (from questionItem in questionItems
+                                      orderby questionItem.ID ascending
+                                      select questionItem).ToList();
+
+            InitQuestionItems();
+
+            SaveQuestions();
         }
     }
 }

@@ -13,7 +13,7 @@
              TextOptions.TextRenderingMode="Auto"        
              FontFamily="{DynamicResource MaterialDesignFont}"
              d:DesignHeight="450" d:DesignWidth="800">
-    <materialDesign:Card Margin="10,5" Name="BackgroundCard">
+    <materialDesign:Card Margin="10,5" Name="BackgroundCard" MouseEnter="BackgroundCard_MouseEnter" MouseLeave="BackgroundCard_MouseLeave">
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="50"/>

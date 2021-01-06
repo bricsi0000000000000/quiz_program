@@ -16,7 +16,8 @@ namespace Quiz
 
             for (int i = 0; i < userQuestion.Answers.Count; i++)
             {
-                AnswersStackPanel.Children.Add(new CheckAnswerItem(userQuestion.Answers[i], goodQuestion.Answers[i]));
+                Answer user = userQuestion.Answers[i];
+                AnswersStackPanel.Children.Add(new CheckAnswerItem(user, goodQuestion.GetAnswer(user.ID)));
             }
         }
     }

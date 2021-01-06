@@ -62,5 +62,15 @@ namespace Quiz
             QuestionNameLabel.Foreground = active ? Brushes.White : (Brush)converter.ConvertFromString("#FF303030");
             QuestionNumberLabel.Foreground = active ? Brushes.White : (Brush)converter.ConvertFromString("#FF303030");
         }
+
+        private void BackgroundCard_MouseEnter(object sender, MouseEventArgs e)
+        {
+            Mouse.OverrideCursor = Cursors.Hand;
+        }
+
+        private void BackgroundCard_MouseLeave(object sender, MouseEventArgs e)
+        {
+            Mouse.OverrideCursor = Cursors.Arrow;
+        }
     }
 }
