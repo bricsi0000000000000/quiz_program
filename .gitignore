@@ -351,3 +351,6 @@ MigrationBackup/
 
 *.ico
 icon.png
+*.exe
+*.nsi
+licence.txt
