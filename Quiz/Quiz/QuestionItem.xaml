@@ -11,25 +11,24 @@
              TextElement.FontSize="17"
              TextOptions.TextFormattingMode="Ideal" 
              TextOptions.TextRenderingMode="Auto"        
-             Background="{DynamicResource MaterialDesignPaper}"
              FontFamily="{DynamicResource MaterialDesignFont}"
              d:DesignHeight="450" d:DesignWidth="800">
-    <materialDesign:Card Margin="5,2.5">
+    <materialDesign:Card Margin="10,5" Name="BackgroundCard">
         <Grid>
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="3*"/>
                 <ColumnDefinition Width="60"/>
             </Grid.ColumnDefinitions>
 
             <Label Name="QuestionNumberLabel"
-                   Content="1."
                    FontWeight="Bold"
+                   Margin="5,0,0,0"
                    VerticalContentAlignment="Center"/>
 
             <Label Name="QuestionNameLabel"
                    Grid.Column="1"
-                   Content="sadsadasdsa"
+                   Content=""
                    PreviewMouseLeftButtonUp="Grid_PreviewMouseLeftButtonUp"
                    VerticalContentAlignment="Center"
                    HorizontalContentAlignment="Left"/>

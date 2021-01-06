@@ -27,7 +27,7 @@ namespace Quiz
 
         private string filePath;
 
-        private readonly Snackbar errorSnackbar;
+        private Snackbar errorSnackbar;
 
         public SettingsContent(ref Snackbar errorSnackbar)
         {
@@ -60,6 +60,23 @@ namespace Quiz
                 UpdateEnabledElements();
 
                 AddNewQuestionsListNameTextBox.Text = string.Empty;
+                QuestionManager.ClearQuestions();
+                QuestionManager.WrongAnsweredQuestions.Clear();
+
+                actualAnswersID = 0;
+
+                editMode = false;
+
+                loadedQuestionsList = true;
+
+                questionItems.Clear();
+
+                questionsID = questionItems.Count;
+
+                UpdateEnabledElements();
+                InitQuestionItems();
+
+                ((QuestionsContent)TabManager.GetTab("Questions").Content).Refresh();
 
                 var saveFileDialog = new SaveFileDialog
                 {
@@ -97,7 +114,8 @@ namespace Quiz
             if (openFileDialog.ShowDialog() == true)
             {
                 filePath = openFileDialog.FileName;
-                QuestionReader.ReadFile(filePath);
+                QuestionsListNameTextBox.Text = filePath.Split('\\').Last().Split('.').First();
+                QuestionReader.ReadFile(filePath, ref errorSnackbar);
             }
         }
 
@@ -120,9 +138,9 @@ namespace Quiz
                 editMode = false;
 
                 var questionItem = questionItems.Find(x => x.ID == actualQuestionID);
-                var question = new Question(questionsID, QuestionNameTextBox.Text, new List<Answer>(actualAnswers));
+                var question = new Question(questionItem.ID, QuestionNameTextBox.Text, new List<Answer>(actualAnswers));
                 QuestionManager.SetQuestion(question);
-                questionItem.SetQuestion(question);
+                InitQuestionItems();
             }
             else
             {
@@ -186,7 +204,24 @@ namespace Quiz
 
         private void QuestionsListNameTextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            questionsListName = QuestionsListNameTextBox.Text;
+            if (filePath != null)
+            {
+                questionsListName = QuestionsListNameTextBox.Text;
+
+                string[] newFilePath = filePath.Split('\\');
+                string newPath = string.Empty;
+                for (int i = 0; i < newFilePath.Length - 1; i++)
+                {
+                    newPath += newFilePath[i] + '\\';
+                }
+                newPath += questionsListName + ".json";
+
+
+                if (!newPath.Equals(filePath))
+                {
+                    filePath = newPath;
+                }
+            }
         }
 
         private Answer GetActualAnswer(int id)
@@ -231,6 +266,16 @@ namespace Quiz
             }
 
             actualAnswersID = actualAnswers.Count;
+
+            UpdateUpdateQuestionHighlight();
+        }
+
+        private void UpdateUpdateQuestionHighlight()
+        {
+            foreach (QuestionItem item in QuestionListStackPanel.Children)
+            {
+                item.ChangeColor(item.ID == actualQuestionID);
+            }
         }
 
         private void ChangeAddOrEditQuestionIcon()
@@ -241,8 +286,14 @@ namespace Quiz
         public void DeleteQuestion(int id)
         {
             questionItems.RemoveAt(questionItems.FindIndex(x => x.ID == id));
+            QuestionManager.RemoveQuestion(id);
+            ((QuestionsContent)TabManager.GetTab("Questions").Content).Refresh();
+
+            questionsID--;
 
             InitQuestionItems();
+
+            SaveQuestions();
         }
 
         private void InitQuestionItems()
@@ -268,7 +319,6 @@ namespace Quiz
         public void UpdateQuestionItems(string fileName)
         {
             actualAnswersID = 0;
-            questionsID = 0;
 
             editMode = false;
 
@@ -281,7 +331,7 @@ namespace Quiz
                 questionItems.Add(new QuestionItem(question));
             }
 
-            questionsID = questionItems.Count - 1;
+            questionsID = questionItems.Count;
 
             QuestionNameTextBox.Text = fileName;
 

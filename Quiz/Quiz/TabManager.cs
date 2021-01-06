@@ -16,8 +16,9 @@ namespace Quiz
 
         public static void InitMenuTabs(TabControl tabControl, ref Snackbar errorSnackbar)
         {
-            AddTab("Questions", new QuestionsContent(), "questionsMenuTab", tabControl);
+            AddTab("Questions", new QuestionsContent(ref errorSnackbar), "questionsMenuTab", tabControl);
             AddTab("Settings", new SettingsContent(ref errorSnackbar), "settingsMenuTab", tabControl, selected: true);
+            AddTab("Wrong answers", new CheckAnswersContent(), "checkAnswersMenuTab", tabControl);
         }
 
         private static void AddTab(string header, object content, string name, TabControl tabControl, bool selected = false)

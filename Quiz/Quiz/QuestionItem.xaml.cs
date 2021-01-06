@@ -23,9 +23,9 @@ namespace Quiz
         {
             InitializeComponent();
 
-            this.Question = question;
+            Question = question;
 
-            QuestionNumberLabel.Content = $"{question.ID}.";
+            QuestionNumberLabel.Content = $"{question.ID + 1}.";
             QuestionNameLabel.Content = question.Name;
         }
 
@@ -35,7 +35,7 @@ namespace Quiz
 
             Question = item.Question;
 
-            QuestionNumberLabel.Content = $"{Question.ID}.";
+            QuestionNumberLabel.Content = $"{Question.ID + 1}.";
             QuestionNameLabel.Content = Question.Name;
         }
 
@@ -52,7 +52,15 @@ namespace Quiz
         public void SetQuestion(Question question)
         {
             Question = question;
-            QuestionNameLabel.Content = question.Name;
+            QuestionNameLabel.Content = Question.Name;
+        }
+
+        public void ChangeColor(bool active = false)
+        {
+            var converter = new BrushConverter();
+            BackgroundCard.Background = active ? (Brush)converter.ConvertFromString("#FF303030") : Brushes.White;
+            QuestionNameLabel.Foreground = active ? Brushes.White : (Brush)converter.ConvertFromString("#FF303030");
+            QuestionNumberLabel.Foreground = active ? Brushes.White : (Brush)converter.ConvertFromString("#FF303030");
         }
     }
 }

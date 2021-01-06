@@ -18,5 +18,11 @@ namespace Quiz
             Name = name;
             Answers = answers;
         }
+
+        public Question(int id, string name)
+        {
+            ID = id;
+            Name = name;
+        }
     }
 }

@@ -72,3 +72,9 @@ E:\_university\quiz_program\Quiz\Quiz\obj\Debug\Quiz.csproj.CoreCompileInputs.ca
 E:\_university\quiz_program\Quiz\Quiz\obj\Debug\Quiz.csproj.CopyComplete
 E:\_university\quiz_program\Quiz\Quiz\obj\Debug\Quiz.exe
 E:\_university\quiz_program\Quiz\Quiz\obj\Debug\Quiz.pdb
+E:\_university\quiz_program\Quiz\Quiz\obj\Debug\CheckAnswerItem.g.cs
+E:\_university\quiz_program\Quiz\Quiz\obj\Debug\CheckAnswersContent.g.cs
+E:\_university\quiz_program\Quiz\Quiz\obj\Debug\CheckQuestionItem.g.cs
+E:\_university\quiz_program\Quiz\Quiz\obj\Debug\CheckAnswerItem.baml
+E:\_university\quiz_program\Quiz\Quiz\obj\Debug\CheckAnswersContent.baml
+E:\_university\quiz_program\Quiz\Quiz\obj\Debug\CheckQuestionItem.baml

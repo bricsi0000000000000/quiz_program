@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\_university\quiz_program\Quiz\Quiz\App.xaml
-6845645044
+9552221531
 
-151052047761
+18948842557
 171216253130
-AnswerContent.xaml;AnswerItem.xaml;MainWindow.xaml;QuestionItem.xaml;QuestionsContent.xaml;SettingsContent.xaml;
+AnswerContent.xaml;AnswerItem.xaml;CheckAnswerItem.xaml;CheckAnswersContent.xaml;CheckQuestionItem.xaml;MainWindow.xaml;QuestionItem.xaml;QuestionsContent.xaml;SettingsContent.xaml;
 
 False
 

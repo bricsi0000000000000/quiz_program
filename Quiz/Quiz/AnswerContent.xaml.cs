@@ -19,12 +19,13 @@ namespace Quiz
     {
         private bool isChecked = false;
         private bool disable = false;
-
-        public AnswerContent(string answer)
+        private Answer answer;
+        public AnswerContent(Answer answer)
         {
             InitializeComponent();
 
-            AnswerTextBlock.Text = answer;
+            this.answer = answer;
+            AnswerTextBlock.Text = answer.Name;
         }
 
         private void CheckCheckBox_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -38,11 +39,14 @@ namespace Quiz
 
         public bool IsChecked => isChecked;
 
-        public string AnswerName => AnswerTextBlock.Text;
+        public string AnswerName => answer.Name;
+        public int AnswerID => answer.ID;
 
-        public void ChangeAnswerWeightToBold()
+        public void ChangeAnswerWeightToColor(string hex, bool change = false)
         {
-            AnswerTextBlock.FontWeight = FontWeights.Bold;
+            var converter = new BrushConverter();
+            BackgroundCard.Background = change ? (Brush)converter.ConvertFromString(hex) : Brushes.White;
+            AnswerTextBlock.Foreground = change ? Brushes.White : (Brush)converter.ConvertFromString("#4d4d4d");
         }
 
         public void Disable()

@@ -44,17 +44,14 @@
                       Grid.Row="1"
                       Margin="10,0"/>
 
-        <materialDesign:Card Margin="10,0,10,0"
-                                Grid.Row="2">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
-                <StackPanel x:Name="AnswersStackPanel"
-                            Margin="10"/>
-            </Grid>
-        </materialDesign:Card>
+            <StackPanel x:Name="AnswersStackPanel"
+                        Margin="10"/>
+        </Grid>
 
         <Grid Grid.Row="3"
               Margin="5,0,5,0">
@@ -118,8 +115,9 @@
                 </Button>
                 <Grid Grid.Column="6">
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="100"/>
-                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
 
                     <RadioButton Content="In order"
@@ -133,6 +131,10 @@
                                  Name="RandomOrderRadioButton"
                                  PreviewMouseLeftButtonUp="OrderRadioButton_PreviewMouseLeftButtonUp"
                                  Grid.Column="1"/>
+                    <CheckBox Content="Wrongs"
+                              Name="WrongOrderCheckBox"
+                              PreviewMouseLeftButtonUp="WrongOrderCheckBox_PreviewMouseLeftButtonUp"
+                              Grid.Column="2"/>
                 </Grid>
             </Grid>
         </Grid>
