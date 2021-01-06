@@ -9,3 +9,13 @@ You can load questions and make question lists.
 ![settings](images/settings.png)
 
 ![wrong_answers](images/wrong_answers.png)
+
+## Download
+
+[You can download it from **Releases**.](https://github.com/bricsi0000000000000/quiz_program/releases)
+
+Latest version is `2.0`
+
+## Example file
+
+There is an example file, so you can try it in `example_files/portalfejlesztes.json`.
